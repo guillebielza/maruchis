@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Chicago Morado",
+    "precio": 25,
+    "imagenes": [
+      "chicago_morado1.png",
+      "chicago_tres.png"
+    ]
+  },
+  {
+    "nombre": "Chicago Crochet Seda",
+    "precio": 25,
+    "imagenes": [
+      "chicago_crochet_seda.png",
+      "chicago_kioto_crochet_seda.png"
+    ]
+  }
+]
