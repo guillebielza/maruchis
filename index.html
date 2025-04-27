@@ -43,6 +43,33 @@
       height: 120px;
       border-radius: 8px;
       object-fit: cover;
+      cursor: pointer;
+    }
+    .imagen-principal {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    /* Estilo para el modal (imagen grande) */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+    .modal.active {
+      display: flex;
     }
   </style>
 </head>
@@ -50,13 +77,18 @@
   <h1>Catálogo de Productos</h1>
   <div class="productos" id="productos"></div>
 
+  <!-- Modal para mostrar la imagen grande -->
+  <div class="modal" id="modal">
+    <img id="modal-imagen" src="" alt="Imagen grande"/>
+  </div>
+
   <script>
     // Cargar JSON con los productos
     fetch('productos.json')
       .then(response => response.json())
       .then(data => {
         const contenedor = document.getElementById('productos');
-
+        
         data.forEach(producto => {
           const card = document.createElement('div');
           card.className = 'producto';
@@ -66,20 +98,46 @@
 
           const precio = document.createElement('p');
           precio.className = 'precio';
-          precio.textContent = producto.precio;
+          precio.textContent = `${producto.precio} €`;  // Añadir símbolo de euro
 
+          // Crear la galería
           const galeria = document.createElement('div');
           galeria.className = 'galeria';
 
+          // Imagen principal
+          const imagenPrincipal = document.createElement('img');
+          imagenPrincipal.className = 'imagen-principal';
+          imagenPrincipal.src = producto.imagenes[0];  // Primera imagen como principal
+          imagenPrincipal.alt = producto.nombre;
+          
+          // Mostrar imagen grande al hacer clic
+          imagenPrincipal.addEventListener('click', () => {
+            const modal = document.getElementById('modal');
+            const modalImagen = document.getElementById('modal-imagen');
+            modalImagen.src = producto.imagenes[0];
+            modal.classList.add('active');
+          });
+
+          // Galería de imágenes
           producto.imagenes.forEach(src => {
             const img = document.createElement('img');
             img.src = src;
             img.alt = producto.nombre;
+
+            // Mostrar imagen grande al hacer clic
+            img.addEventListener('click', () => {
+              const modal = document.getElementById('modal');
+              const modalImagen = document.getElementById('modal-imagen');
+              modalImagen.src = src;
+              modal.classList.add('active');
+            });
+
             galeria.appendChild(img);
           });
 
           card.appendChild(titulo);
           card.appendChild(precio);
+          card.appendChild(imagenPrincipal);  // Agregar imagen principal
           card.appendChild(galeria);
           contenedor.appendChild(card);
         });
@@ -87,6 +145,12 @@
       .catch(error => {
         console.error('Error al cargar el catálogo:', error);
       });
+
+    // Cerrar el modal al hacer clic fuera de la imagen
+    document.getElementById('modal').addEventListener('click', () => {
+      document.getElementById('modal').classList.remove('active');
+    });
   </script>
 </body>
 </html>
+
