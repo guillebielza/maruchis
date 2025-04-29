@@ -14,5 +14,12 @@
       "chicago_crochet_seda.png",
       "chicago_kioto_crochet_seda.png"
     ]
+  },
+  {
+    "nombre": "Kioto Dorado",
+    "precio": 25,
+    "imagenes": [
+      "imagen3_1.jpg"
+    ]
   }
 ]
