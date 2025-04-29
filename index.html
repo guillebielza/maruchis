@@ -8,31 +8,171 @@
   <style>
     body {
       font-family: 'Playfair Display', serif;
-      margin: 0;
-      height: 100vh;
+      margin: 2rem;
       background-color: #ffffff;
       color: #222;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
     }
     h1 {
-      font-size: 4rem;
-      margin-bottom: 1rem;
+      text-align: center;
+      font-size: 3rem;
       letter-spacing: 2px;
+      margin-bottom: 2rem;
     }
-    p {
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 3rem;
+      padding: 0 2rem;
+    }
+    .producto {
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .producto:hover {
+      transform: scale(1.02);
+    }
+    .producto img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+    .producto h2 {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      font-family: sans-serif;
+    }
+    .precio {
+      color: #000;
+      font-weight: bold;
+      margin-top: 0.3rem;
+      font-family: sans-serif;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.95);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      flex-direction: column;
+    }
+    .modal img {
+      max-width: 90%;
+      max-height: 80%;
+      margin-bottom: 1rem;
+    }
+    .modal.active {
+      display: flex;
+    }
+    .botones {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .botones span {
       font-size: 2rem;
-      color: #666;
-      letter-spacing: 1px;
+      cursor: pointer;
+      user-select: none;
+      color: #000;
+      transition: color 0.2s;
+    }
+    .botones span:hover {
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>MARUCHIS</h1>
-  <p>Coming soon...</p>
+  <h1>MARUCHI'S</h1>
+
+  <div class="productos" id="productos">
+    <!-- Aquí se cargarán los productos automáticamente -->
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <img id="modal-imagen" src="" alt="Imagen del producto"/>
+    <div class="botones">
+      <span id="anterior">&#8592;</span>
+      <span id="cerrar">&#10005;</span>
+      <span id="siguiente">&#8594;</span>
+    </div>
+  </div>
+
+  <script>
+    const productosContainer = document.getElementById('productos');
+    const modal = document.getElementById('modal');
+    const modalImagen = document.getElementById('modal-imagen');
+    const btnAnterior = document.getElementById('anterior');
+    const btnSiguiente = document.getElementById('siguiente');
+    const btnCerrar = document.getElementById('cerrar');
+
+    let imagenes = [];
+    let indiceActual = 0;
+
+    // Cargar productos desde productos.json
+    fetch('productos.json')
+      .then(response => response.json())
+      .then(productos => {
+        productos.forEach(producto => {
+          const div = document.createElement('div');
+          div.classList.add('producto');
+          div.setAttribute('data-imagenes', producto.imagenes.join(','));
+
+          div.innerHTML = `
+            <img src="${producto.imagenes[0]}" alt="${producto.nombre}" />
+            <h2>${producto.nombre}</h2>
+            <p class="precio">${producto.precio} €</p>
+          `;
+
+          div.addEventListener('click', () => {
+            imagenes = producto.imagenes;
+            indiceActual = 0;
+            mostrarImagen();
+            modal.classList.add('active');
+          });
+
+          productosContainer.appendChild(div);
+        });
+      })
+      .catch(error => {
+        console.error('Error cargando productos:', error);
+      });
+
+    function mostrarImagen() {
+      modalImagen.src = imagenes[indiceActual];
+    }
+
+    btnAnterior.addEventListener('click', (e) => {
+      e.stopPropagation();
+      indiceActual = (indiceActual - 1 + imagenes.length) % imagenes.length;
+      mostrarImagen();
+    });
+
+    btnSiguiente.addEventListener('click', (e) => {
+      e.stopPropagation();
+      indiceActual = (indiceActual + 1) % imagenes.length;
+      mostrarImagen();
+    });
+
+    btnCerrar.addEventListener('click', (e) => {
+      e.stopPropagation();
+      modal.classList.remove('active');
+    });
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+  </script>
 </body>
 </html>
-
