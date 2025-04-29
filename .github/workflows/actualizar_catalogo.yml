@@ -2,7 +2,7 @@ name: Actualizar catálogo
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Cada hora. Puedes cambiarlo.
+    - cron: "*/5 * * * *"  # Cada hora. Puedes cambiarlo.
   workflow_dispatch:      # Permite ejecutarlo manualmente desde GitHub
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
 
     - name: Ejecutar script de actualización
       run: |
-        python actualizar_catalogo.py
+        python generar_json.py
 
     - name: Hacer commit si hubo cambios
       run: |
