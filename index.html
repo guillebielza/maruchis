@@ -3,35 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MARUCHIS</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <title>MARUCHI'S</title>
   <style>
+    @font-face {
+      font-family: 'TAN Twinkle';
+      src: url('fonts/TANTWINKLE.woff2') format('woff2'),
+           url('fonts/TANTWINKLE.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
     body {
-      font-family: 'Playfair Display', serif;
+      font-family: 'TAN Twinkle', serif;
       margin: 2rem;
       background-color: #ffffff;
       color: #222;
     }
+
     h1 {
       text-align: center;
       font-size: 3rem;
       letter-spacing: 2px;
       margin-bottom: 2rem;
     }
+
     .productos {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 3rem;
       padding: 0 2rem;
     }
+
     .producto {
       text-align: center;
       cursor: pointer;
       transition: transform 0.3s;
     }
+
     .producto:hover {
       transform: scale(1.02);
     }
+
     .producto img {
       width: 100%;
       height: auto;
@@ -39,17 +51,18 @@
       display: block;
       margin: 0 auto;
     }
+
     .producto h2 {
       font-size: 1.2rem;
       margin-top: 1rem;
-      font-family: sans-serif;
     }
+
     .precio {
       color: #000;
       font-weight: bold;
       margin-top: 0.3rem;
-      font-family: sans-serif;
     }
+
     .modal {
       display: none;
       position: fixed;
@@ -63,14 +76,17 @@
       z-index: 1000;
       flex-direction: column;
     }
+
     .modal img {
       max-width: 90%;
       max-height: 80%;
       margin-bottom: 1rem;
     }
+
     .modal.active {
       display: flex;
     }
+
     .botones {
       display: flex;
       gap: 2rem;
@@ -78,6 +94,7 @@
       justify-content: center;
       margin-top: 1rem;
     }
+
     .botones span {
       font-size: 2rem;
       cursor: pointer;
@@ -85,6 +102,7 @@
       color: #000;
       transition: color 0.2s;
     }
+
     .botones span:hover {
       color: #888;
     }
@@ -118,7 +136,6 @@
     let imagenes = [];
     let indiceActual = 0;
 
-    // Cargar productos desde productos.json
     fetch('productos.json')
       .then(response => response.json())
       .then(productos => {
