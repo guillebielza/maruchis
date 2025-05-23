@@ -107,6 +107,37 @@
     .botones span:hover {
       color: #888;
     }
+
+    .contacto {
+  margin-top: 4rem;
+  text-align: center;
+  font-family: 'TAN Twinkle', serif;
+}
+
+.mensaje-contacto {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.linea-contacto {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.icono-contacto {
+  width: 20px;
+  height: 20px;
+  
+}
   </style>
 </head>
 <body>
@@ -192,5 +223,19 @@
       }
     });
   </script>
+  <!-- Mensaje de contacto -->
+    <footer class="contacto">
+      <p class="mensaje-contacto">Para pedidos contactar:</p>
+      <div class="info-contacto">
+        <div class="linea-contacto">
+          <img src="logocorreo.png" alt="Correo" class="icono-contacto" />
+          <span>maruchis.brand@gmail.com</span>
+        </div>
+        <div class="linea-contacto">
+          <img src="logoinsta.jpg" alt="Instagram" class="icono-contacto" />
+          <span>@maruchis.brand</span>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
