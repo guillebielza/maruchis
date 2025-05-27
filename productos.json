@@ -1,32 +1,243 @@
 [
   {
-    "nombre": "Chicago Morado",
-    "precio": 25,
+    "nombre": "Chicago Terciopelo Negro",
+    "precio": 22,
     "imagenes": [
-      "chicago_morado1.png",
-      "chicago_tres.png"
+      "chicago terciopelo negro.png"
     ]
   },
   {
-    "nombre": "Chicago Crochet Seda",
+    "nombre": "Chicago Bordado Blanco",
+    "precio": 27,
+    "imagenes": [
+      "chicago bordado blanco.png"
+    ]
+  },
+  {
+    "nombre": "Chicago Bordado Negro",
+    "precio": 27,
+    "imagenes": [
+      "chicago bordado negro.png"
+    ]
+  },
+  {
+    "nombre": "Chicago Blanco Cocodrilo",
     "precio": 25,
     "imagenes": [
-      "chicago_crochet_seda.png",
-      "chicago_kioto_crochet_seda.png"
+      "chicago blanco cocodrilo.png"
+    ]
+  },
+  {
+    "nombre": "Chicago Naranja",
+    "precio": 22,
+    "imagenes": [
+      "chicago naranja.png",
+      "chicago naranja 2.png"
+    ]
+  },
+  {
+    "nombre": "Chicago Verde Estampado",
+    "precio": 25,
+    "imagenes": [
+      "chicago verde estampado.png"
+    ]
+  },
+  {
+    "nombre": "Chicago Dorado",
+    "precio": 25,
+    "imagenes": [
+      "chicago dorado.png"
     ]
   },
   {
     "nombre": "Kioto Dorado",
     "precio": 25,
     "imagenes": [
-      "imagen3_1.jpg"
+      "kioto dorado.png",
+      "kiotos.png",
+      "kioto dorado 2.png",
+      "kioto dorado 3.png"
     ]
   },
   {
-    "nombre": "Pontevedra Rafia",
+    "nombre": "Kioto Plateado",
+    "precio": 25,
+    "imagenes": [
+      "kioto plateado.png",
+      "kiotos.png"
+    ]
+  },
+  {
+    "nombre": "Kioto Burdeos",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Kioto Negro",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Kioto Morado",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Kioto Verde Claro",
+    "precio": 25,
+    "imagenes": [
+      "kioto verde claro.png",
+      "kiotos.png",
+      "kioto verde claro 2.png"
+    ]
+  },
+  {
+    "nombre": "Kioto Dorado Metalizado",
+    "precio": 35,
+    "imagenes": [
+      "kioto dorado metalizado 2.png"
+    ]
+  },
+  {
+    "nombre": "Munich Marron",
+    "precio": 25,
+    "imagenes": [
+      "Munich marron.png",
+      "munich marron 2.png"
+    ]
+  },
+  {
+    "nombre": "Munich Dorado",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Munich Azul",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Munich Lazo Dorado",
+    "precio": 20,
+    "imagenes": [
+      "munich lazo dorado.PNG",
+      "munich lazo dorado 2.JPG",
+      "munich lazo dorado 3.JPG"
+    ]
+  },
+  {
+    "nombre": "Munich Algodon Azul",
+    "precio": 25,
+    "imagenes": [
+      "munich azul algodon 2.png"
+    ]
+  },
+  {
+    "nombre": "Munich Algodon Beige",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Munich Dorado Metalizado",
+    "precio": 35,
+    "imagenes": []
+  },
+  {
+    "nombre": "San Francisco Rosa",
+    "precio": 25,
+    "imagenes": [
+      "sf rosa 2.png"
+    ]
+  },
+  {
+    "nombre": "San Francisco Azul",
+    "precio": 25,
+    "imagenes": [
+      "sf azul 2.png"
+    ]
+  },
+  {
+    "nombre": "San Francisco Verde",
+    "precio": 25,
+    "imagenes": [
+      "sf verde 2.png"
+    ]
+  },
+  {
+    "nombre": "San Francisco Rojo",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "San Francisco Beige",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "San Francisco Blanco",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Santander Rafia Beige",
     "precio": 18,
     "imagenes": [
-      "IMG_9458.HEIC"
+      "santander rafia beige 2.png"
     ]
+  },
+  {
+    "nombre": "Santander Rafia Azul Claro",
+    "precio": 18,
+    "imagenes": []
+  },
+  {
+    "nombre": "Pontevedra Rafia Beige",
+    "precio": 18,
+    "imagenes": []
+  },
+  {
+    "nombre": "Pontevedra Rafia Verde",
+    "precio": 18,
+    "imagenes": [
+      "pontevedra verde 2.png"
+    ]
+  },
+  {
+    "nombre": "Pontevedra Rafia Negro",
+    "precio": 18,
+    "imagenes": []
+  },
+  {
+    "nombre": "Vancouver Plateado",
+    "precio": 30,
+    "imagenes": []
+  },
+  {
+    "nombre": "Vancouver Rafia",
+    "precio": 25,
+    "imagenes": []
+  },
+  {
+    "nombre": "Mallorca Cuerda Verde",
+    "precio": 20,
+    "imagenes": [
+      "mallorca cuerda verde 2.JPG",
+      "mallorca cuerda verde 3.JPG"
+    ]
+  },
+  {
+    "nombre": "Bogota Largo",
+    "precio": 9,
+    "imagenes": []
+  },
+  {
+    "nombre": "Bogota Muñeca",
+    "precio": 6,
+    "imagenes": []
+  },
+  {
+    "nombre": "Paris Gorro",
+    "precio": 14,
+    "imagenes": []
   }
 ]
