@@ -1,74 +1,103 @@
 import os
 import io
-from pydrive2.auth import GoogleAuth
-from pydrive2.drive import GoogleDrive
-from PIL import Image
-import pillow_heif
-import shutil
-
-# === 1. Autenticación con Service Account ===
 import json
-credentials_json = os.environ['GDRIVE_CREDENTIALS']
-with open('credentials.json', 'w') as f:
-    f.write(credentials_json)
+from pathlib import Path
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaIoBaseDownload
+from PIL import Image
+from pillow_heif import register_heif_opener
 
-gauth = GoogleAuth()
-gauth.LoadServiceConfigFile('credentials.json')
-drive = GoogleDrive(gauth)
-
-# === 2. Obtener carpeta "web" ===
-web_folder = drive.ListFile({
-    'q': "title='web' and mimeType='application/vnd.google-apps.folder' and trashed=false"
-}).GetList()[0]
-web_id = web_folder['id']
-
-# === 3. Obtener archivo catalogo.xlsx ===
-catalog_file = drive.ListFile({
-    'q': f"'{web_id}' in parents and title = 'catalogo.xlsx' and trashed=false"
-}).GetList()
-if catalog_file:
-    file = catalog_file[0]
-    file.GetContentFile("catalogo.xlsx")
-
-# === 4. Obtener carpeta "fotos" dentro de web ===
-photos_folder = drive.ListFile({
-    'q': f"'{web_id}' in parents and title='fotos' and mimeType='application/vnd.google-apps.folder' and trashed=false"
-}).GetList()[0]
-photos_id = photos_folder['id']
-
-# === 5. Crear carpeta local si no existe ===
-os.makedirs('fotos', exist_ok=True)
-
-# === 6. Procesar imágenes ===
-images = drive.ListFile({'q': f"'{photos_id}' in parents and trashed=false"}).GetList()
-
-for img in images:
-    file_ext = os.path.splitext(img['title'])[1].lower()
-    base_name = os.path.splitext(img['title'])[0]
-    dest_path = f"fotos/{base_name}.jpg"
-
-    if os.path.exists(dest_path):
-        print(f"{dest_path} ya existe, omitido.")
-        continue
-
-    print(f"Procesando: {img['title']}")
-    # Descargar archivo temporal
-    img.GetContentFile("temp_image" + file_ext)
-
+# Inicializar soporte HEIC
+def init_image_formats():
     try:
-        if file_ext == ".heic":
-            heif_file = pillow_heif.read_heif("temp_image" + file_ext)
-            image = Image.frombytes(
-                heif_file.mode, heif_file.size, heif_file.data, "raw"
-            )
-        else:
-            image = Image.open("temp_image" + file_ext)
-
-        # Convertir y guardar en JPG comprimido
-        image = image.convert("RGB")
-        image.save(dest_path, "JPEG", quality=70)
-
+        register_heif_opener()
     except Exception as e:
-        print(f"Error al procesar {img['title']}: {e}")
-    finally:
-        os.remove("temp_image" + file_ext)
+        print("Error al registrar soporte HEIC:", e)
+
+# Autenticación con cuenta de servicio
+def authenticate():
+    credentials_info = json.loads(os.environ['GDRIVE_CREDENTIALS'])
+    credentials = service_account.Credentials.from_service_account_info(
+        credentials_info,
+        scopes=['https://www.googleapis.com/auth/drive.readonly']
+    )
+    return build('drive', 'v3', credentials=credentials)
+
+# Buscar ID de una carpeta por nombre y padre
+def get_folder_id(service, folder_name, parent_id=None):
+    query = f"name='{folder_name}' and mimeType='application/vnd.google-apps.folder'"
+    if parent_id:
+        query += f" and '{parent_id}' in parents"
+    results = service.files().list(q=query, spaces='drive', fields='files(id, name)').execute()
+    files = results.get('files', [])
+    return files[0]['id'] if files else None
+
+# Descargar archivo y guardarlo localmente
+def download_file(service, file_id, filename):
+    request = service.files().get_media(fileId=file_id)
+    fh = io.BytesIO()
+    downloader = MediaIoBaseDownload(fh, request)
+    done = False
+    while not done:
+        _, done = downloader.next_chunk()
+    fh.seek(0)
+    with open(filename, 'wb') as f:
+        f.write(fh.read())
+
+# Obtener archivos dentro de una carpeta
+def list_files_in_folder(service, folder_id):
+    query = f"'{folder_id}' in parents and trashed = false"
+    results = service.files().list(q=query, spaces='drive', fields='files(id, name, mimeType)').execute()
+    return results.get('files', [])
+
+# Convertir imagen a JPG si no existe ya
+def convert_and_save_image(input_path, output_path):
+    try:
+        with Image.open(input_path) as img:
+            rgb = img.convert('RGB')
+            rgb.save(output_path, 'JPEG', quality=85)
+    except Exception as e:
+        print(f"Error convirtiendo {input_path}: {e}")
+
+# Script principal
+def main():
+    init_image_formats()
+    service = authenticate()
+
+    # Buscar carpeta "web" y dentro de ella "fotos"
+    web_id = get_folder_id(service, 'web')
+    if not web_id:
+        print("No se encontró la carpeta 'web'")
+        return
+
+    fotos_id = get_folder_id(service, 'fotos', web_id)
+    if not fotos_id:
+        print("No se encontró la carpeta 'fotos' dentro de 'web'")
+        return
+
+    # Crear carpeta local si no existe
+    Path("fotos").mkdir(exist_ok=True)
+
+    # Descargar imágenes y convertirlas si no existen
+    for file in list_files_in_folder(service, fotos_id):
+        name, ext = os.path.splitext(file['name'])
+        local_jpg_path = f"fotos/{name}.jpg"
+        if os.path.exists(local_jpg_path):
+            continue
+        temp_path = f"temp/{file['name']}"
+        Path("temp").mkdir(exist_ok=True)
+        download_file(service, file['id'], temp_path)
+        convert_and_save_image(temp_path, local_jpg_path)
+        os.remove(temp_path)
+
+    # Descargar el archivo catalogo.xlsx
+    catalog_file = next((f for f in list_files_in_folder(service, web_id) if f['name'] == 'catalogo.xlsx'), None)
+    if catalog_file:
+        download_file(service, catalog_file['id'], 'catalogo.xlsx')
+        print("Descargado catalogo.xlsx")
+    else:
+        print("No se encontró catalogo.xlsx")
+
+if __name__ == '__main__':
+    main()
