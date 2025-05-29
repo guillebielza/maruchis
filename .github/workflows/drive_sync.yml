@@ -2,8 +2,8 @@ name: Sync Google Drive
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # Ejecuta cada 30 minutos
-  workflow_dispatch:        # Permite ejecución manual
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -12,6 +12,12 @@ jobs:
       GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
     steps:
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Necesario para usar token personalizado
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
       - name: Instalar dependencias
         run: |
           sudo apt-get update
@@ -19,5 +25,9 @@ jobs:
           pip install pydrive2 pillow pillow-heif
       - name: Ejecutar script
         run: python actualiza_catalogo.py
-
+      - name: Hacer commit si hay cambios
+        run: |
+          git add fotos/ catalogo.xlsx || true
+          git diff --cached --quiet || git commit -m "Actualización automática de fotos y catálogo"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
 
