@@ -2,242 +2,318 @@
   {
     "nombre": "Chicago Terciopelo Negro",
     "precio": 22,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
     "imagenes": [
-      "chicago terciopelo negro.png"
+      "fotos/chicago terciopelo negro.png"
     ]
   },
   {
     "nombre": "Chicago Bordado Blanco",
     "precio": 27,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
     "imagenes": [
-      "chicago bordado blanco.png"
+      "fotos/chicago bordado blanco.png"
     ]
   },
   {
     "nombre": "Chicago Bordado Negro",
     "precio": 27,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
     "imagenes": [
-      "chicago bordado negro.png"
+      "fotos/chicago bordado negro.png"
     ]
   },
   {
     "nombre": "Chicago Blanco Cocodrilo",
     "precio": 25,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
     "imagenes": [
-      "chicago blanco cocodrilo.png"
+      "fotos/chicago blanco cocodrilo.png"
     ]
   },
   {
     "nombre": "Chicago Naranja",
     "precio": 22,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
     "imagenes": [
-      "chicago naranja.png",
-      "chicago naranja 2.png"
+      "fotos/chicago naranja.png",
+      "fotos/chicago naranja 2.png"
     ]
   },
   {
     "nombre": "Chicago Verde Estampado",
     "precio": 25,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
     "imagenes": [
-      "chicago verde estampado.png"
+      "fotos/chicago verde estampado.png"
     ]
   },
   {
     "nombre": "Chicago Dorado",
     "precio": 25,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
     "imagenes": [
-      "chicago dorado.png"
+      "fotos/chicago dorado.png"
     ]
   },
   {
     "nombre": "Kioto Dorado",
     "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
     "imagenes": [
-      "kioto dorado.png",
-      "kiotos.png",
-      "kioto dorado 2.png",
-      "kioto dorado 3.png"
+      "fotos/kioto dorado.png",
+      "fotos/kiotos.png",
+      "fotos/kioto dorado 2.png",
+      "fotos/kioto dorado 3.png"
     ]
   },
   {
     "nombre": "Kioto Plateado",
     "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
     "imagenes": [
-      "kioto plateado.png",
-      "kiotos.png"
+      "fotos/kioto plateado.png",
+      "fotos/kiotos.png"
     ]
   },
   {
     "nombre": "Kioto Burdeos",
     "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Kioto Negro",
     "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Kioto Morado",
     "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Kioto Verde Claro",
     "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
     "imagenes": [
-      "kioto verde claro.png",
-      "kiotos.png",
-      "kioto verde claro 2.png"
+      "fotos/kioto verde claro.png",
+      "fotos/kiotos.png",
+      "fotos/kioto verde claro 2.png"
     ]
   },
   {
     "nombre": "Kioto Dorado Metalizado",
     "precio": 35,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
     "imagenes": [
-      "kioto dorado metalizado 2.png"
+      "fotos/kioto dorado metalizado 2.png"
     ]
   },
   {
     "nombre": "Munich Marron",
     "precio": 25,
+    "categoria": "Munich",
+    "tipo": "bolsos",
     "imagenes": [
-      "Munich marron.png",
-      "munich marron 2.png"
+      "fotos/Munich marron.png",
+      "fotos/munich marron 2.png"
     ]
   },
   {
     "nombre": "Munich Dorado",
     "precio": 25,
+    "categoria": "Munich",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Munich Azul",
     "precio": 25,
+    "categoria": "Munich",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Munich Lazo Dorado",
     "precio": 20,
+    "categoria": "Munich",
+    "tipo": "bolsos",
     "imagenes": [
-      "munich lazo dorado.PNG",
-      "munich lazo dorado 2.JPG",
-      "munich lazo dorado 3.JPG"
+      "fotos/munich lazo dorado.PNG",
+      "fotos/munich lazo dorado 2.JPG",
+      "fotos/munich lazo dorado 3.JPG"
     ]
   },
   {
     "nombre": "Munich Algodon Azul",
     "precio": 25,
+    "categoria": "Munich",
+    "tipo": "bolsos",
     "imagenes": [
-      "munich azul algodon 2.png"
+      "fotos/munich azul algodon 2.png"
     ]
   },
   {
     "nombre": "Munich Algodon Beige",
     "precio": 25,
+    "categoria": "Munich",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Munich Dorado Metalizado",
     "precio": 35,
+    "categoria": "Munich",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "San Francisco Rosa",
     "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
     "imagenes": [
-      "sf rosa 2.png"
+      "fotos/sf rosa 2.png"
     ]
   },
   {
     "nombre": "San Francisco Azul",
     "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
     "imagenes": [
-      "sf azul 2.png"
+      "fotos/sf azul 2.png"
     ]
   },
   {
     "nombre": "San Francisco Verde",
     "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
     "imagenes": [
-      "sf verde 2.png"
+      "fotos/sf verde 2.png"
     ]
   },
   {
     "nombre": "San Francisco Rojo",
     "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "San Francisco Beige",
     "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "San Francisco Blanco",
     "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Santander Rafia Beige",
     "precio": 18,
+    "categoria": "Santander",
+    "tipo": "bolsos",
     "imagenes": [
-      "santander rafia beige 2.png"
+      "fotos/santander rafia beige 2.png"
     ]
   },
   {
     "nombre": "Santander Rafia Azul Claro",
     "precio": 18,
+    "categoria": "Santander",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Pontevedra Rafia Beige",
     "precio": 18,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Pontevedra Rafia Verde",
     "precio": 18,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
     "imagenes": [
-      "pontevedra verde 2.png"
+      "fotos/pontevedra verde 2.png"
     ]
   },
   {
     "nombre": "Pontevedra Rafia Negro",
     "precio": 18,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Vancouver Plateado",
     "precio": 30,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Vancouver Rafia",
     "precio": 25,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "Mallorca Cuerda Verde",
     "precio": 20,
+    "categoria": "Mallorca",
+    "tipo": "bolsos",
     "imagenes": [
-      "mallorca cuerda verde 2.JPG",
-      "mallorca cuerda verde 3.JPG"
+      "fotos/mallorca cuerda verde 2.JPG",
+      "fotos/mallorca cuerda verde 3.JPG"
     ]
   },
   {
     "nombre": "Bogota Largo",
     "precio": 9,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
     "imagenes": []
   },
   {
     "nombre": "Bogota Muñeca",
     "precio": 6,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
     "imagenes": []
   },
   {
     "nombre": "Paris Gorro",
     "precio": 14,
+    "categoria": "Paris",
+    "tipo": "gorros",
     "imagenes": []
   }
 ]
