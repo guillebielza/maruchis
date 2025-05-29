@@ -315,5 +315,12 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": []
+  },
+  {
+    "nombre": "Prueba",
+    "precio": 12,
+    "categoria": "Chicago",
+    "tipo": "cuelgamovil",
+    "imagenes": []
   }
 ]
