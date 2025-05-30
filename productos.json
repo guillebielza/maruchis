@@ -315,12 +315,5 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": []
-  },
-  {
-    "nombre": "prueba",
-    "precio": 12,
-    "categoria": "Munich",
-    "tipo": "cuelgamovil",
-    "imagenes": []
   }
 ]
