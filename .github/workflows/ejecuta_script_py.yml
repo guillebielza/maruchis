@@ -1,13 +1,14 @@
-name: Actualizar catálogo desde Google Drive
+name: Sync y Actualiza Catálogo
 
 on:
   schedule:
     - cron: "*/30 * * * *"  # Cada 30 minutos
-  workflow_dispatch:        # Permitir ejecución manual
+  workflow_dispatch:        # Permite ejecución manual
 
 jobs:
-  actualizar:
+  sync:
     runs-on: ubuntu-latest
+
     env:
       GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
 
@@ -17,25 +18,26 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Configurar Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Instalar dependencias del sistema
         run: sudo apt-get update && sudo apt-get install -y libheif1
 
       - name: Instalar dependencias de Python
         run: |
-          pip install pillow pillow-heif pandas google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
+          pip install pandas openpyxl pillow pillow-heif \
+                      google-api-python-client google-auth \
+                      google-auth-oauthlib google-auth-httplib2
 
-      - name: Ejecutar script principal
+      - name: Ejecutar script de sincronización y actualización
         run: python sincroniza_actualiza_catalogo.py
 
-      - name: Hacer commit si hay cambios
+      - name: Hacer commit si hubo cambios
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add fotos/ catalogo.xlsx productos.json || true
           git diff --cached --quiet || git commit -m "Actualización automática de catálogo y fotos"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+
