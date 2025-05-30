@@ -5,7 +5,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago terciopelo negro.png"
+      "fotos/chicago terciopelo negro.jpg"
     ]
   },
   {
@@ -14,7 +14,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago bordado blanco.png"
+      "fotos/chicago bordado blanco.jpg"
     ]
   },
   {
@@ -23,7 +23,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago bordado negro.png"
+      "fotos/chicago bordado negro.jpg"
     ]
   },
   {
@@ -32,7 +32,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago blanco cocodrilo.png"
+      "fotos/chicago blanco cocodrilo.jpg"
     ]
   },
   {
@@ -41,8 +41,8 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago naranja.png",
-      "fotos/chicago naranja 2.png"
+      "fotos/chicago naranja.jpg",
+      "fotos/chicago naranja 2.jpg"
     ]
   },
   {
@@ -51,7 +51,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago verde estampado.png"
+      "fotos/chicago verde estampado.jpg"
     ]
   },
   {
@@ -60,7 +60,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago dorado.png"
+      "fotos/chicago dorado.jpg"
     ]
   },
   {
@@ -69,10 +69,10 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto dorado.png",
-      "fotos/kiotos.png",
-      "fotos/kioto dorado 2.png",
-      "fotos/kioto dorado 3.png"
+      "fotos/kioto dorado.jpg",
+      "fotos/kiotos.jpg",
+      "fotos/kioto dorado 2.jpg",
+      "fotos/kioto dorado 3.jpg"
     ]
   },
   {
@@ -81,8 +81,8 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto plateado.png",
-      "fotos/kiotos.png"
+      "fotos/kioto plateado.jpg",
+      "fotos/kiotos.jpg"
     ]
   },
   {
@@ -112,9 +112,9 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto verde claro.png",
-      "fotos/kiotos.png",
-      "fotos/kioto verde claro 2.png"
+      "fotos/kioto verde claro.jpg",
+      "fotos/kiotos.jpg",
+      "fotos/kioto verde claro 2.jpg"
     ]
   },
   {
@@ -123,7 +123,7 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto dorado metalizado 2.png"
+      "fotos/kioto dorado metalizado 2.jpg"
     ]
   },
   {
@@ -132,8 +132,8 @@
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/Munich marron.png",
-      "fotos/munich marron 2.png"
+      "fotos/Munich marron.jpg",
+      "fotos/munich marron 2.jpg"
     ]
   },
   {
