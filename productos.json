@@ -69,7 +69,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago dorado metalizado 1.jpeg"
+      "fotos/chicago dorado metalizado 1.jpg"
     ]
   },
   {
@@ -185,8 +185,9 @@
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/munich algodon beige.jpeg",
-      "fotos/munich beige suelo.JPG"
+      "fotos/munich algodon beige 1.png",
+      "fotos/munich beige suelo.JPG",
+      "fotos/munich algodon beige.jpeg"
     ]
   },
   {
@@ -202,8 +203,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf algodon rosa 1.jpeg",
-      "fotos/sf rosa 2.png"
+      "fotos/sf rosa 1.png"
     ]
   },
   {
@@ -239,7 +239,10 @@
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/sf beige puesto 1.png",
+      "fotos/sf beige puesto 2.png"
+    ]
   },
   {
     "nombre": "San Francisco Blanco",
@@ -279,7 +282,9 @@
     "precio": 18,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/pontevedra beige 1.png"
+    ]
   },
   {
     "nombre": "Pontevedra Rafia Verde",
@@ -344,6 +349,10 @@
     "precio": 14,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": []
+    "imagenes": [
+      "fotos/gorro paris rojo.jpeg",
+      "fotos/gorro paris verde cerca.jpeg",
+      "fotos/gorro paris verde.jpeg"
+    ]
   }
 ]
