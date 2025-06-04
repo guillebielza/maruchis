@@ -64,6 +64,15 @@
     ]
   },
   {
+    "nombre": "Chicago Dorado Metalizádo",
+    "precio": 35,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/chicago dorado metalizado 1.jpeg"
+    ]
+  },
+  {
     "nombre": "Kioto Dorado",
     "precio": 25,
     "categoria": "Kioto",
@@ -175,7 +184,10 @@
     "precio": 25,
     "categoria": "Munich",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/munich algodon beige.jpeg",
+      "fotos/munich beige suelo.JPG"
+    ]
   },
   {
     "nombre": "Munich Dorado Metalizado",
@@ -190,6 +202,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
+      "fotos/sf algodon rosa 1.jpeg",
       "fotos/sf rosa 2.png"
     ]
   },
@@ -199,7 +212,9 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf azul 2.png"
+      "fotos/sf algodon azul 1.jpeg",
+      "fotos/sf azul 2.png",
+      "fotos/sf azul puesto.JPG"
     ]
   },
   {
@@ -208,6 +223,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
+      "fotos/sf algodon verde 1.jpeg",
       "fotos/sf verde 2.png"
     ]
   },
@@ -238,6 +254,7 @@
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": [
+      "fotos/pontevedra rafia beige 1.jpeg",
       "fotos/santander rafia beige 2.png"
     ]
   },
@@ -247,6 +264,15 @@
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": []
+  },
+  {
+    "nombre": "Santander Rafia Negro",
+    "precio": 18,
+    "categoria": "Santander",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/santander rafia negro 1.jpeg"
+    ]
   },
   {
     "nombre": "Pontevedra Rafia Beige",
@@ -269,7 +295,9 @@
     "precio": 18,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/pontevedra negro 1.jpeg"
+    ]
   },
   {
     "nombre": "Vancouver Plateado",
@@ -283,7 +311,9 @@
     "precio": 25,
     "categoria": "Vancouver",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/vancouver rafia verde 1.jpeg"
+    ]
   },
   {
     "nombre": "Mallorca Cuerda Verde",
