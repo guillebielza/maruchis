@@ -165,9 +165,9 @@
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/munich lazo dorado.PNG",
-      "fotos/munich lazo dorado 2.JPG",
-      "fotos/munich lazo dorado 3.JPG"
+      "fotos/munich lazo dorado.jpg",
+      "fotos/munich lazo dorado 2.jpg",
+      "fotos/munich lazo dorado 3.jpg"
     ]
   },
   {
@@ -176,7 +176,7 @@
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/munich azul algodon 2.png"
+      "fotos/munich azul algodon 2.jpg"
     ]
   },
   {
@@ -185,9 +185,9 @@
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/munich algodon beige 1.png",
-      "fotos/munich beige suelo.JPG",
-      "fotos/munich algodon beige.jpeg"
+      "fotos/munich algodon beige 1.jpg",
+      "fotos/munich beige suelo.jpg",
+      "fotos/munich algodon beige.jpg"
     ]
   },
   {
@@ -203,7 +203,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf rosa 1.png"
+      "fotos/sf rosa 1.jpg"
     ]
   },
   {
@@ -212,9 +212,9 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf algodon azul 1.jpeg",
-      "fotos/sf azul 2.png",
-      "fotos/sf azul puesto.JPG"
+      "fotos/sf algodon azul 1.jpg",
+      "fotos/sf azul 2.jpg",
+      "fotos/sf azul puesto.jpg"
     ]
   },
   {
@@ -223,8 +223,8 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf algodon verde 1.jpeg",
-      "fotos/sf verde 2.png"
+      "fotos/sf algodon verde 1.jpg",
+      "fotos/sf verde 2.jpg"
     ]
   },
   {
@@ -240,8 +240,8 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf beige puesto 1.png",
-      "fotos/sf beige puesto 2.png"
+      "fotos/sf beige puesto 1.jpg",
+      "fotos/sf beige puesto 2.jpg"
     ]
   },
   {
@@ -257,8 +257,8 @@
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/pontevedra rafia beige 1.jpeg",
-      "fotos/santander rafia beige 2.png"
+      "fotos/pontevedra rafia beige 1.jpg",
+      "fotos/santander rafia beige 2.jpg"
     ]
   },
   {
@@ -274,7 +274,7 @@
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/santander rafia negro 1.jpeg"
+      "fotos/santander rafia negro 1.jpg"
     ]
   },
   {
@@ -283,7 +283,7 @@
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/pontevedra beige 1.png"
+      "fotos/pontevedra beige 1.jpg"
     ]
   },
   {
@@ -292,7 +292,7 @@
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/pontevedra verde 2.png"
+      "fotos/pontevedra verde 2.jpg"
     ]
   },
   {
@@ -301,7 +301,7 @@
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/pontevedra negro 1.jpeg"
+      "fotos/pontevedra negro 1.jpg"
     ]
   },
   {
@@ -317,7 +317,7 @@
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouver rafia verde 1.jpeg"
+      "fotos/vancouver rafia verde 1.jpg"
     ]
   },
   {
@@ -326,8 +326,8 @@
     "categoria": "Mallorca",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mallorca cuerda verde 2.JPG",
-      "fotos/mallorca cuerda verde 3.JPG"
+      "fotos/mallorca cuerda verde 2.jpg",
+      "fotos/mallorca cuerda verde 3.jpg"
     ]
   },
   {
@@ -350,9 +350,9 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/gorro paris rojo.jpeg",
-      "fotos/gorro paris verde cerca.jpeg",
-      "fotos/gorro paris verde.jpeg"
+      "fotos/gorro paris rojo.jpg",
+      "fotos/gorro paris verde cerca.jpg",
+      "fotos/gorro paris verde.jpg"
     ]
   }
 ]
