@@ -52,18 +52,30 @@ def list_files_in_folder(service, folder_id):
     results = service.files().list(q=query, spaces='drive', fields='files(id, name, mimeType)').execute()
     return results.get('files', [])
 
-# Convertir imagen a JPG con fondo blanco si tiene transparencia
-def convert_and_save_image(input_path, output_path):
+def convert_and_save_image(input_path, output_path, target_size=(600, 800)):
     try:
         with Image.open(input_path) as img:
+            # Convertir si tiene transparencia
             if img.mode in ("RGBA", "LA") or (img.mode == "P" and "transparency" in img.info):
-                # Crear un fondo blanco
+                img = img.convert("RGBA")
                 background = Image.new("RGB", img.size, (255, 255, 255))
-                background.paste(img, mask=img.convert("RGBA").split()[-1])  # usa el canal alfa como máscara
-                background.save(output_path, 'JPEG', quality=85)
+                background.paste(img, mask=img.split()[-1])  # canal alfa
+                img = background
             else:
-                rgb = img.convert('RGB')
-                rgb.save(output_path, 'JPEG', quality=85)
+                img = img.convert("RGB")
+
+            # Redimensionar manteniendo proporción
+            img.thumbnail(target_size, Image.LANCZOS)
+
+            # Crear lienzo blanco vertical
+            final_img = Image.new("RGB", target_size, (255, 255, 255))
+            offset = (
+                (target_size[0] - img.size[0]) // 2,
+                (target_size[1] - img.size[1]) // 2
+            )
+            final_img.paste(img, offset)
+            final_img.save(output_path, 'JPEG', quality=85)
+
     except Exception as e:
         print(f"Error convirtiendo {input_path}: {e}")
 
