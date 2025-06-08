@@ -52,14 +52,21 @@ def list_files_in_folder(service, folder_id):
     results = service.files().list(q=query, spaces='drive', fields='files(id, name, mimeType)').execute()
     return results.get('files', [])
 
-# Convertir imagen a JPG si no existe ya
+# Convertir imagen a JPG con fondo blanco si tiene transparencia
 def convert_and_save_image(input_path, output_path):
     try:
         with Image.open(input_path) as img:
-            rgb = img.convert('RGB')
-            rgb.save(output_path, 'JPEG', quality=85)
+            if img.mode in ("RGBA", "LA") or (img.mode == "P" and "transparency" in img.info):
+                # Crear un fondo blanco
+                background = Image.new("RGB", img.size, (255, 255, 255))
+                background.paste(img, mask=img.convert("RGBA").split()[-1])  # usa el canal alfa como máscara
+                background.save(output_path, 'JPEG', quality=85)
+            else:
+                rgb = img.convert('RGB')
+                rgb.save(output_path, 'JPEG', quality=85)
     except Exception as e:
         print(f"Error convirtiendo {input_path}: {e}")
+
 
 # Procesar Excel y generar productos.json
 def generar_json_desde_excel(ruta_excel, carpeta_fotos, ruta_json):
