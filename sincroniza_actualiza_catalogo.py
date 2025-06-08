@@ -86,12 +86,11 @@ def generar_json_desde_excel(ruta_excel, carpeta_fotos, ruta_json):
 
     productos = []
     for _, row in df.iterrows():
-       imagenes = [
-    os.path.join(carpeta_fotos, os.path.splitext(str(row[col]))[0] + '.jpg')
-    for col in df.columns
-    if col.startswith("imagen") and pd.notna(row[col])
-]
-
+        imagenes = [
+            os.path.join(carpeta_fotos, os.path.splitext(str(row[col]))[0] + '.jpg')
+            for col in df.columns
+            if col.startswith("imagen") and pd.notna(row[col])
+        ]
         productos.append({
             "nombre": row["nombre"],
             "precio": row["precio"],
