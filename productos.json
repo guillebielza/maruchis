@@ -59,9 +59,7 @@
     "precio": 35,
     "categoria": "Chicago",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/chicago dorado metalizado 1.jpg"
-    ]
+    "imagenes": []
   },
   {
     "nombre": "Kioto Dorado",
@@ -300,7 +298,10 @@
     "precio": 30,
     "categoria": "Vancouver",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/vancouver plateado.jpg",
+      "fotos/vancouver plateado 2.jpg"
+    ]
   },
   {
     "nombre": "Vancouver Rafia",
