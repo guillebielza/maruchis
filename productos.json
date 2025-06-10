@@ -46,15 +46,6 @@
     ]
   },
   {
-    "nombre": "Chicago Verde Estampado",
-    "precio": 25,
-    "categoria": "Chicago",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/chicago verde estampado.jpg"
-    ]
-  },
-  {
     "nombre": "Chicago Dorado",
     "precio": 25,
     "categoria": "Chicago",
