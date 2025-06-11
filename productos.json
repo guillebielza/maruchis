@@ -1,28 +1,32 @@
 [
   {
     "nombre": "Chicago Terciopelo Negro",
-    "precio": 22,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago terciopelo negro.jpg"
+      "fotos/chicago terciopelo negro.jpg",
+      "fotos/chicago terciopelo negro 2.jpg",
+      "fotos/chicago negro terciopelo 3.jpg"
     ]
   },
   {
     "nombre": "Chicago Bordado Blanco",
-    "precio": 27,
+    "precio": 25,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago bordado blanco 1.jpg"
+      "fotos/chicago bordado blanco 1.jpg",
+      "fotos/chicago bordado blanco 2.jpg"
     ]
   },
   {
     "nombre": "Chicago Bordado Negro",
-    "precio": 27,
+    "precio": 25,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
+      "fotos/chicago bordado negro 2.jpg",
       "fotos/chicago bordado negro.jpg"
     ]
   },
@@ -32,12 +36,13 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago blanco cocodrilo.jpg"
+      "fotos/chicago blanco cocodrilo.jpg",
+      "fotos/chicago blanco cocodrilo 2.jpg"
     ]
   },
   {
     "nombre": "Chicago Naranja",
-    "precio": 22,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -52,6 +57,15 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/chicago crochet dorado.jpg"
+    ]
+  },
+  {
+    "nombre": "Chicago Crochet Azul",
+    "precio": 25,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/chicago crochet azul 1.jpg"
     ]
   },
   {
@@ -80,7 +94,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/kioto plateado.jpg",
-      "fotos/kiotos.jpg"
+      "fotos/kiotos.jpg",
+      "fotos/kioto plateado 2.jpg"
     ]
   },
   {
