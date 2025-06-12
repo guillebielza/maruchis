@@ -99,18 +99,13 @@
     ]
   },
   {
-    "nombre": "Kioto Burdeos",
-    "precio": 25,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
     "nombre": "Kioto Negro",
     "precio": 25,
     "categoria": "Kioto",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/kioto negro puesto 1.jpg"
+    ]
   },
   {
     "nombre": "Kioto Morado",
@@ -245,7 +240,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/sf beige puesto 1.jpg",
-      "fotos/sf beige puesto 2.jpg"
+      "fotos/sf beige puesto 2.jpg",
+      "fotos/sf beige.jpg"
     ]
   },
   {
@@ -261,7 +257,6 @@
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/pontevedra rafia beige 1.jpg",
       "fotos/santander rafia beige 2.jpg"
     ]
   },
