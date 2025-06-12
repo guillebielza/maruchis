@@ -104,7 +104,8 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto negro puesto 1.jpg"
+      "fotos/kioto negro puesto 1.jpg",
+      "fotos/kioto negro puesto 2.jpg"
     ]
   },
   {
@@ -278,7 +279,7 @@
   },
   {
     "nombre": "Pontevedra Rafia Beige",
-    "precio": 18,
+    "precio": 22,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
@@ -287,7 +288,7 @@
   },
   {
     "nombre": "Pontevedra Rafia Verde",
-    "precio": 18,
+    "precio": 22,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
@@ -296,11 +297,21 @@
   },
   {
     "nombre": "Pontevedra Rafia Negro",
-    "precio": 18,
+    "precio": 22,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
       "fotos/pontevedra negro 1.jpg"
+    ]
+  },
+  {
+    "nombre": "Pontevedra Rafia Azul",
+    "precio": 22,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/pontevedra azul.jpg",
+      "fotos/pontevedra azul 2.jpg"
     ]
   },
   {
@@ -330,6 +341,15 @@
     "imagenes": [
       "fotos/mallorca cuerda verde 2.jpg",
       "fotos/mallorca cuerda verde 3.jpg"
+    ]
+  },
+  {
+    "nombre": "Madrid",
+    "precio": 24,
+    "categoria": "Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/madrid.jpg"
     ]
   },
   {
