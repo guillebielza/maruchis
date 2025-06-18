@@ -5,8 +5,8 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago terciopelo negro.jpg",
       "fotos/chicago terciopelo negro 2.jpg",
+      "fotos/chicago terciopelo negro.jpg",
       "fotos/chicago negro terciopelo 3.jpg"
     ]
   },
@@ -36,8 +36,8 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago blanco cocodrilo.jpg",
-      "fotos/chicago blanco cocodrilo 2.jpg"
+      "fotos/chicago blanco cocodrilo 2.jpg",
+      "fotos/chicago blanco cocodrilo.jpg"
     ]
   },
   {
@@ -46,8 +46,8 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago naranja.jpg",
-      "fotos/chicago naranja 2.jpg"
+      "fotos/chicago naranja 2.jpg",
+      "fotos/chicago naranja.jpg"
     ]
   },
   {
@@ -235,8 +235,8 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf azul 2.jpg",
-      "fotos/sf azul puesto.jpg"
+      "fotos/sf azul puesto.jpg",
+      "fotos/sf azul 2.jpg"
     ]
   },
   {
@@ -390,7 +390,7 @@
     ]
   },
   {
-    "nombre": "Paris Gorro",
+    "nombre": "Paris Gorro Rojo",
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
@@ -399,17 +399,17 @@
     ]
   },
   {
-    "nombre": "Paris Gorro",
+    "nombre": "Paris Gorro Verde",
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/gorro paris verde cerca.jpg",
-      "fotos/gorro paris verde.jpg"
+      "fotos/gorro paris verde.jpg",
+      "fotos/gorro paris verde cerca.jpg"
     ]
   },
   {
-    "nombre": "Paris Gorro",
+    "nombre": "Paris Gorro Lila",
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
