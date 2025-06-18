@@ -130,7 +130,10 @@
     "precio": 25,
     "categoria": "Kioto",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/kioto blanco perla 1.jpg",
+      "fotos/kioto blanco perla 2.jpg"
+    ]
   },
   {
     "nombre": "Kioto Verde Claro",
@@ -255,13 +258,6 @@
     ]
   },
   {
-    "nombre": "San Francisco Rojo",
-    "precio": 25,
-    "categoria": "San Francisco",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
     "nombre": "San Francisco Beige",
     "precio": 25,
     "categoria": "San Francisco",
@@ -271,13 +267,6 @@
       "fotos/sf beige puesto 2.jpg",
       "fotos/sf beige.jpg"
     ]
-  },
-  {
-    "nombre": "San Francisco Blanco",
-    "precio": 25,
-    "categoria": "San Francisco",
-    "tipo": "bolsos",
-    "imagenes": []
   },
   {
     "nombre": "Santander Rafia Beige",
@@ -293,7 +282,10 @@
     "precio": 18,
     "categoria": "Santander",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/santander puesto turquesa 1.jpg",
+      "fotos/santander turquesa puesto 2.jpg"
+    ]
   },
   {
     "nombre": "Santander Rafia Negro",
@@ -387,13 +379,6 @@
     "imagenes": [
       "fotos/bogota 1.jpg"
     ]
-  },
-  {
-    "nombre": "Bogota Muñeca",
-    "precio": 6,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
-    "imagenes": []
   },
   {
     "nombre": "Paris Gorro",
