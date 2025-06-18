@@ -116,6 +116,23 @@
     "imagenes": []
   },
   {
+    "nombre": "Kioto Rosa Palo",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto rosa palo 1.jpg",
+      "fotos/kioto rosa palo 2.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Banco Perla",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": []
+  },
+  {
     "nombre": "Kioto Verde Claro",
     "precio": 25,
     "categoria": "Kioto",
@@ -124,6 +141,16 @@
       "fotos/kioto verde claro.jpg",
       "fotos/kiotos.jpg",
       "fotos/kioto verde claro 2.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Burdeos",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto burdeos 1.jpg",
+      "fotos/kioto burdeos 2.jpg"
     ]
   },
   {
