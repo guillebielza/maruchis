@@ -5,9 +5,9 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago terciopelo negro 2.jpg",
+      "fotos/chicago negro terciopelo 3.jpg",
       "fotos/chicago terciopelo negro.jpg",
-      "fotos/chicago negro terciopelo 3.jpg"
+      "fotos/chicago terciopelo negro 2.jpg"
     ]
   },
   {
@@ -16,8 +16,9 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago bordado blanco 1.jpg",
-      "fotos/chicago bordado blanco 2.jpg"
+      "fotos/chicago bordado blanco colgado.jpg",
+      "fotos/chicago bordado blanco 2.jpg",
+      "fotos/chicago bordado blanco 1.jpg"
     ]
   },
   {
@@ -27,7 +28,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/chicago bordado negro 2.jpg",
-      "fotos/chicago bordado negro.jpg"
+      "fotos/chicago bordado negro.jpg",
+      "fotos/chicago negro bordado puesto.jpg"
     ]
   },
   {
@@ -70,12 +72,12 @@
     ]
   },
   {
-    "nombre": "Chicago Dorado Metalizádo",
+    "nombre": "Chicago Dorado Metalizado",
     "precio": 35,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago dorado metalizado 1.jpg"
+      "fotos/chicago dorado metalizado.jpg"
     ]
   },
   {
@@ -84,9 +86,9 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto dorado.jpg",
-      "fotos/kiotos.jpg",
       "fotos/kioto dorado 2.jpg",
+      "fotos/kiotos.jpg",
+      "fotos/kioto dorado.jpg",
       "fotos/kioto dorado 3.jpg"
     ]
   },
@@ -322,7 +324,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver plateado.jpg",
-      "fotos/vancouver plateado 2.jpg"
+      "fotos/vancouver plateado 2.jpg",
+      "fotos/vancouvers x2.jpg"
     ]
   },
   {
@@ -331,7 +334,17 @@
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouver rafia verde 1.jpg"
+      "fotos/vancouver rafia verde 1.jpg",
+      "fotos/vancouvers x2.jpg"
+    ]
+  },
+  {
+    "nombre": "Noja",
+    "precio": 22,
+    "categoria": "Noja",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/noja 1.jpg"
     ]
   },
   {
