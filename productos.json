@@ -56,7 +56,8 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago crochet dorado.jpg"
+      "fotos/chicago crochet dorado 1.jpg",
+      "fotos/chicago crochet dorado 2.jpg"
     ]
   },
   {
@@ -73,7 +74,9 @@
     "precio": 35,
     "categoria": "Chicago",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/chicago dorado metalizado 1.jpg"
+    ]
   },
   {
     "nombre": "Kioto Dorado",
@@ -113,7 +116,9 @@
     "precio": 25,
     "categoria": "Kioto",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/kioto morado 1.jpg"
+    ]
   },
   {
     "nombre": "Kioto Rosa Palo",
@@ -131,8 +136,8 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto blanco perla 1.jpg",
-      "fotos/kioto blanco perla 2.jpg"
+      "fotos/kioto blanco perla 2.jpg",
+      "fotos/kioto blanco perla 1.jpg"
     ]
   },
   {
@@ -176,20 +181,6 @@
     ]
   },
   {
-    "nombre": "Munich Dorado",
-    "precio": 25,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
-    "nombre": "Munich Azul",
-    "precio": 25,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
     "nombre": "Munich Lazo Dorado",
     "precio": 20,
     "categoria": "Munich",
@@ -225,7 +216,9 @@
     "precio": 35,
     "categoria": "Munich",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/munich dorado metalizado 1.jpg"
+    ]
   },
   {
     "nombre": "San Francisco Rosa",
@@ -242,7 +235,6 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf algodon azul 1.jpg",
       "fotos/sf azul 2.jpg",
       "fotos/sf azul puesto.jpg"
     ]
@@ -253,7 +245,6 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf algodon verde 1.jpg",
       "fotos/sf verde 2.jpg"
     ]
   },
@@ -285,15 +276,6 @@
     "imagenes": [
       "fotos/santander puesto turquesa 1.jpg",
       "fotos/santander turquesa puesto 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Santander Rafia Negro",
-    "precio": 18,
-    "categoria": "Santander",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/santander rafia negro 1.jpg"
     ]
   },
   {
