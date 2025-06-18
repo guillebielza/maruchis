@@ -261,7 +261,7 @@
   },
   {
     "nombre": "Santander Rafia Beige",
-    "precio": 18,
+    "precio": 22,
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": [
@@ -270,7 +270,7 @@
   },
   {
     "nombre": "Santander Rafia Azul Claro",
-    "precio": 18,
+    "precio": 22,
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": [
@@ -363,15 +363,57 @@
     ]
   },
   {
+    "nombre": "Bogota Largo",
+    "precio": 9,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/bogota verde.jpg"
+    ]
+  },
+  {
+    "nombre": "Bogota Largo",
+    "precio": 9,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/bogota rojo.jpg"
+    ]
+  },
+  {
+    "nombre": "Bogota Largo",
+    "precio": 9,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/bogota amarillo.jpg"
+    ]
+  },
+  {
     "nombre": "Paris Gorro",
-    "precio": 14,
+    "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/gorro paris rojo.jpg",
+      "fotos/gorro paris rojo.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris Gorro",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
       "fotos/gorro paris verde cerca.jpg",
       "fotos/gorro paris verde.jpg"
     ]
+  },
+  {
+    "nombre": "Paris Gorro",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": []
   },
   {
     "nombre": "Marbella ",
