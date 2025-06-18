@@ -138,7 +138,6 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto blanco perla 2.jpg",
       "fotos/kioto blanco perla 1.jpg"
     ]
   },
@@ -286,7 +285,9 @@
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/pontevedra beige 1.jpg"
+      "fotos/pontevedra rafia beige puesto.jpg",
+      "fotos/pontevedra beige 1.jpg",
+      "fotos/pontevedra rafia beige puesto.jpg"
     ]
   },
   {
@@ -344,7 +345,8 @@
     "categoria": "Noja",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/noja 1.jpg"
+      "fotos/noja 1.jpg",
+      "fotos/noja 2.jpg"
     ]
   },
   {
