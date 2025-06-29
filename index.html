@@ -41,6 +41,7 @@
       cursor: pointer;
       font-size: 0.8rem;
       transition: background-color 0.2s, color 0.2s;
+      user-select: none;
     }
 
     #menu-filtros button:hover,
@@ -52,6 +53,7 @@
     .dropdown {
       position: relative;
       display: inline-block;
+      user-select: none;
     }
 
     .dropdown-content {
@@ -69,14 +71,16 @@
       text-decoration: none;
       display: block;
       font-size: 0.8rem;
+      user-select: none;
     }
 
     .dropdown-content a:hover {
       background-color: #f1f1f1;
     }
 
-    .dropdown:hover .dropdown-content {
-      display: block;
+    /* Mostrar dropdown solo si .open está activo */
+    .dropdown.open .dropdown-content {
+      display: block !important;
     }
 
     .productos {
@@ -180,7 +184,6 @@
       height: 20px;
     }
 
-
     /* ----------- RESPONSIVE ----------- */
 
     @media (max-width: 768px) {
@@ -199,16 +202,19 @@
       .dropdown-content {
         position: static;
         box-shadow: none;
-        min-width: auto;
         border: 1px solid #ccc;
+        min-width: auto;
       }
+      /* Ya no mostramos dropdown en hover en móvil */
       .dropdown:hover .dropdown-content {
         display: none;
       }
-      /* Para que funcione el desplegable con click/focus en móvil */
-      .dropdown:focus-within .dropdown-content,
-      .dropdown:active .dropdown-content {
-        display: block;
+      /* El dropdown-content se muestra con .open */
+      .dropdown.open .dropdown-content {
+        display: block !important;
+        position: static;
+        box-shadow: none;
+        border: 1px solid #ccc;
       }
 
       .productos {
@@ -313,7 +319,10 @@
       // Botón "Todo"
       const btnTodo = document.createElement('button');
       btnTodo.textContent = 'Todo';
-      btnTodo.onclick = () => renderizarProductos(todosLosProductos);
+      btnTodo.onclick = () => {
+        renderizarProductos(todosLosProductos);
+        cerrarTodosDropdowns();
+      };
       menu.appendChild(btnTodo);
 
       const tipos = {};
@@ -331,7 +340,17 @@
           const btn = document.createElement('button');
           btn.classList.add('dropbtn');
           btn.textContent = capitalizar(tipo);
-          btn.onclick = () => filtrar(tipo);
+
+          // Toggle dropdown open/close al click
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const abierto = dropdown.classList.contains('open');
+            cerrarTodosDropdowns();
+            if (!abierto) {
+              dropdown.classList.add('open');
+            }
+          });
+
           dropdown.appendChild(btn);
 
           const content = document.createElement('div');
@@ -344,6 +363,7 @@
             a.onclick = (e) => {
               e.preventDefault();
               filtrar(tipo, cat);
+              cerrarTodosDropdowns();
             };
             content.appendChild(a);
           });
@@ -353,11 +373,24 @@
         } else {
           const btn = document.createElement('button');
           btn.textContent = capitalizar(tipo);
-          btn.onclick = () => filtrar(tipo);
+          btn.onclick = () => {
+            filtrar(tipo);
+            cerrarTodosDropdowns();
+          };
           menu.appendChild(btn);
         }
       }
     }
+
+    // Cierra todos los dropdowns abiertos
+    function cerrarTodosDropdowns() {
+      document.querySelectorAll('.dropdown.open').forEach(d => d.classList.remove('open'));
+    }
+
+    // Cierra dropdowns al hacer click fuera
+    document.addEventListener('click', () => {
+      cerrarTodosDropdowns();
+    });
 
     function mostrarImagen() {
       modalImagen.src = imagenes[indiceActual];
