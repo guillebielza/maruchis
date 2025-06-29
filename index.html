@@ -88,6 +88,63 @@
 }
 
 
+/* Responsive: en móviles menos columnas */
+@media (max-width: 768px) {
+  #menu-filtros {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
+  #menu-filtros button,
+  .dropbtn {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    width: 100%; /* Botones ocupan todo el ancho */
+    box-sizing: border-box;
+  }
+  .dropdown-content {
+    position: static; /* Para que dropdown no quede fuera de la pantalla */
+    box-shadow: none;
+    min-width: auto;
+    border: 1px solid #ccc;
+  }
+  .dropdown:hover .dropdown-content {
+    display: none; /* Evitar hover en móvil */
+  }
+  .dropdown-content a {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+  }
+  .dropdown:active .dropdown-content,
+  .dropdown:focus-within .dropdown-content {
+    display: block; /* Mostrar dropdown con click/focus en móvil */
+  }
+
+  .productos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .producto h2 {
+    font-size: 1rem;
+  }
+
+  .precio {
+    font-size: 0.9rem;
+  }
+}
+
+/* Para pantallas muy pequeñas (ej. móviles pequeños) */
+@media (max-width: 400px) {
+  .productos {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+
     .producto {
       text-align: center;
       cursor: pointer;
