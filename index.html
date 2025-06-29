@@ -138,10 +138,87 @@
   height: 20px;
   
 }
+#menu-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#menu-filtros button {
+  font-family: 'TAN Twinkle', serif;
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+#menu-filtros button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  font-family: 'TAN Twinkle', serif;
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
   </style>
 </head>
 <body>
   <h1>MARUCHI'S</h1>
+<nav id="menu-filtros">
+  <button onclick="filtrar('todo')">Todo</button>
+  <div class="dropdown">
+    <button class="dropbtn">Bolsos</button>
+    <div class="dropdown-content">
+      <a href="#" onclick="filtrar('bolsos')">Todos los bolsos</a>
+      <a href="#" onclick="filtrar('bolsos-bandolera')">Bandolera</a>
+      <a href="#" onclick="filtrar('bolsos-mano')">De mano</a>
+      <a href="#" onclick="filtrar('bolsos-hombro')">De hombro</a>
+    </div>
+  </div>
+  <button onclick="filtrar('gorros')">Gorros</button>
+  <button onclick="filtrar('colgantes')">Colgantes</button>
+  <button onclick="filtrar('collares')">Collares</button>
+</nav>
 
   <div class="productos" id="productos">
     <!-- Aquí se cargarán los productos automáticamente -->
@@ -171,26 +248,55 @@
     fetch('productos.json')
       .then(response => response.json())
       .then(productos => {
-        productos.forEach(producto => {
-          const div = document.createElement('div');
-          div.classList.add('producto');
-          div.setAttribute('data-imagenes', producto.imagenes.join(','));
+        let todosLosProductos = [];
 
-          div.innerHTML = `
-            <img src="${producto.imagenes[0]}" alt="${producto.nombre}" />
-            <h2>${producto.nombre}</h2>
-            <p class="precio">${producto.precio} €</p>
-          `;
+function renderizarProductos(productos) {
+  productosContainer.innerHTML = ''; // Limpiar
+  productos.forEach(producto => {
+    const div = document.createElement('div');
+    div.classList.add('producto');
+    div.setAttribute('data-imagenes', producto.imagenes.join(','));
 
-          div.addEventListener('click', () => {
-            imagenes = producto.imagenes;
-            indiceActual = 0;
-            mostrarImagen();
-            modal.classList.add('active');
-          });
+    div.innerHTML = `
+      <img src="${producto.imagenes[0]}" alt="${producto.nombre}" />
+      <h2>${producto.nombre}</h2>
+      <p class="precio">${producto.precio} €</p>
+    `;
 
-          productosContainer.appendChild(div);
-        });
+    div.addEventListener('click', () => {
+      imagenes = producto.imagenes;
+      indiceActual = 0;
+      mostrarImagen();
+      modal.classList.add('active');
+    });
+
+    productosContainer.appendChild(div);
+  });
+}
+
+fetch('productos.json')
+  .then(response => response.json())
+  .then(productos => {
+    todosLosProductos = productos;
+    renderizarProductos(productos);
+  })
+  .catch(error => {
+    console.error('Error cargando productos:', error);
+  });
+
+function filtrar(filtro) {
+  let filtrados;
+  if (filtro === 'todo') {
+    filtrados = todosLosProductos;
+  } else if (filtro.startsWith('bolsos-')) {
+    const tipo = filtro.split('-')[1];
+    filtrados = todosLosProductos.filter(p => p.categoria === 'bolsos' && p.tipo === tipo);
+  } else {
+    filtrados = todosLosProductos.filter(p => p.categoria === filtro);
+  }
+  renderizarProductos(filtrados);
+}
+
       })
       .catch(error => {
         console.error('Error cargando productos:', error);
