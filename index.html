@@ -9,8 +9,6 @@
       font-family: 'TAN Twinkle';
       src: url('fonts/TANTWINKLE.woff2') format('woff2'),
            url('fonts/TANTWINKLE.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
     }
 
     body {
@@ -24,116 +22,6 @@
       text-align: center;
       font-size: 1.5rem;
       margin-bottom: 2rem;
-    }
-
-    .productos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 3rem;
-      padding: 0 2rem;
-    }
-
-    .producto {
-      text-align: center;
-      cursor: pointer;
-      transition: transform 0.3s;
-    }
-
-    .producto:hover {
-      transform: scale(1.02);
-    }
-
-    .producto img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto;
-    }
-
-    .producto h2 {
-      font-size: 0.8rem;
-      margin-top: 1rem;
-    }
-
-    .precio {
-      color: #000;
-      font-weight: bold;
-      margin-top: 0.3rem;
-      font-size: 0.7rem;
-    }
-
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0.95);
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-      flex-direction: column;
-    }
-
-    .modal img {
-      max-width: 90%;
-      max-height: 80%;
-      margin-bottom: 1rem;
-    }
-
-    .modal.active {
-      display: flex;
-    }
-
-    .botones {
-      display: flex;
-      gap: 2rem;
-      align-items: center;
-      justify-content: center;
-      margin-top: 1rem;
-    }
-
-    .botones span {
-      font-size: 2rem;
-      cursor: pointer;
-      user-select: none;
-      color: #000;
-      transition: color 0.2s;
-    }
-
-    .botones span:hover {
-      color: #888;
-    }
-
-    .contacto {
-      margin-top: 4rem;
-      text-align: center;
-    }
-
-    .mensaje-contacto {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .info-contacto {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.8rem;
-    }
-
-    .linea-contacto {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.8rem;
-    }
-
-    .icono-contacto {
-      width: 20px;
-      height: 20px;
     }
 
     #menu-filtros {
@@ -190,16 +78,115 @@
     .dropdown:hover .dropdown-content {
       display: block;
     }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 3rem;
+      padding: 0 2rem;
+    }
+
+    .producto {
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .producto:hover {
+      transform: scale(1.02);
+    }
+
+    .producto img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .producto h2 {
+      font-size: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    .precio {
+      color: #000;
+      font-weight: bold;
+      margin-top: 0.3rem;
+      font-size: 0.7rem;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(255,255,255,0.95);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      flex-direction: column;
+    }
+
+    .modal.active {
+      display: flex;
+    }
+
+    .modal img {
+      max-width: 90%;
+      max-height: 80%;
+    }
+
+    .botones {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .botones span {
+      font-size: 2rem;
+      cursor: pointer;
+      color: #000;
+      user-select: none;
+    }
+
+    .contacto {
+      margin-top: 4rem;
+      text-align: center;
+    }
+
+    .mensaje-contacto {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .info-contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .linea-contacto {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    .icono-contacto {
+      width: 20px;
+      height: 20px;
+    }
   </style>
 </head>
 <body>
   <h1>MARUCHI'S</h1>
   <nav id="menu-filtros"></nav>
-
   <div class="productos" id="productos"></div>
 
   <div class="modal" id="modal">
-    <img id="modal-imagen" src="" alt="Imagen del producto"/>
+    <img id="modal-imagen" src="" alt="Producto grande"/>
     <div class="botones">
       <span id="anterior">&#8592;</span>
       <span id="cerrar">&#10005;</span>
@@ -211,11 +198,11 @@
     <p class="mensaje-contacto">Para pedidos contactar:</p>
     <div class="info-contacto">
       <div class="linea-contacto">
-        <img src="logocorreo.png" alt="Correo" class="icono-contacto" />
+        <img src="logocorreo.png" class="icono-contacto" alt="correo"/>
         <span>maruchis.brand@gmail.com</span>
       </div>
       <div class="linea-contacto">
-        <img src="logoinsta.jpg" alt="Instagram" class="icono-contacto" />
+        <img src="logoinsta.jpg" class="icono-contacto" alt="instagram"/>
         <span>@maruchis.brand</span>
       </div>
     </div>
@@ -229,108 +216,83 @@
     const btnSiguiente = document.getElementById('siguiente');
     const btnCerrar = document.getElementById('cerrar');
 
+    let todosLosProductos = [];
     let imagenes = [];
     let indiceActual = 0;
-    let todosLosProductos = [];
 
-    function renderizarProductos(productos) {
+    function capitalizar(texto) {
+      return texto.charAt(0).toUpperCase() + texto.slice(1);
+    }
+
+    function renderizarProductos(lista) {
       productosContainer.innerHTML = '';
-      productos.forEach(producto => {
+      lista.forEach(p => {
         const div = document.createElement('div');
         div.classList.add('producto');
-        div.setAttribute('data-imagenes', producto.imagenes.join(','));
-
         div.innerHTML = `
-          <img src="${producto.imagenes[0]}" alt="${producto.nombre}" />
-          <h2>${producto.nombre}</h2>
-          <p class="precio">${producto.precio} €</p>
+          <img src="${p.imagenes[0]}" alt="${p.nombre}">
+          <h2>${p.nombre}</h2>
+          <p class="precio">${p.precio} €</p>
         `;
-
         div.addEventListener('click', () => {
-          imagenes = producto.imagenes;
+          imagenes = p.imagenes;
           indiceActual = 0;
           mostrarImagen();
           modal.classList.add('active');
         });
-
         productosContainer.appendChild(div);
       });
     }
 
-    function filtrar(filtro) {
-      let filtrados;
-      if (filtro === 'todo') {
-        filtrados = todosLosProductos;
-      } else if (filtro.includes('-')) {
-        const [categoria, tipo] = filtro.split('-');
-        filtrados = todosLosProductos.filter(p => p.categoria === categoria && p.tipo === tipo);
-      } else {
-        filtrados = todosLosProductos.filter(p => p.categoria === filtro);
-      }
-      renderizarProductos(filtrados);
+    function filtrar(tipo, categoria = null) {
+      const filtrado = todosLosProductos.filter(p => {
+        return p.tipo === tipo && (categoria ? p.categoria === categoria : true);
+      });
+      renderizarProductos(filtrado);
     }
 
     function generarMenuFiltros(productos) {
       const menu = document.getElementById('menu-filtros');
       menu.innerHTML = '';
 
-      const categorias = {};
+      const tipos = {};
 
       productos.forEach(p => {
-        if (!categorias[p.categoria]) {
-          categorias[p.categoria] = new Set();
-        }
-        if (p.tipo) {
-          categorias[p.categoria].add(p.tipo);
-        }
+        if (!tipos[p.tipo]) tipos[p.tipo] = new Set();
+        if (p.categoria) tipos[p.tipo].add(p.categoria);
       });
 
-      // Botón Todo
-      const btnTodo = document.createElement('button');
-      btnTodo.textContent = 'Todo';
-      btnTodo.onclick = () => filtrar('todo');
-      menu.appendChild(btnTodo);
-
-      for (const [categoria, tipos] of Object.entries(categorias)) {
-        if (tipos.size > 0) {
+      for (const [tipo, categorias] of Object.entries(tipos)) {
+        if (categorias.size > 0) {
           const dropdown = document.createElement('div');
           dropdown.classList.add('dropdown');
 
-          const dropbtn = document.createElement('button');
-          dropbtn.classList.add('dropbtn');
-          dropbtn.textContent = capitalizar(categoria);
-          dropdown.appendChild(dropbtn);
+          const btn = document.createElement('button');
+          btn.classList.add('dropbtn');
+          btn.textContent = capitalizar(tipo);
+          btn.onclick = () => filtrar(tipo);
+          dropdown.appendChild(btn);
 
-          const dropdownContent = document.createElement('div');
-          dropdownContent.classList.add('dropdown-content');
+          const content = document.createElement('div');
+          content.classList.add('dropdown-content');
 
-          const enlaceTodos = document.createElement('a');
-          enlaceTodos.href = '#';
-          enlaceTodos.textContent = 'Todos los ' + capitalizar(categoria);
-          enlaceTodos.onclick = () => filtrar(categoria);
-          dropdownContent.appendChild(enlaceTodos);
-
-          tipos.forEach(tipo => {
-            const enlace = document.createElement('a');
-            enlace.href = '#';
-            enlace.textContent = capitalizar(tipo);
-            enlace.onclick = () => filtrar(`${categoria}-${tipo}`);
-            dropdownContent.appendChild(enlace);
+          categorias.forEach(cat => {
+            const a = document.createElement('a');
+            a.href = '#';
+            a.textContent = capitalizar(cat);
+            a.onclick = () => filtrar(tipo, cat);
+            content.appendChild(a);
           });
 
-          dropdown.appendChild(dropdownContent);
+          dropdown.appendChild(content);
           menu.appendChild(dropdown);
         } else {
           const btn = document.createElement('button');
-          btn.textContent = capitalizar(categoria);
-          btn.onclick = () => filtrar(categoria);
+          btn.textContent = capitalizar(tipo);
+          btn.onclick = () => filtrar(tipo);
           menu.appendChild(btn);
         }
       }
-    }
-
-    function capitalizar(texto) {
-      return texto.charAt(0).toUpperCase() + texto.slice(1);
     }
 
     function mostrarImagen() {
@@ -355,20 +317,18 @@
     });
 
     modal.addEventListener('click', e => {
-      if (e.target === modal) {
-        modal.classList.remove('active');
-      }
+      if (e.target === modal) modal.classList.remove('active');
     });
 
     fetch('productos.json')
-      .then(response => response.json())
+      .then(res => res.json())
       .then(productos => {
         todosLosProductos = productos;
         generarMenuFiltros(productos);
         renderizarProductos(productos);
       })
-      .catch(error => {
-        console.error('Error cargando productos:', error);
+      .catch(err => {
+        console.error('Error cargando productos:', err);
       });
   </script>
 </body>
