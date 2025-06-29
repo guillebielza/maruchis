@@ -80,70 +80,12 @@
     }
 
     .productos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columnas fijas */
-  gap: 3rem;
-  padding: 0 2rem;
-  justify-items: center; /* centra los items si hay menos de 4 */
-}
-
-
-/* Responsive: en móviles menos columnas */
-@media (max-width: 768px) {
-  #menu-filtros {
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 0 1rem;
-  }
-  #menu-filtros button,
-  .dropbtn {
-    font-size: 1rem;
-    padding: 0.75rem 1rem;
-    width: 100%; /* Botones ocupan todo el ancho */
-    box-sizing: border-box;
-  }
-  .dropdown-content {
-    position: static; /* Para que dropdown no quede fuera de la pantalla */
-    box-shadow: none;
-    min-width: auto;
-    border: 1px solid #ccc;
-  }
-  .dropdown:hover .dropdown-content {
-    display: none; /* Evitar hover en móvil */
-  }
-  .dropdown-content a {
-    padding: 0.75rem 1rem;
-    font-size: 1rem;
-  }
-  .dropdown:active .dropdown-content,
-  .dropdown:focus-within .dropdown-content {
-    display: block; /* Mostrar dropdown con click/focus en móvil */
-  }
-
-  .productos {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    padding: 0 1rem;
-  }
-
-  .producto h2 {
-    font-size: 1rem;
-  }
-
-  .precio {
-    font-size: 0.9rem;
-  }
-}
-
-/* Para pantallas muy pequeñas (ej. móviles pequeños) */
-@media (max-width: 400px) {
-  .productos {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    padding: 0 1rem;
-  }
-}
-
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 columnas fijas */
+      gap: 3rem;
+      padding: 0 2rem;
+      justify-items: center; /* centra los items si hay menos de 4 */
+    }
 
     .producto {
       text-align: center;
@@ -237,6 +179,60 @@
       width: 20px;
       height: 20px;
     }
+
+
+    /* ----------- RESPONSIVE ----------- */
+
+    @media (max-width: 768px) {
+      #menu-filtros {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0 1rem;
+      }
+      #menu-filtros button,
+      .dropbtn {
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .dropdown-content {
+        position: static;
+        box-shadow: none;
+        min-width: auto;
+        border: 1px solid #ccc;
+      }
+      .dropdown:hover .dropdown-content {
+        display: none;
+      }
+      /* Para que funcione el desplegable con click/focus en móvil */
+      .dropdown:focus-within .dropdown-content,
+      .dropdown:active .dropdown-content {
+        display: block;
+      }
+
+      .productos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+        padding: 0 1rem;
+      }
+
+      .producto h2 {
+        font-size: 1rem;
+      }
+
+      .precio {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .productos {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0 1rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -311,53 +307,57 @@
     }
 
     function generarMenuFiltros(productos) {
-  const menu = document.getElementById('menu-filtros');
-  menu.innerHTML = '';
+      const menu = document.getElementById('menu-filtros');
+      menu.innerHTML = '';
 
-  // Botón "Todo"
-  const btnTodo = document.createElement('button');
-  btnTodo.textContent = 'Todo';
-  btnTodo.onclick = () => renderizarProductos(todosLosProductos);
-  menu.appendChild(btnTodo);
+      // Botón "Todo"
+      const btnTodo = document.createElement('button');
+      btnTodo.textContent = 'Todo';
+      btnTodo.onclick = () => renderizarProductos(todosLosProductos);
+      menu.appendChild(btnTodo);
 
-  const tipos = {};
-  productos.forEach(p => {
-    if (!tipos[p.tipo]) tipos[p.tipo] = new Set();
-    if (p.categoria) tipos[p.tipo].add(p.categoria);
-  });
-
-  for (const [tipo, categorias] of Object.entries(tipos)) {
-    if (categorias.size > 0) {
-      const dropdown = document.createElement('div');
-      dropdown.classList.add('dropdown');
-
-      const btn = document.createElement('button');
-      btn.classList.add('dropbtn');
-      btn.textContent = capitalizar(tipo);
-      btn.onclick = () => filtrar(tipo);
-      dropdown.appendChild(btn);
-
-      const content = document.createElement('div');
-      content.classList.add('dropdown-content');
-
-      categorias.forEach(cat => {
-        const a = document.createElement('a');
-        a.href = '#';
-        a.textContent = capitalizar(cat);
-        a.onclick = () => filtrar(tipo, cat);
-        content.appendChild(a);
+      const tipos = {};
+      productos.forEach(p => {
+        if (!tipos[p.tipo]) tipos[p.tipo] = new Set();
+        if (p.categoria) tipos[p.tipo].add(p.categoria);
       });
 
-      dropdown.appendChild(content);
-      menu.appendChild(dropdown);
-    } else {
-      const btn = document.createElement('button');
-      btn.textContent = capitalizar(tipo);
-      btn.onclick = () => filtrar(tipo);
-      menu.appendChild(btn);
+      for (const [tipo, categorias] of Object.entries(tipos)) {
+        if (categorias.size > 0) {
+          const dropdown = document.createElement('div');
+          dropdown.classList.add('dropdown');
+          dropdown.tabIndex = 0; // para foco y accesibilidad
+
+          const btn = document.createElement('button');
+          btn.classList.add('dropbtn');
+          btn.textContent = capitalizar(tipo);
+          btn.onclick = () => filtrar(tipo);
+          dropdown.appendChild(btn);
+
+          const content = document.createElement('div');
+          content.classList.add('dropdown-content');
+
+          categorias.forEach(cat => {
+            const a = document.createElement('a');
+            a.href = '#';
+            a.textContent = capitalizar(cat);
+            a.onclick = (e) => {
+              e.preventDefault();
+              filtrar(tipo, cat);
+            };
+            content.appendChild(a);
+          });
+
+          dropdown.appendChild(content);
+          menu.appendChild(dropdown);
+        } else {
+          const btn = document.createElement('button');
+          btn.textContent = capitalizar(tipo);
+          btn.onclick = () => filtrar(tipo);
+          menu.appendChild(btn);
+        }
+      }
     }
-  }
-}
 
     function mostrarImagen() {
       modalImagen.src = imagenes[indiceActual];
