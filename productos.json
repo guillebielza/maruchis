@@ -173,16 +173,6 @@
     ]
   },
   {
-    "nombre": "Munich Marron",
-    "precio": 25,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/Munich marron.jpg",
-      "fotos/munich marron 2.jpg"
-    ]
-  },
-  {
     "nombre": "Munich Lazo Dorado",
     "precio": 20,
     "categoria": "Munich",
