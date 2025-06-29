@@ -80,11 +80,13 @@
     }
 
     .productos {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 3rem;
-      padding: 0 2rem;
-    }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas fijas */
+  gap: 3rem;
+  padding: 0 2rem;
+  justify-items: center; /* centra los items si hay menos de 4 */
+}
+
 
     .producto {
       text-align: center;
@@ -252,48 +254,53 @@
     }
 
     function generarMenuFiltros(productos) {
-      const menu = document.getElementById('menu-filtros');
-      menu.innerHTML = '';
+  const menu = document.getElementById('menu-filtros');
+  menu.innerHTML = '';
 
-      const tipos = {};
+  // Botón "Todo"
+  const btnTodo = document.createElement('button');
+  btnTodo.textContent = 'Todo';
+  btnTodo.onclick = () => renderizarProductos(todosLosProductos);
+  menu.appendChild(btnTodo);
 
-      productos.forEach(p => {
-        if (!tipos[p.tipo]) tipos[p.tipo] = new Set();
-        if (p.categoria) tipos[p.tipo].add(p.categoria);
+  const tipos = {};
+  productos.forEach(p => {
+    if (!tipos[p.tipo]) tipos[p.tipo] = new Set();
+    if (p.categoria) tipos[p.tipo].add(p.categoria);
+  });
+
+  for (const [tipo, categorias] of Object.entries(tipos)) {
+    if (categorias.size > 0) {
+      const dropdown = document.createElement('div');
+      dropdown.classList.add('dropdown');
+
+      const btn = document.createElement('button');
+      btn.classList.add('dropbtn');
+      btn.textContent = capitalizar(tipo);
+      btn.onclick = () => filtrar(tipo);
+      dropdown.appendChild(btn);
+
+      const content = document.createElement('div');
+      content.classList.add('dropdown-content');
+
+      categorias.forEach(cat => {
+        const a = document.createElement('a');
+        a.href = '#';
+        a.textContent = capitalizar(cat);
+        a.onclick = () => filtrar(tipo, cat);
+        content.appendChild(a);
       });
 
-      for (const [tipo, categorias] of Object.entries(tipos)) {
-        if (categorias.size > 0) {
-          const dropdown = document.createElement('div');
-          dropdown.classList.add('dropdown');
-
-          const btn = document.createElement('button');
-          btn.classList.add('dropbtn');
-          btn.textContent = capitalizar(tipo);
-          btn.onclick = () => filtrar(tipo);
-          dropdown.appendChild(btn);
-
-          const content = document.createElement('div');
-          content.classList.add('dropdown-content');
-
-          categorias.forEach(cat => {
-            const a = document.createElement('a');
-            a.href = '#';
-            a.textContent = capitalizar(cat);
-            a.onclick = () => filtrar(tipo, cat);
-            content.appendChild(a);
-          });
-
-          dropdown.appendChild(content);
-          menu.appendChild(dropdown);
-        } else {
-          const btn = document.createElement('button');
-          btn.textContent = capitalizar(tipo);
-          btn.onclick = () => filtrar(tipo);
-          menu.appendChild(btn);
-        }
-      }
+      dropdown.appendChild(content);
+      menu.appendChild(dropdown);
+    } else {
+      const btn = document.createElement('button');
+      btn.textContent = capitalizar(tipo);
+      btn.onclick = () => filtrar(tipo);
+      menu.appendChild(btn);
     }
+  }
+}
 
     function mostrarImagen() {
       modalImagen.src = imagenes[indiceActual];
