@@ -213,15 +213,6 @@
     ]
   },
   {
-    "nombre": "San Francisco Rosa",
-    "precio": 25,
-    "categoria": "San Francisco",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/sf rosa 1.jpg"
-    ]
-  },
-  {
     "nombre": "San Francisco Azul",
     "precio": 25,
     "categoria": "San Francisco",
@@ -296,18 +287,9 @@
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/pontevedra negro puesto.jpg",
-      "fotos/pontevedra negro 1.jpg"
-    ]
-  },
-  {
-    "nombre": "Pontevedra Rafia Azul",
-    "precio": 22,
-    "categoria": "Pontevedra",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/pontevedra azul.jpg",
-      "fotos/pontevedra azul 2.jpg"
+      "fotos/pontevedra negro 2.jpg",
+      "fotos/pontevedra negro 1.jpg",
+      "fotos/pontevedra negro puesto.jpg"
     ]
   },
   {
@@ -327,7 +309,6 @@
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouver rafia verde 1.jpg",
       "fotos/vancouvers x2.jpg"
     ]
   },
@@ -349,15 +330,6 @@
     "imagenes": [
       "fotos/mallorca cuerda verde 2.jpg",
       "fotos/mallorca cuerda verde 3.jpg"
-    ]
-  },
-  {
-    "nombre": "Madrid",
-    "precio": 24,
-    "categoria": "Madrid",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/madrid.jpg"
     ]
   },
   {
@@ -406,13 +378,12 @@
     ]
   },
   {
-    "nombre": "Paris Gorro Verde",
+    "nombre": "Paris Gorro Naranja",
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/gorro paris verde.jpg",
-      "fotos/gorro paris verde cerca.jpg"
+      "fotos/gorro paris naranja.jpg"
     ]
   },
   {
@@ -420,7 +391,9 @@
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": []
+    "imagenes": [
+      "fotos/Paris lila.jpg"
+    ]
   },
   {
     "nombre": "Marbella ",
