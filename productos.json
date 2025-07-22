@@ -202,17 +202,8 @@
     ]
   },
   {
-    "nombre": "Santander Rafia Beige",
-    "precio": 22,
-    "categoria": "Santander",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/santander rafia beige 2.jpg"
-    ]
-  },
-  {
     "nombre": "Santander Rafia Azul Claro",
-    "precio": 22,
+    "precio": 25,
     "categoria": "Santander",
     "tipo": "bolsos",
     "imagenes": [
@@ -222,34 +213,31 @@
   },
   {
     "nombre": "Pontevedra Rafia Beige",
-    "precio": 22,
+    "precio": 25,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/pontevedra rafia beige puesto.jpg",
-      "fotos/pontevedra beige 1.jpg",
-      "fotos/pontevedra rafia beige puesto.jpg"
-    ]
+    "imagenes": []
   },
   {
-    "nombre": "Pontevedra Rafia Verde",
-    "precio": 22,
+    "nombre": "Pontevedra Rafia Salmón",
+    "precio": 25,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/pontevedra verde 2.jpg"
-    ]
+    "imagenes": []
   },
   {
-    "nombre": "Pontevedra Rafia Negro",
-    "precio": 22,
+    "nombre": "Pontevedra Rafia Teja",
+    "precio": 25,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/pontevedra negro 2.jpg",
-      "fotos/pontevedra negro 1.jpg",
-      "fotos/pontevedra negro puesto.jpg"
-    ]
+    "imagenes": []
+  },
+  {
+    "nombre": "Pontevedra Rafia Rayas",
+    "precio": 25,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
+    "imagenes": []
   },
   {
     "nombre": "Vancouver Plateado",
@@ -318,13 +306,32 @@
     ]
   },
   {
-    "nombre": "Paris Gorro Rojo",
+    "nombre": "Paris Gorro Negro",
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": [
-      "fotos/gorro paris rojo.jpg"
-    ]
+    "imagenes": []
+  },
+  {
+    "nombre": "Paris Gorro Marron",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": []
+  },
+  {
+    "nombre": "Paris Gorro Crudo",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": []
+  },
+  {
+    "nombre": "Paris Gorro Azul",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": []
   },
   {
     "nombre": "Paris Gorro Naranja",
@@ -345,7 +352,7 @@
     ]
   },
   {
-    "nombre": "Marbella ",
+    "nombre": "Marbella Madera",
     "precio": 10,
     "categoria": "Marbella",
     "tipo": "collar",
@@ -353,5 +360,19 @@
       "fotos/marbella.jpg",
       "fotos/Marbella 2.jpg"
     ]
+  },
+  {
+    "nombre": "Marbella Ceramica",
+    "precio": 12,
+    "categoria": "Marbella",
+    "tipo": "collar",
+    "imagenes": []
+  },
+  {
+    "nombre": "Granda",
+    "precio": 15,
+    "categoria": NaN,
+    "tipo": "collar",
+    "imagenes": []
   }
 ]
