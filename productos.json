@@ -323,16 +323,6 @@
     ]
   },
   {
-    "nombre": "Mallorca Cuerda Verde",
-    "precio": 20,
-    "categoria": "Mallorca",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/mallorca cuerda verde 2.jpg",
-      "fotos/mallorca cuerda verde 3.jpg"
-    ]
-  },
-  {
     "nombre": "Bogota Largo",
     "precio": 9,
     "categoria": "Bogota",
