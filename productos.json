@@ -58,8 +58,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago crochet dorado 1.jpg",
-      "fotos/chicago crochet dorado 2.jpg"
+      "fotos/chicago crochet dorado 1.jpg"
     ]
   },
   {
@@ -104,25 +103,6 @@
     ]
   },
   {
-    "nombre": "Kioto Negro",
-    "precio": 25,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto negro puesto 1.jpg",
-      "fotos/kioto negro puesto 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Morado",
-    "precio": 25,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto morado 1.jpg"
-    ]
-  },
-  {
     "nombre": "Kioto Rosa Palo",
     "precio": 25,
     "categoria": "Kioto",
@@ -164,35 +144,6 @@
     ]
   },
   {
-    "nombre": "Kioto Dorado Metalizado",
-    "precio": 35,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto dorado metalizado 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Munich Lazo Dorado",
-    "precio": 20,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/munich lazo dorado.jpg",
-      "fotos/munich lazo dorado 2.jpg",
-      "fotos/munich lazo dorado 3.jpg"
-    ]
-  },
-  {
-    "nombre": "Munich Algodon Azul",
-    "precio": 25,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/munich azul algodon 2.jpg"
-    ]
-  },
-  {
     "nombre": "Munich Algodon Beige",
     "precio": 25,
     "categoria": "Munich",
@@ -204,13 +155,11 @@
     ]
   },
   {
-    "nombre": "Munich Dorado Metalizado",
-    "precio": 35,
+    "nombre": "Munich Seda ",
+    "precio": 25,
     "categoria": "Munich",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/munich dorado metalizado 1.jpg"
-    ]
+    "imagenes": []
   },
   {
     "nombre": "San Francisco Azul",
@@ -223,23 +172,33 @@
     ]
   },
   {
+    "nombre": "San Francisco Camel",
+    "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
+    "imagenes": []
+  },
+  {
+    "nombre": "San Francisco Vainilla",
+    "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
+    "imagenes": []
+  },
+  {
+    "nombre": "San Francisco Granate",
+    "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
+    "imagenes": []
+  },
+  {
     "nombre": "San Francisco Verde",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
       "fotos/sf verde 2.jpg"
-    ]
-  },
-  {
-    "nombre": "San Francisco Beige",
-    "precio": 25,
-    "categoria": "San Francisco",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/sf beige puesto 1.jpg",
-      "fotos/sf beige puesto 2.jpg",
-      "fotos/sf beige.jpg"
     ]
   },
   {
