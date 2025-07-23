@@ -310,21 +310,27 @@
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": []
+    "imagenes": [
+      "fotos/paris negro.jpg"
+    ]
   },
   {
     "nombre": "Paris Gorro Marron",
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": []
+    "imagenes": [
+      "fotos/paris marron.jpg"
+    ]
   },
   {
     "nombre": "Paris Gorro Crudo",
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": []
+    "imagenes": [
+      "fotos/paris crudo.jpg"
+    ]
   },
   {
     "nombre": "Paris Gorro Azul",
@@ -371,7 +377,7 @@
   {
     "nombre": "Granda",
     "precio": 15,
-    "categoria": NaN,
+    "categoria": "Granada",
     "tipo": "collar",
     "imagenes": []
   }
