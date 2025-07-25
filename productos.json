@@ -97,7 +97,7 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto plateado.jpg",
+      "fotos/kioto plateado rocas.jpg",
       "fotos/kiotos.jpg",
       "fotos/kioto plateado 2.jpg"
     ]
@@ -183,14 +183,18 @@
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/San Francisco vainilla.jpg"
+    ]
   },
   {
-    "nombre": "San Francisco Granate",
+    "nombre": "San Francisco Burdeos",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/San Francisco burdeos.jpg"
+    ]
   },
   {
     "nombre": "San Francisco Verde",
@@ -375,10 +379,46 @@
     "imagenes": []
   },
   {
-    "nombre": "Granda",
+    "nombre": "Granada",
     "precio": 15,
     "categoria": "Granada",
     "tipo": "collar",
     "imagenes": []
+  },
+  {
+    "nombre": "Mini Madrid Burdeos",
+    "precio": 22,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/mini madrid burdeos.jpg"
+    ]
+  },
+  {
+    "nombre": "Mini Madrid Verde",
+    "precio": 22,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/mini madrid verde.jpg"
+    ]
+  },
+  {
+    "nombre": "Mini Madrid Fucsia",
+    "precio": 22,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/mini madrid fucsia.jpg"
+    ]
+  },
+  {
+    "nombre": "Mini Madrid Crudo",
+    "precio": 22,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/mini madrid crudo.jpg"
+    ]
   }
 ]
