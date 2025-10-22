@@ -189,9 +189,7 @@
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/mini madrid verde fb.jpg"
-    ]
+    "imagenes": []
   },
   {
     "nombre": "Vancouver Plateado",
@@ -324,7 +322,7 @@
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mini madrid burdeos.jpg"
+      "fotos/mini madrid burdeos fb.jpg"
     ]
   },
   {
@@ -352,6 +350,24 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/mini madrid crudo fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Madrid Crudo",
+    "precio": 25,
+    "categoria": "Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/madrid crudo fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Madrid Chocolate",
+    "precio": 25,
+    "categoria": "Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/madrid chocolate fb.jpg"
     ]
   }
 ]
