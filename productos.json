@@ -11,19 +11,8 @@
     ]
   },
   {
-    "nombre": "Chicago Bordado Blanco",
-    "precio": 25,
-    "categoria": "Chicago",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/chicago bordado blanco colgado.jpg",
-      "fotos/chicago bordado blanco 2.jpg",
-      "fotos/chicago bordado blanco 1.jpg"
-    ]
-  },
-  {
     "nombre": "Chicago Bordado Negro",
-    "precio": 25,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -34,7 +23,7 @@
   },
   {
     "nombre": "Chicago Blanco Cocodrilo",
-    "precio": 25,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -58,6 +47,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
+      "fotos/chicago crochet fb.jpg",
       "fotos/chicago crochet dorado 1.jpg"
     ]
   },
@@ -81,7 +71,7 @@
   },
   {
     "nombre": "Kioto Dorado",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -93,7 +83,7 @@
   },
   {
     "nombre": "Kioto Plateado",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -104,17 +94,16 @@
   },
   {
     "nombre": "Kioto Rosa Palo",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto rosa palo 1.jpg",
-      "fotos/kioto rosa palo 2.jpg"
+      "fotos/kioto rosa palo fb.jpg"
     ]
   },
   {
     "nombre": "Kioto Banco Perla",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -124,7 +113,7 @@
   },
   {
     "nombre": "Kioto Verde Claro",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -135,12 +124,11 @@
   },
   {
     "nombre": "Kioto Burdeos",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto burdeos 1.jpg",
-      "fotos/kioto burdeos 2.jpg"
+      "fotos/kioto burdeos fb.jpg"
     ]
   },
   {
@@ -156,7 +144,7 @@
   },
   {
     "nombre": "Munich Seda ",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": []
@@ -202,46 +190,8 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf verde 2.jpg"
+      "fotos/mini madrid verde fb.jpg"
     ]
-  },
-  {
-    "nombre": "Santander Rafia Azul Claro",
-    "precio": 25,
-    "categoria": "Santander",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/santander puesto turquesa 1.jpg",
-      "fotos/santander turquesa puesto 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Pontevedra Rafia Beige",
-    "precio": 25,
-    "categoria": "Pontevedra",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
-    "nombre": "Pontevedra Rafia Salmón",
-    "precio": 25,
-    "categoria": "Pontevedra",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
-    "nombre": "Pontevedra Rafia Teja",
-    "precio": 25,
-    "categoria": "Pontevedra",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
-    "nombre": "Pontevedra Rafia Rayas",
-    "precio": 25,
-    "categoria": "Pontevedra",
-    "tipo": "bolsos",
-    "imagenes": []
   },
   {
     "nombre": "Vancouver Plateado",
@@ -362,23 +312,6 @@
     ]
   },
   {
-    "nombre": "Marbella Madera",
-    "precio": 10,
-    "categoria": "Marbella",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/marbella.jpg",
-      "fotos/Marbella 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Marbella Ceramica",
-    "precio": 12,
-    "categoria": "Marbella",
-    "tipo": "collar",
-    "imagenes": []
-  },
-  {
     "nombre": "Granada",
     "precio": 15,
     "categoria": "Granada",
@@ -387,7 +320,7 @@
   },
   {
     "nombre": "Mini Madrid Burdeos",
-    "precio": 22,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -396,29 +329,29 @@
   },
   {
     "nombre": "Mini Madrid Verde",
-    "precio": 22,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mini madrid verde.jpg"
+      "fotos/mini madrid verde fb.jpg"
     ]
   },
   {
     "nombre": "Mini Madrid Fucsia",
-    "precio": 22,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mini madrid fucsia.jpg"
+      "fotos/mini madrid fucsia fb.jpg"
     ]
   },
   {
     "nombre": "Mini Madrid Crudo",
-    "precio": 22,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mini madrid crudo.jpg"
+      "fotos/mini madrid crudo fb.jpg"
     ]
   }
 ]
