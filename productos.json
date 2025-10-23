@@ -16,7 +16,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago bordado negro 2.jpg",
+      "fotos/chicago bordado negro fb.jpg",
       "fotos/chicago bordado negro.jpg",
       "fotos/chicago negro bordado puesto.jpg"
     ]
@@ -185,11 +185,13 @@
     ]
   },
   {
-    "nombre": "San Francisco Verde",
+    "nombre": "San Francisco Negro",
     "precio": 25.0,
     "categoria": "San Francisco",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/sf negro fb.jpg"
+    ]
   },
   {
     "nombre": "Vancouver Plateado",
