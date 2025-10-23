@@ -381,11 +381,13 @@
     ]
   },
   {
-    "nombre": NaN,
+    "nombre": "Munich Cotton Amarillo",
     "precio": NaN,
     "categoria": NaN,
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/munich amarillo fb.jpg"
+    ]
   },
   {
     "nombre": NaN,
