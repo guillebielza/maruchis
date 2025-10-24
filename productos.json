@@ -401,11 +401,13 @@
     ]
   },
   {
-    "nombre": "Huesca Cotton Beige",
+    "nombre": "Huesca Cotton Gris",
     "precio": NaN,
     "categoria": NaN,
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/huesca velvet gris.jpg"
+    ]
   },
   {
     "nombre": NaN,
