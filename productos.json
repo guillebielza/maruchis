@@ -392,14 +392,16 @@
     ]
   },
   {
-    "nombre": NaN,
+    "nombre": "Kioto Negro",
     "precio": NaN,
     "categoria": NaN,
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/kioto negro fb.jpg"
+    ]
   },
   {
-    "nombre": NaN,
+    "nombre": "Huesca Cotton Beige",
     "precio": NaN,
     "categoria": NaN,
     "tipo": "bolsos",
