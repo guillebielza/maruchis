@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Chicago Terciopelo Negro",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -12,7 +12,7 @@
   },
   {
     "nombre": "Chicago Bordado Negro",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -23,7 +23,7 @@
   },
   {
     "nombre": "Chicago Blanco Cocodrilo",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -33,7 +33,7 @@
   },
   {
     "nombre": "Chicago Naranja",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -43,7 +43,7 @@
   },
   {
     "nombre": "Chicago Crochet Dorado",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -53,7 +53,7 @@
   },
   {
     "nombre": "Chicago Crochet Azul",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -62,7 +62,7 @@
   },
   {
     "nombre": "Chicago Dorado Metalizado",
-    "precio": 35.0,
+    "precio": 35,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -71,7 +71,7 @@
   },
   {
     "nombre": "Kioto Dorado",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -83,7 +83,7 @@
   },
   {
     "nombre": "Kioto Plateado",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -94,7 +94,7 @@
   },
   {
     "nombre": "Kioto Rosa Palo",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -103,7 +103,7 @@
   },
   {
     "nombre": "Kioto Banco Perla",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -113,7 +113,7 @@
   },
   {
     "nombre": "Kioto Verde Claro",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -124,7 +124,7 @@
   },
   {
     "nombre": "Kioto Burdeos",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
@@ -133,7 +133,7 @@
   },
   {
     "nombre": "Munich Algodon Beige",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
@@ -144,14 +144,14 @@
   },
   {
     "nombre": "Munich Seda ",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "San Francisco Azul",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -161,14 +161,14 @@
   },
   {
     "nombre": "San Francisco Camel",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": []
   },
   {
     "nombre": "San Francisco Vainilla",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -177,7 +177,7 @@
   },
   {
     "nombre": "San Francisco Burdeos",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -186,7 +186,7 @@
   },
   {
     "nombre": "San Francisco Negro",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -195,7 +195,7 @@
   },
   {
     "nombre": "Vancouver Plateado",
-    "precio": 30.0,
+    "precio": 30,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
@@ -206,7 +206,7 @@
   },
   {
     "nombre": "Vancouver Rafia",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
@@ -215,7 +215,7 @@
   },
   {
     "nombre": "Noja",
-    "precio": 22.0,
+    "precio": 22,
     "categoria": "Noja",
     "tipo": "bolsos",
     "imagenes": [
@@ -225,7 +225,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 9.0,
+    "precio": 9,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -234,7 +234,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 9.0,
+    "precio": 9,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -243,7 +243,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 9.0,
+    "precio": 9,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -252,7 +252,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 9.0,
+    "precio": 9,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -261,7 +261,7 @@
   },
   {
     "nombre": "Paris Gorro Negro",
-    "precio": 13.0,
+    "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
@@ -270,7 +270,7 @@
   },
   {
     "nombre": "Paris Gorro Marron",
-    "precio": 13.0,
+    "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
@@ -280,7 +280,7 @@
   },
   {
     "nombre": "Paris Gorro Crudo",
-    "precio": 13.0,
+    "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
@@ -289,14 +289,14 @@
   },
   {
     "nombre": "Paris Gorro Azul",
-    "precio": 13.0,
+    "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": []
   },
   {
     "nombre": "Paris Gorro Naranja",
-    "precio": 13.0,
+    "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
@@ -305,7 +305,7 @@
   },
   {
     "nombre": "Paris Gorro Lila",
-    "precio": 13.0,
+    "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
@@ -314,14 +314,14 @@
   },
   {
     "nombre": "Granada",
-    "precio": 15.0,
+    "precio": 15,
     "categoria": "Granada",
     "tipo": "collar",
     "imagenes": []
   },
   {
     "nombre": "Mini Madrid Burdeos",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -330,7 +330,7 @@
   },
   {
     "nombre": "Mini Madrid Verde",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -339,7 +339,7 @@
   },
   {
     "nombre": "Mini Madrid Fucsia",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -348,7 +348,7 @@
   },
   {
     "nombre": "Mini Madrid Crudo",
-    "precio": 20.0,
+    "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -357,7 +357,7 @@
   },
   {
     "nombre": "Madrid Crudo",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -366,7 +366,7 @@
   },
   {
     "nombre": "Madrid Chocolate",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -375,7 +375,7 @@
   },
   {
     "nombre": "Huesca Chocolate",
-    "precio": 25.0,
+    "precio": 25,
     "categoria": "Huesca",
     "tipo": "bolsos",
     "imagenes": [
@@ -384,8 +384,8 @@
   },
   {
     "nombre": "Munich Cotton Amarillo",
-    "precio": NaN,
-    "categoria": NaN,
+    "precio": 25,
+    "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
       "fotos/munich amarillo fb.jpg"
@@ -393,8 +393,8 @@
   },
   {
     "nombre": "Kioto Negro",
-    "precio": NaN,
-    "categoria": NaN,
+    "precio": 30,
+    "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
       "fotos/kioto negro fb.jpg"
@@ -402,25 +402,11 @@
   },
   {
     "nombre": "Huesca Cotton Gris",
-    "precio": NaN,
-    "categoria": NaN,
+    "precio": 25,
+    "categoria": "Huesca",
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca velvet gris.jpg"
     ]
-  },
-  {
-    "nombre": NaN,
-    "precio": NaN,
-    "categoria": NaN,
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
-    "nombre": NaN,
-    "precio": NaN,
-    "categoria": NaN,
-    "tipo": "bolsos",
-    "imagenes": []
   }
 ]
