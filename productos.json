@@ -111,13 +111,6 @@
     ]
   },
   {
-    "nombre": "Kioto Banco Perla",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
     "nombre": "Kioto Verde Claro",
     "precio": 30,
     "categoria": "Kioto",
@@ -147,7 +140,7 @@
     ]
   },
   {
-    "nombre": "San Francisco Azul",
+    "nombre": "San Francisco Cotton Azul",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
@@ -157,7 +150,7 @@
     ]
   },
   {
-    "nombre": "San Francisco Camel",
+    "nombre": "San Francisco Cotton Camel",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
@@ -166,7 +159,7 @@
     ]
   },
   {
-    "nombre": "San Francisco Vainilla",
+    "nombre": "San Francisco Cotton Vainilla",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
@@ -176,7 +169,7 @@
     ]
   },
   {
-    "nombre": "San Francisco Burdeos",
+    "nombre": "San Francisco Cotton Burdeos",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
@@ -185,7 +178,7 @@
     ]
   },
   {
-    "nombre": "San Francisco Negro",
+    "nombre": "San Francisco Cotton Negro",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
@@ -203,14 +196,12 @@
     ]
   },
   {
-    "nombre": "Vancouver Plateado",
-    "precio": 30,
+    "nombre": "Vancouver Lazo Marron",
+    "precio": 45,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouver plateado.jpg",
-      "fotos/vancouver plateado 2.jpg",
-      "fotos/vancouvers x2.jpg"
+      "fotos/vancouver lazo marron.jpg"
     ]
   },
   {
@@ -219,17 +210,26 @@
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouvers x2.jpg"
+      "fotos/vancouver rafia.jpg"
     ]
   },
   {
-    "nombre": "Noja",
-    "precio": 22,
-    "categoria": "Noja",
+    "nombre": "Vancouver Lazo Negro",
+    "precio": 45,
+    "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/noja 1.jpg",
-      "fotos/noja 2.jpg"
+      "fotos/vancouver lazo negro.jpg"
+    ]
+  },
+  {
+    "nombre": "Vancouver Lazo Dorado",
+    "precio": 45,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/vancouver lazo dorado.jpg",
+      "fotos/vancouver lazo dorado 2.jpg"
     ]
   },
   {
@@ -290,7 +290,8 @@
     "categoria": "Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/madrid chocolate fb.jpg"
+      "fotos/madrid chocolate fb.jpg",
+      "fotos/madrid chocolate 2.jpg"
     ]
   },
   {
@@ -303,12 +304,21 @@
     ]
   },
   {
-    "nombre": "Huesca Cotton Gris",
+    "nombre": "Huesca Velvet Gris",
     "precio": 25,
     "categoria": "Huesca",
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca velvet gris.jpg"
+    ]
+  },
+  {
+    "nombre": "Huesca Cotton Camel",
+    "precio": 25,
+    "categoria": "Huesca",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/huesca cotton camel.jpg"
     ]
   },
   {
@@ -335,7 +345,7 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/paris marron.jpg",
+      "fotos/gorro paris marron.jpg",
       "fotos/paris marron2.jpg"
     ]
   },
