@@ -106,10 +106,7 @@
     "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto blanco perla 2.jpg",
-      "fotos/kioto blanco perla 1.jpg"
-    ]
+    "imagenes": []
   },
   {
     "nombre": "Kioto Verde Claro",
@@ -132,30 +129,12 @@
     ]
   },
   {
-    "nombre": "Munich Algodon Beige",
-    "precio": 25,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/munich algodon beige 1.jpg",
-      "fotos/munich beige suelo.jpg",
-      "fotos/munich algodon beige.jpg"
-    ]
-  },
-  {
-    "nombre": "Munich Seda ",
-    "precio": 30,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": []
-  },
-  {
     "nombre": "San Francisco Azul",
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf azul 2.jpg",
+      "fotos/sf cotton azul.jpg",
       "fotos/sf azul puesto.jpg"
     ]
   },
@@ -164,7 +143,9 @@
     "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/sf cotton camel.jpg"
+    ]
   },
   {
     "nombre": "San Francisco Vainilla",
@@ -172,6 +153,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
+      "fotos/sf cotton vainilla.jpg",
       "fotos/San Francisco vainilla.jpg"
     ]
   },
