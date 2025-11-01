@@ -70,6 +70,15 @@
     ]
   },
   {
+    "nombre": "Chicago Crochet Blanco Perla",
+    "precio": 25,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/chicago blanco perla.jpg"
+    ]
+  },
+  {
     "nombre": "Kioto Dorado",
     "precio": 30,
     "categoria": "Kioto",
@@ -129,6 +138,15 @@
     ]
   },
   {
+    "nombre": "Kioto Negro",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto negro fb.jpg"
+    ]
+  },
+  {
     "nombre": "San Francisco Azul",
     "precio": 25,
     "categoria": "San Francisco",
@@ -163,7 +181,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/San Francisco burdeos.jpg"
+      "fotos/sf cotton burdeos.jpg"
     ]
   },
   {
@@ -172,7 +190,16 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf negro fb.jpg"
+      "fotos/sf cotton negro.jpg"
+    ]
+  },
+  {
+    "nombre": "San Francisco Velvet Topo",
+    "precio": 30,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/sf velvet topo.jpg"
     ]
   },
   {
@@ -206,39 +233,91 @@
     ]
   },
   {
-    "nombre": "Bogota Largo",
-    "precio": 9,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
+    "nombre": "Granada",
+    "precio": 15,
+    "categoria": "Granada",
+    "tipo": "collar",
+    "imagenes": []
+  },
+  {
+    "nombre": "Mini Madrid Burdeos",
+    "precio": 20,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
     "imagenes": [
-      "fotos/bogota 1.jpg"
+      "fotos/mini madrid cotton burdeos.jpg"
     ]
   },
   {
-    "nombre": "Bogota Largo",
-    "precio": 9,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
+    "nombre": "Mini Madrid Verde",
+    "precio": 20,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
     "imagenes": [
-      "fotos/bogota verde.jpg"
+      "fotos/mini madrid verde fb.jpg"
     ]
   },
   {
-    "nombre": "Bogota Largo",
-    "precio": 9,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
+    "nombre": "Mini Madrid Fucsia",
+    "precio": 20,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
     "imagenes": [
-      "fotos/bogota rojo.jpg"
+      "fotos/mini madrid fucsia fb.jpg"
     ]
   },
   {
-    "nombre": "Bogota Largo",
-    "precio": 9,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
+    "nombre": "Mini Madrid Crudo",
+    "precio": 20,
+    "categoria": "Mini Madrid",
+    "tipo": "bolsos",
     "imagenes": [
-      "fotos/bogota amarillo.jpg"
+      "fotos/mini madrid crudo fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Madrid Crudo",
+    "precio": 25,
+    "categoria": "Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/madrid crudo fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Madrid Chocolate",
+    "precio": 25,
+    "categoria": "Madrid",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/madrid chocolate fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Huesca Cotton Chocolate",
+    "precio": 25,
+    "categoria": "Huesca",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/huesca chocolate fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Huesca Cotton Gris",
+    "precio": 25,
+    "categoria": "Huesca",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/huesca velvet gris.jpg"
+    ]
+  },
+  {
+    "nombre": "Munich Cotton Amarillo",
+    "precio": 25,
+    "categoria": "Munich",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/munich amarillo fb.jpg"
     ]
   },
   {
@@ -295,100 +374,39 @@
     ]
   },
   {
-    "nombre": "Granada",
-    "precio": 15,
-    "categoria": "Granada",
-    "tipo": "collar",
-    "imagenes": []
-  },
-  {
-    "nombre": "Mini Madrid Burdeos",
-    "precio": 20,
-    "categoria": "Mini Madrid",
-    "tipo": "bolsos",
+    "nombre": "Bogota Largo",
+    "precio": 10,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/mini madrid burdeos fb.jpg"
+      "fotos/bogota 1.jpg"
     ]
   },
   {
-    "nombre": "Mini Madrid Verde",
-    "precio": 20,
-    "categoria": "Mini Madrid",
-    "tipo": "bolsos",
+    "nombre": "Bogota Largo",
+    "precio": 10,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/mini madrid verde fb.jpg"
+      "fotos/bogota verde.jpg"
     ]
   },
   {
-    "nombre": "Mini Madrid Fucsia",
-    "precio": 20,
-    "categoria": "Mini Madrid",
-    "tipo": "bolsos",
+    "nombre": "Bogota Largo",
+    "precio": 10,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/mini madrid fucsia fb.jpg"
+      "fotos/bogota rojo.jpg"
     ]
   },
   {
-    "nombre": "Mini Madrid Crudo",
-    "precio": 20,
-    "categoria": "Mini Madrid",
-    "tipo": "bolsos",
+    "nombre": "Bogota Largo",
+    "precio": 10,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/mini madrid crudo fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Madrid Crudo",
-    "precio": 25,
-    "categoria": "Madrid",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/madrid crudo fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Madrid Chocolate",
-    "precio": 25,
-    "categoria": "Madrid",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/madrid chocolate fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Huesca Chocolate",
-    "precio": 25,
-    "categoria": "Huesca",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/huesca chocolate fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Munich Cotton Amarillo",
-    "precio": 25,
-    "categoria": "Munich",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/munich amarillo fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Negro",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto negro fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Huesca Cotton Gris",
-    "precio": 25,
-    "categoria": "Huesca",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/huesca velvet gris.jpg"
+      "fotos/bogota amarillo.jpg"
     ]
   }
 ]
