@@ -156,7 +156,8 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf cotton camel.jpg"
+      "fotos/sf cotton camel.jpg",
+      "fotos/sf camel 2.jpg"
     ]
   },
   {
@@ -356,7 +357,7 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/paris crudo.jpg"
+      "fotos/paris gorro crudo.jpg"
     ]
   },
   {
