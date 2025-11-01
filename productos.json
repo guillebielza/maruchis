@@ -66,7 +66,8 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago dorado metalizado.jpg"
+      "fotos/chicago dorado metalizado.jpg",
+      "fotos/Chicago dorado metalizado 2.jpg"
     ]
   },
   {
@@ -345,7 +346,7 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/gorro paris marron.jpg",
+      "fotos/gorro paris marrón.jpg",
       "fotos/paris marron2.jpg"
     ]
   },
