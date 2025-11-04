@@ -420,5 +420,12 @@
     "imagenes": [
       "fotos/bogota amarillo.jpg"
     ]
+  },
+  {
+    "nombre": "Niza Velvet Gris",
+    "precio": 30,
+    "categoria": NaN,
+    "tipo": "bolsos",
+    "imagenes": []
   }
 ]
