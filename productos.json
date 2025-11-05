@@ -424,7 +424,7 @@
   {
     "nombre": "Niza Velvet Gris",
     "precio": 30,
-    "categoria": NaN,
+    "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": []
   }
