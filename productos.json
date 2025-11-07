@@ -235,13 +235,6 @@
     ]
   },
   {
-    "nombre": "Granada",
-    "precio": 15,
-    "categoria": "Granada",
-    "tipo": "collar",
-    "imagenes": []
-  },
-  {
     "nombre": "Mini Madrid Burdeos",
     "precio": 20,
     "categoria": "Mini Madrid",
@@ -361,13 +354,6 @@
     ]
   },
   {
-    "nombre": "Paris Gorro Azul",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": []
-  },
-  {
     "nombre": "Paris Gorro Naranja",
     "precio": 13,
     "categoria": "Paris",
@@ -424,8 +410,46 @@
   {
     "nombre": "Niza Velvet Gris",
     "precio": 30,
-    "categoria": "Chicago",
+    "categoria": "Niza",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/niza velvet gris.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Teja",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet teja.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Mora",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet mora.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Topo",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet topo.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Mostaza",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet mostaza.jpg"
+    ]
   }
 ]
