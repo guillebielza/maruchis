@@ -207,7 +207,7 @@
     ]
   },
   {
-    "nombre": "Vancouver Rafia",
+    "nombre": "Vancouver Rafia Verde",
     "precio": 25,
     "categoria": "Vancouver",
     "tipo": "bolsos",
@@ -235,7 +235,7 @@
     ]
   },
   {
-    "nombre": "Mini Madrid Burdeos",
+    "nombre": "Mini Madrid Cotton Burdeos",
     "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
@@ -244,7 +244,7 @@
     ]
   },
   {
-    "nombre": "Mini Madrid Verde",
+    "nombre": "Mini Madrid Cotton Verde",
     "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
@@ -253,7 +253,7 @@
     ]
   },
   {
-    "nombre": "Mini Madrid Fucsia",
+    "nombre": "Mini Madrid Cotton Fucsia",
     "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
@@ -262,7 +262,7 @@
     ]
   },
   {
-    "nombre": "Mini Madrid Crudo",
+    "nombre": "Mini Madrid Cotton Crudo",
     "precio": 20,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
@@ -271,7 +271,7 @@
     ]
   },
   {
-    "nombre": "Madrid Crudo",
+    "nombre": "Madrid CottonCrudo",
     "precio": 25,
     "categoria": "Madrid",
     "tipo": "bolsos",
@@ -280,7 +280,7 @@
     ]
   },
   {
-    "nombre": "Madrid Chocolate",
+    "nombre": "Madrid Cotton Chocolate",
     "precio": 25,
     "categoria": "Madrid",
     "tipo": "bolsos",
@@ -300,7 +300,7 @@
   },
   {
     "nombre": "Huesca Velvet Gris",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Huesca",
     "tipo": "bolsos",
     "imagenes": [
@@ -450,6 +450,24 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/niza velvet mostaza.jpg"
+    ]
+  },
+  {
+    "nombre": "Granada Collar",
+    "precio": 15,
+    "categoria": "Granada",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/granada.jpg"
+    ]
+  },
+  {
+    "nombre": "Granada Collar",
+    "precio": 15,
+    "categoria": "Granada",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/3 granadas.jpg"
     ]
   }
 ]
