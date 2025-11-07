@@ -373,7 +373,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 10,
+    "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -382,7 +382,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 10,
+    "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -391,7 +391,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 10,
+    "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -400,7 +400,7 @@
   },
   {
     "nombre": "Bogota Largo",
-    "precio": 10,
+    "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -454,7 +454,7 @@
   },
   {
     "nombre": "Granada Collar",
-    "precio": 15,
+    "precio": 12,
     "categoria": "Granada",
     "tipo": "collar",
     "imagenes": [
@@ -463,7 +463,7 @@
   },
   {
     "nombre": "Granada Collar",
-    "precio": 15,
+    "precio": 12,
     "categoria": "Granada",
     "tipo": "collar",
     "imagenes": [
