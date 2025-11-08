@@ -11,17 +11,6 @@
     ]
   },
   {
-    "nombre": "Chicago Bordado Negro",
-    "precio": 20,
-    "categoria": "Chicago",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/chicago bordado negro fb.jpg",
-      "fotos/chicago bordado negro.jpg",
-      "fotos/chicago negro bordado puesto.jpg"
-    ]
-  },
-  {
     "nombre": "Chicago Blanco Cocodrilo",
     "precio": 20,
     "categoria": "Chicago",
@@ -39,6 +28,17 @@
     "imagenes": [
       "fotos/chicago naranja 2.jpg",
       "fotos/chicago naranja.jpg"
+    ]
+  },
+  {
+    "nombre": "Chicago Bordado Negro",
+    "precio": 20,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/chicago bordado negro fb.jpg",
+      "fotos/chicago bordado negro.jpg",
+      "fotos/chicago negro bordado puesto.jpg"
     ]
   },
   {
@@ -66,8 +66,7 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago dorado metalizado.jpg",
-      "fotos/Chicago dorado metalizado 2.jpg"
+      "fotos/chicago dorado metalizado.jpg"
     ]
   },
   {
@@ -190,7 +189,7 @@
   },
   {
     "nombre": "San Francisco Velvet Topo",
-    "precio": 30,
+    "precio": 25,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -199,7 +198,7 @@
   },
   {
     "nombre": "Vancouver Lazo Marron",
-    "precio": 45,
+    "precio": 40,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
@@ -216,17 +215,8 @@
     ]
   },
   {
-    "nombre": "Vancouver Lazo Negro",
-    "precio": 45,
-    "categoria": "Vancouver",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/vancouver lazo negro.jpg"
-    ]
-  },
-  {
     "nombre": "Vancouver Lazo Dorado",
-    "precio": 45,
+    "precio": 40,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
@@ -271,7 +261,7 @@
     ]
   },
   {
-    "nombre": "Madrid CottonCrudo",
+    "nombre": "Madrid Cotton Crudo",
     "precio": 25,
     "categoria": "Madrid",
     "tipo": "bolsos",
@@ -300,7 +290,7 @@
   },
   {
     "nombre": "Huesca Velvet Gris",
-    "precio": 30,
+    "precio": 25,
     "categoria": "Huesca",
     "tipo": "bolsos",
     "imagenes": [
@@ -323,6 +313,51 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/munich amarillo fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Gris",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet gris.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Teja",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet teja.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Mora",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet mora.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Topo",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet topo.jpg"
+    ]
+  },
+  {
+    "nombre": "Niza Velvet Mostaza",
+    "precio": 30,
+    "categoria": "Niza",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/niza velvet mostaza.jpg"
     ]
   },
   {
@@ -405,51 +440,6 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/bogota amarillo.jpg"
-    ]
-  },
-  {
-    "nombre": "Niza Velvet Gris",
-    "precio": 30,
-    "categoria": "Niza",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/niza velvet gris.jpg"
-    ]
-  },
-  {
-    "nombre": "Niza Velvet Teja",
-    "precio": 30,
-    "categoria": "Niza",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/niza velvet teja.jpg"
-    ]
-  },
-  {
-    "nombre": "Niza Velvet Mora",
-    "precio": 30,
-    "categoria": "Niza",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/niza velvet mora.jpg"
-    ]
-  },
-  {
-    "nombre": "Niza Velvet Topo",
-    "precio": 30,
-    "categoria": "Niza",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/niza velvet topo.jpg"
-    ]
-  },
-  {
-    "nombre": "Niza Velvet Mostaza",
-    "precio": 30,
-    "categoria": "Niza",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/niza velvet mostaza.jpg"
     ]
   },
   {
