@@ -221,7 +221,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver lazo dorado.jpg",
-      "fotos/vancouver lazo dorado 2.jpg"
+      "fotos/vancouver lazo dorado 2.jpg",
+      "fotos/vancouver dorado puesto 3.jpg"
     ]
   },
   {
@@ -316,6 +317,16 @@
     ]
   },
   {
+    "nombre": "Munich Dorado Metalizado",
+    "precio": 30,
+    "categoria": "Munich",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/munich dorado metalizado.jpg",
+      "fotos/munich dorado metalizado 2.jpg"
+    ]
+  },
+  {
     "nombre": "Niza Velvet Gris",
     "precio": 30,
     "categoria": "Niza",
@@ -407,6 +418,15 @@
     ]
   },
   {
+    "nombre": "Paris Gorro Beige",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris beige.jpg"
+    ]
+  },
+  {
     "nombre": "Bogota Largo",
     "precio": 15,
     "categoria": "Bogota",
@@ -440,6 +460,15 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/bogota amarillo.jpg"
+    ]
+  },
+  {
+    "nombre": "Bogota colores",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/bogota colores.jpg"
     ]
   },
   {
