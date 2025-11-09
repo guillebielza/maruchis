@@ -1,10 +1,21 @@
 [
   {
     "nombre": "MARUCHI´S",
-    "precio": 0,
-    "categoria": "Bogota",
+    "precio": 1,
+    "categoria": "Info",
     "tipo": "info",
-    "imagenes": []
+    "imagenes": [
+      "fotos/MARUCHIS 2.jpg"
+    ]
+  },
+  {
+    "nombre": "MARUCHI´S",
+    "precio": 1,
+    "categoria": "Info",
+    "tipo": "info",
+    "imagenes": [
+      "fotos/MARUCHIS 3.jpg"
+    ]
   },
   {
     "nombre": "Chicago Terciopelo Negro",
@@ -71,7 +82,9 @@
     "precio": 35,
     "categoria": "Chicago",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/chicago dorado metalizado.jpg"
+    ]
   },
   {
     "nombre": "Chicago Crochet Blanco Perla",
@@ -140,7 +153,17 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto negro fb.jpg"
+      "fotos/kioto negro fb.jpg",
+      "fotos/kioto negro puesto 1.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Morado",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto morado.jpg"
     ]
   },
   {
@@ -148,7 +171,9 @@
     "precio": 30,
     "categoria": "Kioto",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/kioto dorado metalizado.jpg"
+    ]
   },
   {
     "nombre": "San Francisco Cotton Azul",
@@ -176,8 +201,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf cotton vainilla.jpg",
-      "fotos/San Francisco vainilla.jpg"
+      "fotos/sf cotton vainilla.jpg"
     ]
   },
   {
@@ -251,7 +275,8 @@
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mini madrid verde fb.jpg"
+      "fotos/mini madrid verde fb.jpg",
+      "fotos/mini madrid verde.jpg"
     ]
   },
   {
@@ -298,6 +323,15 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca chocolate fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Huesca Cotton Burdeos",
+    "precio": 25,
+    "categoria": "Huesca",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/huesca burdeos 2.jpg"
     ]
   },
   {
@@ -387,7 +421,9 @@
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": []
+    "imagenes": [
+      "fotos/paris negro.jpg"
+    ]
   },
   {
     "nombre": "Paris Gorro Marron",
@@ -396,7 +432,8 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/gorro paris marrón.jpg",
-      "fotos/paris marron2.jpg"
+      "fotos/paris marron 2.jpg",
+      "fotos/paris marron 3.jpg"
     ]
   },
   {
@@ -415,6 +452,15 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/gorro paris naranja.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris Gorro Azul",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris azul.jpg"
     ]
   },
   {
