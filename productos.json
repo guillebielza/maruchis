@@ -1,5 +1,12 @@
 [
   {
+    "nombre": "MARUCHI´S",
+    "precio": 0,
+    "categoria": "Bogota",
+    "tipo": "info",
+    "imagenes": []
+  },
+  {
     "nombre": "Chicago Terciopelo Negro",
     "precio": 20,
     "categoria": "Chicago",
@@ -36,9 +43,8 @@
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/chicago bordado negro fb.jpg",
-      "fotos/chicago bordado negro.jpg",
-      "fotos/chicago negro bordado puesto.jpg"
+      "fotos/chicago bordado negro 2.jpg",
+      "fotos/chicago bordado negro fb.jpg"
     ]
   },
   {
@@ -65,9 +71,7 @@
     "precio": 35,
     "categoria": "Chicago",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/chicago dorado metalizado.jpg"
-    ]
+    "imagenes": []
   },
   {
     "nombre": "Chicago Crochet Blanco Perla",
@@ -138,6 +142,13 @@
     "imagenes": [
       "fotos/kioto negro fb.jpg"
     ]
+  },
+  {
+    "nombre": "Kioto Dorado Metalizado",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": []
   },
   {
     "nombre": "San Francisco Cotton Azul",
@@ -376,9 +387,7 @@
     "precio": 13,
     "categoria": "Paris",
     "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris negro.jpg"
-    ]
+    "imagenes": []
   },
   {
     "nombre": "Paris Gorro Marron",
@@ -424,6 +433,15 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/paris beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris colores.jpg"
     ]
   },
   {
