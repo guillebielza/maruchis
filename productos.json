@@ -158,6 +158,15 @@
     ]
   },
   {
+    "nombre": "Kioto Zebra.jpg",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Kioto zebra.jpg"
+    ]
+  },
+  {
     "nombre": "San Francisco Cotton Azul",
     "precio": 25,
     "categoria": "San Francisco",
