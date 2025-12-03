@@ -1,32 +1,5 @@
 [
   {
-    "nombre": "MARUCHI´S",
-    "precio": 2,
-    "categoria": "Info",
-    "tipo": "info",
-    "imagenes": [
-      "fotos/MARUCHIS 2.jpg"
-    ]
-  },
-  {
-    "nombre": "MARUCHI´S",
-    "precio": 2,
-    "categoria": "Info",
-    "tipo": "info",
-    "imagenes": [
-      "fotos/MARUCHIS 3.jpg"
-    ]
-  },
-  {
-    "nombre": "HANDMADE",
-    "precio": 2,
-    "categoria": "Info",
-    "tipo": "info",
-    "imagenes": [
-      "fotos/MARUCHIS 4.jpg"
-    ]
-  },
-  {
     "nombre": "Chicago Terciopelo Negro",
     "precio": 20,
     "categoria": "Chicago",
@@ -241,6 +214,15 @@
     ]
   },
   {
+    "nombre": "Vancouver Rafia Verde",
+    "precio": 25,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/vancouver rafia.jpg"
+    ]
+  },
+  {
     "nombre": "Vancouver Lazo Marron",
     "precio": 40,
     "categoria": "Vancouver",
@@ -250,12 +232,13 @@
     ]
   },
   {
-    "nombre": "Vancouver Rafia Verde",
+    "nombre": "Vancouver Vintage",
     "precio": 25,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouver rafia.jpg"
+      "fotos/Vancouver vintage.jpg",
+      "fotos/Vancouver vintage 2.jpg"
     ]
   },
   {
@@ -432,7 +415,7 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/paris negro.jpg"
+      "fotos/Paris gorro negrooo.jpg"
     ]
   },
   {
@@ -562,6 +545,60 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/3 granadas.jpg"
+    ]
+  },
+  {
+    "nombre": "Choker Milán",
+    "precio": 13,
+    "categoria": "Milan",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Choker milan.jpg"
+    ]
+  },
+  {
+    "nombre": "Choker Milán Dorado",
+    "precio": 13,
+    "categoria": "Milan",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Choker milan dorado.jpg"
+    ]
+  },
+  {
+    "nombre": "Choker Milán Gris Lentejuelas",
+    "precio": 13,
+    "categoria": "Milan",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Choker gris.jpg"
+    ]
+  },
+  {
+    "nombre": "Choker Milán Beige Metalizado",
+    "precio": 13,
+    "categoria": "Milan",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Choker beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Conjunto Paris y Milan",
+    "precio": 18,
+    "categoria": "Milan",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Paris y milan.jpg"
+    ]
+  },
+  {
+    "nombre": "Conjunto Paris y Milan",
+    "precio": 18,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/Paris y milan.jpg"
     ]
   }
 ]
