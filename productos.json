@@ -600,14 +600,5 @@
     "imagenes": [
       "fotos/Paris y milan.jpg"
     ]
-  },
-  {
-    "nombre": "Conjunto Paris y Milan",
-    "precio": 18,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/Paris y milan.jpg"
-    ]
   }
 ]
