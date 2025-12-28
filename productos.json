@@ -214,15 +214,6 @@
     ]
   },
   {
-    "nombre": "San Francisco Velvet Topo",
-    "precio": 25,
-    "categoria": "San Francisco",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/sf velvet topo.jpg"
-    ]
-  },
-  {
     "nombre": "Vancouver Rafia Verde",
     "precio": 25,
     "categoria": "Vancouver",
