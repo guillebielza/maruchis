@@ -232,13 +232,21 @@
     ]
   },
   {
-    "nombre": "Vancouver Vintage",
+    "nombre": "Vancouver Vintage Rosa",
     "precio": 25,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/Vancouver vintage.jpg",
-      "fotos/Vancouver vintage 2.jpg"
+      "fotos/vancouver vintage rosa.jpg"
+    ]
+  },
+  {
+    "nombre": "Vancouver Vintage Figuras",
+    "precio": 25,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/vancouver vintage figuras.jpg"
     ]
   },
   {
