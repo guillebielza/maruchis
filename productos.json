@@ -158,6 +158,24 @@
     ]
   },
   {
+    "nombre": "Kioto Japo Beige",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Kioto japo beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Japo Sombrillas",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Kioto japo sombrillas.jpg"
+    ]
+  },
+  {
     "nombre": "Kioto Zebra",
     "precio": 20,
     "categoria": "Kioto",
