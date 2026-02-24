@@ -185,6 +185,15 @@
     ]
   },
   {
+    "nombre": "San Francisco",
+    "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/sf playa.jpg"
+    ]
+  },
+  {
     "nombre": "San Francisco Cotton Azul",
     "precio": 25,
     "categoria": "San Francisco",
@@ -232,8 +241,17 @@
     ]
   },
   {
-    "nombre": "Vancouver Rafia Verde",
+    "nombre": "San Francisco Cotton Fucsia",
     "precio": 25,
+    "categoria": "San Francisco",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Sf fucsia.jpg"
+    ]
+  },
+  {
+    "nombre": "Vancouver Rafia Verde",
+    "precio": 20,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
@@ -247,6 +265,17 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver lazo marron.jpg"
+    ]
+  },
+  {
+    "nombre": "Vancouver Lazo Dorado",
+    "precio": 40,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/vancouver lazo dorado.jpg",
+      "fotos/vancouver lazo dorado 2.jpg",
+      "fotos/vancouver dorado puesto 3.jpg"
     ]
   },
   {
@@ -268,14 +297,12 @@
     ]
   },
   {
-    "nombre": "Vancouver Lazo Dorado",
-    "precio": 40,
+    "nombre": "Vancouver Velvet",
+    "precio": 30,
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouver lazo dorado.jpg",
-      "fotos/vancouver lazo dorado 2.jpg",
-      "fotos/vancouver dorado puesto 3.jpg"
+      "fotos/Vancouver velvet.jpg"
     ]
   },
   {
@@ -322,7 +349,8 @@
     "categoria": "Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/madrid crudo fb.jpg"
+      "fotos/madrid crudo fb.jpg",
+      "fotos/huesca cotton beige.jpg"
     ]
   },
   {
@@ -510,7 +538,7 @@
     ]
   },
   {
-    "nombre": "Bogota Largo",
+    "nombre": "Cuelgamovil Bogota ",
     "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
@@ -519,7 +547,7 @@
     ]
   },
   {
-    "nombre": "Bogota Largo",
+    "nombre": "Cuelgamovil Bogota ",
     "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
@@ -529,7 +557,7 @@
     ]
   },
   {
-    "nombre": "Bogota Largo",
+    "nombre": "Cuelgamovil Bogota ",
     "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
@@ -538,12 +566,21 @@
     ]
   },
   {
-    "nombre": "Bogota Largo",
+    "nombre": "Cuelgamovil Bogota ",
     "precio": 15,
     "categoria": "Bogota",
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/bogota amarillo.jpg"
+    ]
+  },
+  {
+    "nombre": "Cuelgamovil Bogota ",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/bogota marron jpg.jpg"
     ]
   },
   {
@@ -553,6 +590,36 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/bogota colores.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Bogota",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/collar bogota.jpg",
+      "fotos/collar bogota camel.jpg",
+      "fotos/collar bogota rojo.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Bogota",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/collar blanco bogota .jpg",
+      "fotos/collar bogota lima.jpg"
+    ]
+  },
+  {
+    "nombre": "Cuelgamovil Roma",
+    "precio": 6,
+    "categoria": "Roma",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/cuelgamovil roma 1.jpg"
     ]
   },
   {
@@ -579,33 +646,9 @@
     "categoria": "Milan",
     "tipo": "collar",
     "imagenes": [
-      "fotos/Choker milan.jpg"
-    ]
-  },
-  {
-    "nombre": "Choker Milán Dorado",
-    "precio": 13,
-    "categoria": "Milan",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/Choker milan dorado.jpg"
-    ]
-  },
-  {
-    "nombre": "Choker Milán Gris Lentejuelas",
-    "precio": 13,
-    "categoria": "Milan",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/Choker gris.jpg"
-    ]
-  },
-  {
-    "nombre": "Choker Milán Beige Metalizado",
-    "precio": 13,
-    "categoria": "Milan",
-    "tipo": "collar",
-    "imagenes": [
+      "fotos/Choker milan.jpg",
+      "fotos/Choker milan dorado.jpg",
+      "fotos/Choker gris.jpg",
       "fotos/Choker beige.jpg"
     ]
   },
