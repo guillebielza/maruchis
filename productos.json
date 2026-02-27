@@ -190,7 +190,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/Sf playa.jpg"
+      "fotos/sf playaa.jpg"
     ]
   },
   {
@@ -478,8 +478,8 @@
     "categoria": "Paris",
     "tipo": "gorros",
     "imagenes": [
-      "fotos/gorro paris marrón.jpg",
       "fotos/paris marron 2.jpg",
+      "fotos/gorro paris marrón.jpg",
       "fotos/paris marron 3.jpg"
     ]
   },
@@ -598,7 +598,7 @@
     "categoria": "Bogota",
     "tipo": "collar",
     "imagenes": [
-      "fotos/collar bogota.jpg",
+      "fotos/Collar Bogota.jpg",
       "fotos/Collar Bogota Camel.jpg",
       "fotos/collar bogota rojo.jpg"
     ]
@@ -623,7 +623,16 @@
     ]
   },
   {
-    "nombre": "Granada Collar",
+    "nombre": "Cuelgamovil Roma Largo",
+    "precio": 10,
+    "categoria": "Roma",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/cuelgamovil roma largo.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Granada",
     "precio": 12,
     "categoria": "Granada",
     "tipo": "collar",
@@ -632,12 +641,30 @@
     ]
   },
   {
-    "nombre": "Granada Collar",
+    "nombre": "Collar Granada",
     "precio": 12,
     "categoria": "Granada",
     "tipo": "collar",
     "imagenes": [
       "fotos/3 granadas.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Londres Verde",
+    "precio": 12,
+    "categoria": "Londres",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/collar londres verde.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Londres Marron",
+    "precio": 12,
+    "categoria": "Londres",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/collar londres marron.jpg"
     ]
   },
   {
