@@ -69,6 +69,15 @@
     ]
   },
   {
+    "nombre": "Chicago Dorado Metalizado",
+    "precio": 35,
+    "categoria": "Chicago",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/chicago dorado meta 2.jpg"
+    ]
+  },
+  {
     "nombre": "Chicago Crochet Blanco Perla",
     "precio": 25,
     "categoria": "Chicago",
@@ -135,8 +144,8 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/kioto negro fb.jpg",
-      "fotos/kioto negro puesto 1.jpg"
+      "fotos/kioto negro puesto 1.jpg",
+      "fotos/kioto negro fb.jpg"
     ]
   },
   {
@@ -209,8 +218,8 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/sf cotton camel.jpg",
-      "fotos/sf camel 2.jpg"
+      "fotos/sf camel 2.jpg",
+      "fotos/sf cotton camel.jpg"
     ]
   },
   {
@@ -320,9 +329,9 @@
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mini madrid verde fb.jpg",
+      "fotos/mini madrid verde 3.jpg",
       "fotos/mini madrid verde.jpg",
-      "fotos/mini madrid verde 3.jpg"
+      "fotos/mini madrid verde fb.jpg"
     ]
   },
   {
@@ -359,8 +368,8 @@
     "categoria": "Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/madrid chocolate fb.jpg",
-      "fotos/madrid chocolate 2.jpg"
+      "fotos/madrid chocolate 2.jpg",
+      "fotos/madrid chocolate fb.jpg"
     ]
   },
   {
@@ -677,6 +686,17 @@
       "fotos/Choker milan dorado.jpg",
       "fotos/Choker gris.jpg",
       "fotos/Choker beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Choker Flor",
+    "precio": 9,
+    "categoria": "Flor",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/choker flor.jpg",
+      "fotos/choker flor 2.jpg",
+      "fotos/choker flor 3.jpg"
     ]
   },
   {
