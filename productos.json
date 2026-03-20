@@ -483,6 +483,43 @@
     ]
   },
   {
+    "nombre": "Pendientes Río Blanco",
+    "precio": 11,
+    "categoria": "Río",
+    "tipo": "pendientes",
+    "imagenes": [
+      "fotos/rio blanco.jpg",
+      "fotos/3.jpg"
+    ]
+  },
+  {
+    "nombre": "Pendientes Río Verdes",
+    "precio": 11,
+    "categoria": "Río",
+    "tipo": "pendientes",
+    "imagenes": [
+      "fotos/2.jpg"
+    ]
+  },
+  {
+    "nombre": "Pendientes Río Marrones",
+    "precio": 11,
+    "categoria": "Río",
+    "tipo": "pendientes",
+    "imagenes": [
+      "fotos/4.jpg"
+    ]
+  },
+  {
+    "nombre": "Pendientes Río Rojo",
+    "precio": 11,
+    "categoria": "Río",
+    "tipo": "pendientes",
+    "imagenes": [
+      "fotos/1.jpg"
+    ]
+  },
+  {
     "nombre": "Paris Gorro Negro",
     "precio": 13,
     "categoria": "Paris",
@@ -612,14 +649,39 @@
     ]
   },
   {
-    "nombre": "Collar Bogota",
+    "nombre": "Collar Bogota Amarillo",
     "precio": 15,
     "categoria": "Bogota",
     "tipo": "collar",
     "imagenes": [
-      "fotos/Collar Bogota.jpg",
-      "fotos/Collar Bogota Camel.jpg",
+      "fotos/Collar Bogota.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Bogota Camel",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Collar Bogota Camel.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Bogota Rojo",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "collar",
+    "imagenes": [
       "fotos/collar bogota rojo.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar Bogota Lima",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Collar Bogota Lima.jpg"
     ]
   },
   {
@@ -628,8 +690,7 @@
     "categoria": "Bogota",
     "tipo": "collar",
     "imagenes": [
-      "fotos/Collar Bogota blanco.jpg",
-      "fotos/Collar Bogota Lima.jpg"
+      "fotos/Collar Bogota blanco.jpg"
     ]
   },
   {
@@ -669,6 +730,42 @@
     ]
   },
   {
+    "nombre": "Conjunto Roma Rosa",
+    "precio": 16,
+    "categoria": "Roma",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/roma rosa.jpg"
+    ]
+  },
+  {
+    "nombre": "Conjunto Roma Verde",
+    "precio": 16,
+    "categoria": "Roma",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/roma verde.jpg"
+    ]
+  },
+  {
+    "nombre": "Conjunto Roma Turquesa",
+    "precio": 16,
+    "categoria": "Roma",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/roma turquesa.jpg"
+    ]
+  },
+  {
+    "nombre": "Conjunto Roma Anarillo",
+    "precio": 16,
+    "categoria": "Roma",
+    "tipo": "cuelgamovil",
+    "imagenes": [
+      "fotos/roma amarillo.jpg"
+    ]
+  },
+  {
     "nombre": "Collar Granada",
     "precio": 12,
     "categoria": "Granada",
@@ -687,33 +784,6 @@
     ]
   },
   {
-    "nombre": "Collar Londres Verde",
-    "precio": 11,
-    "categoria": "Londres",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/collar londres verde.jpg"
-    ]
-  },
-  {
-    "nombre": "Collar Londres Marron",
-    "precio": 11,
-    "categoria": "Londres",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/collar londres marron.jpg"
-    ]
-  },
-  {
-    "nombre": "Collar Londres Rojo",
-    "precio": 11,
-    "categoria": "Londres",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/londres rojo.jpg"
-    ]
-  },
-  {
     "nombre": "Choker Milán",
     "precio": 13,
     "categoria": "Milan",
@@ -727,7 +797,7 @@
   },
   {
     "nombre": "Choker y Pulsera Milan",
-    "precio": 18,
+    "precio": 20,
     "categoria": "Milan",
     "tipo": "collar",
     "imagenes": [
@@ -747,7 +817,7 @@
   },
   {
     "nombre": "Conjunto Paris y Milan",
-    "precio": 18,
+    "precio": 20,
     "categoria": "Milan",
     "tipo": "collar",
     "imagenes": [
