@@ -298,6 +298,15 @@
     ]
   },
   {
+    "nombre": "Vancouver Lazo Negro",
+    "precio": 40,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/vancouver lazo negro k.jpg"
+    ]
+  },
+  {
     "nombre": "Vancouver Vintage Rosa",
     "precio": 25,
     "categoria": "Vancouver",
@@ -339,7 +348,7 @@
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/mini madrid verde 3.jpg",
+      "fotos/mini madrid k.jpg",
       "fotos/mini madrid verde.jpg",
       "fotos/mini madrid verde fb.jpg"
     ]
@@ -380,6 +389,24 @@
     "imagenes": [
       "fotos/madrid chocolate 2.jpg",
       "fotos/madrid choco k.jpg"
+    ]
+  },
+  {
+    "nombre": "Huesca Cotton Beige",
+    "precio": 25,
+    "categoria": "Huesca",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/huesca beige k.jpg"
+    ]
+  },
+  {
+    "nombre": "Huesca Cotton Verde",
+    "precio": 25,
+    "categoria": "Huesca",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/huesca verde k.jpg"
     ]
   },
   {
@@ -520,15 +547,6 @@
     ]
   },
   {
-    "nombre": "Paris Gorro Negro",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/Paris gorro negrooo.jpg"
-    ]
-  },
-  {
     "nombre": "Paris Gorro Marron",
     "precio": 13,
     "categoria": "Paris",
@@ -649,15 +667,6 @@
     ]
   },
   {
-    "nombre": "Collar Bogota Amarillo",
-    "precio": 15,
-    "categoria": "Bogota",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/Collar Bogota.jpg"
-    ]
-  },
-  {
     "nombre": "Collar Bogota Camel",
     "precio": 15,
     "categoria": "Bogota",
@@ -682,6 +691,15 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/collar bogota lima k.jpg"
+    ]
+  },
+  {
+    "nombre": "Coolar Bogota Azul",
+    "precio": 15,
+    "categoria": "Bogota",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/collar bogota azul k.jpg"
     ]
   },
   {
@@ -822,6 +840,15 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/Paris y milan.jpg"
+    ]
+  },
+  {
+    "nombre": "Bandana Venecia",
+    "precio": 15,
+    "categoria": "Venecia",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/venecia azul k.jpg"
     ]
   }
 ]
