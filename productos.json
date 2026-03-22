@@ -538,6 +538,15 @@
     ]
   },
   {
+    "nombre": "Pendientes Río Mar ",
+    "precio": 11,
+    "categoria": "Río",
+    "tipo": "pendientes",
+    "imagenes": [
+      "fotos/rio mar k .jpg"
+    ]
+  },
+  {
     "nombre": "Pendientes Río Rojo",
     "precio": 11,
     "categoria": "Río",
