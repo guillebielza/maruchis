@@ -612,52 +612,6 @@
     ]
   },
   {
-    "nombre": "Cuelgamovil Bogota ",
-    "precio": 15,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
-    "imagenes": [
-      "fotos/bogota 1.jpg"
-    ]
-  },
-  {
-    "nombre": "Cuelgamovil Bogota ",
-    "precio": 15,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
-    "imagenes": [
-      "fotos/bogota verde.jpg",
-      "fotos/bogota verde 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Cuelgamovil Bogota ",
-    "precio": 15,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
-    "imagenes": [
-      "fotos/bogota rojo.jpg"
-    ]
-  },
-  {
-    "nombre": "Cuelgamovil Bogota ",
-    "precio": 15,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
-    "imagenes": [
-      "fotos/bogota amarillo.jpg"
-    ]
-  },
-  {
-    "nombre": "Cuelgamovil Bogota ",
-    "precio": 15,
-    "categoria": "Bogota",
-    "tipo": "cuelgamovil",
-    "imagenes": [
-      "fotos/Bogotá Marron.jpg"
-    ]
-  },
-  {
     "nombre": "Bogota colores",
     "precio": 15,
     "categoria": "Bogota",
@@ -694,7 +648,7 @@
     ]
   },
   {
-    "nombre": "Coolar Bogota Azul",
+    "nombre": "Collar Bogota Azul",
     "precio": 15,
     "categoria": "Bogota",
     "tipo": "collar",
@@ -744,7 +698,7 @@
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/cuelga verano largo.jpg"
+      "fotos/cuelga roma verano k.jpg"
     ]
   },
   {
@@ -753,7 +707,7 @@
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/roma rosa.jpg"
+      "fotos/conjunto roma rosa k.jpg"
     ]
   },
   {
@@ -762,7 +716,7 @@
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/roma verde.jpg"
+      "fotos/conjunto roma verde k.jpg"
     ]
   },
   {
@@ -771,7 +725,7 @@
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/roma turquesa.jpg"
+      "fotos/conjunto roma terqueas k.jpg"
     ]
   },
   {
@@ -780,7 +734,7 @@
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
-      "fotos/roma amarillo.jpg"
+      "fotos/conjunto roma amarillo k.jpg"
     ]
   },
   {
@@ -831,15 +785,6 @@
       "fotos/flor k.jpg",
       "fotos/flor 2 k.jpg",
       "fotos/choker flor 3.jpg"
-    ]
-  },
-  {
-    "nombre": "Conjunto Paris y Milan",
-    "precio": 20,
-    "categoria": "Milan",
-    "tipo": "collar",
-    "imagenes": [
-      "fotos/Paris y milan.jpg"
     ]
   },
   {
