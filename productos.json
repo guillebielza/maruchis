@@ -204,6 +204,15 @@
     ]
   },
   {
+    "nombre": "Tenerife Naranja Bordado",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife naranja k.jpg"
+    ]
+  },
+  {
     "nombre": "San Francisco",
     "precio": 25,
     "categoria": "San Francisco",
