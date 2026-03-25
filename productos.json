@@ -47,15 +47,6 @@
     ]
   },
   {
-    "nombre": "Paris Gorro Beige",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris beige.jpg"
-    ]
-  },
-  {
     "nombre": "Paris",
     "precio": 13,
     "categoria": "Paris",
@@ -167,7 +158,7 @@
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/tenerife naranja k.jpg"
+      "fotos/tenerife naranja ok.jpg"
     ]
   },
   {
@@ -185,7 +176,7 @@
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/tenerife rayas j.jpg"
+      "fotos/tenerife rayas k.jpg"
     ]
   },
   {
@@ -194,7 +185,7 @@
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/Tenerife vintage k.jpg"
+      "fotos/tenerife vintage k.jpg"
     ]
   },
   {
