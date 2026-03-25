@@ -152,6 +152,52 @@
     ]
   },
   {
+    "nombre": "Tenerife Pana",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife pana k.jpg",
+      "fotos/tenerife pana 2.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Naranja Bordado",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife naranja k.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Flores",
+    "precio": 25,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife verano k.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Rayas",
+    "precio": 25,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife rayas j.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Vintage",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Tenerife vintage k.jpg"
+    ]
+  },
+  {
     "nombre": "Kioto Dorado",
     "precio": 30,
     "categoria": "Kioto",
@@ -256,34 +302,6 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Kioto zebra.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Pana",
-    "precio": 28,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife pana k.jpg",
-      "fotos/tenerife pana 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Naranja Bordado",
-    "precio": 28,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife naranja k.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Flores",
-    "precio": 25,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife verano k.jpg"
     ]
   },
   {
@@ -394,7 +412,9 @@
     "precio": 25,
     "categoria": "Vancouver",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/vancouver vintage rosa k.jpg"
+    ]
   },
   {
     "nombre": "Vancouver Vintage Figuras",
@@ -592,7 +612,7 @@
   },
   {
     "nombre": "Pendientes Río Blanco",
-    "precio": 11,
+    "precio": 9,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -602,7 +622,7 @@
   },
   {
     "nombre": "Pendientes Río Verdes",
-    "precio": 11,
+    "precio": 9,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -611,7 +631,7 @@
   },
   {
     "nombre": "Pendientes Río Marrones",
-    "precio": 11,
+    "precio": 9,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -620,7 +640,7 @@
   },
   {
     "nombre": "Pendientes Río Mar ",
-    "precio": 11,
+    "precio": 9,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -629,7 +649,7 @@
   },
   {
     "nombre": "Pendientes Río Rojo",
-    "precio": 11,
+    "precio": 9,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
