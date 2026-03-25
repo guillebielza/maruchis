@@ -1,5 +1,70 @@
 [
   {
+    "nombre": "Paris Gorro Marron",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris marron k.jpg",
+      "fotos/gorro paris marrón.jpg",
+      "fotos/paris marron 3.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris Gorro Crudo",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris blanco k.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris Gorro Naranja",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris naranja k.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris Gorro Azul",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris azul k.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris Gorro Lila",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris lila k.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris Gorro Beige",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Paris",
+    "precio": 13,
+    "categoria": "Paris",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/paris colores.jpg"
+    ]
+  },
+  {
     "nombre": "Chicago Terciopelo Negro",
     "precio": 20,
     "categoria": "Chicago",
@@ -213,6 +278,15 @@
     ]
   },
   {
+    "nombre": "Tenerife Flores",
+    "precio": 25,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife verano k.jpg"
+    ]
+  },
+  {
     "nombre": "San Francisco",
     "precio": 25,
     "categoria": "San Francisco",
@@ -320,9 +394,7 @@
     "precio": 25,
     "categoria": "Vancouver",
     "tipo": "bolsos",
-    "imagenes": [
-      "fotos/vancouver vintage rosa.jpg"
-    ]
+    "imagenes": []
   },
   {
     "nombre": "Vancouver Vintage Figuras",
@@ -330,7 +402,7 @@
     "categoria": "Vancouver",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/vancouver vintage figuras.jpg"
+      "fotos/vancouver vintage f k.jpg"
     ]
   },
   {
@@ -562,71 +634,6 @@
     "tipo": "pendientes",
     "imagenes": [
       "fotos/rio rojo k .jpg"
-    ]
-  },
-  {
-    "nombre": "Paris Gorro Marron",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris marron k.jpg",
-      "fotos/gorro paris marrón.jpg",
-      "fotos/paris marron 3.jpg"
-    ]
-  },
-  {
-    "nombre": "Paris Gorro Crudo",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris blanco k.jpg"
-    ]
-  },
-  {
-    "nombre": "Paris Gorro Naranja",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris naranja k.jpg"
-    ]
-  },
-  {
-    "nombre": "Paris Gorro Azul",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris azul k.jpg"
-    ]
-  },
-  {
-    "nombre": "Paris Gorro Lila",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris lila k.jpg"
-    ]
-  },
-  {
-    "nombre": "Paris Gorro Beige",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris beige.jpg"
-    ]
-  },
-  {
-    "nombre": "Paris",
-    "precio": 13,
-    "categoria": "Paris",
-    "tipo": "gorros",
-    "imagenes": [
-      "fotos/paris colores.jpg"
     ]
   },
   {
