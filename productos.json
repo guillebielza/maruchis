@@ -703,7 +703,7 @@
   },
   {
     "nombre": "Cuelgamovil Roma",
-    "precio": 6,
+    "precio": 5,
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -721,7 +721,7 @@
   },
   {
     "nombre": "Cuelgamovil Roma",
-    "precio": 6,
+    "precio": 5,
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -730,7 +730,7 @@
   },
   {
     "nombre": "Cuelgamovil Roma Largo",
-    "precio": 10,
+    "precio": 8,
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -739,7 +739,7 @@
   },
   {
     "nombre": "Conjunto Roma Rosa",
-    "precio": 16,
+    "precio": 13,
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -748,7 +748,7 @@
   },
   {
     "nombre": "Conjunto Roma Verde",
-    "precio": 16,
+    "precio": 13,
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -757,7 +757,7 @@
   },
   {
     "nombre": "Conjunto Roma Turquesa",
-    "precio": 16,
+    "precio": 13,
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
@@ -765,8 +765,8 @@
     ]
   },
   {
-    "nombre": "Conjunto Roma Anarillo",
-    "precio": 16,
+    "nombre": "Conjunto Roma Amarillo",
+    "precio": 13,
     "categoria": "Roma",
     "tipo": "cuelgamovil",
     "imagenes": [
