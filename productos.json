@@ -1,5 +1,185 @@
 [
   {
+    "nombre": "Tenerife Pana",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife pana k.jpg",
+      "fotos/tenerife pana 2.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Naranja Bordado",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife naranja ok.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Marrón Bordado",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife bordado marron.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Tie Die",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife tie die.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Primavera",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife primavera.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Flores",
+    "precio": 25,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife verano k.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Rayas",
+    "precio": 25,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife rayas k.jpg"
+    ]
+  },
+  {
+    "nombre": "Tenerife Vintage",
+    "precio": 28,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife vintage k.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Dorado",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto dorado k.jpg",
+      "fotos/kiotos.jpg",
+      "fotos/kioto dorado.jpg",
+      "fotos/kioto dorado 3.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Plateado",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto plateado k.jpg",
+      "fotos/kiotos.jpg",
+      "fotos/kioto plateado 2.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Rosa Palo",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto rosa palo fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Verde Claro",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto verde claro k.jpg",
+      "fotos/kiotos.jpg",
+      "fotos/kioto verde claro 2.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Burdeos",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto burdeos fb.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Negro",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto negro k.jpg",
+      "fotos/kioto negro k.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Morado",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto morado.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Dorado Metalizado",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto brillante k.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Japo Beige",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Kioto japo beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Japo Sombrillas",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Kioto japo sombrillas.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Zebra",
+    "precio": 25,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Kioto zebra.jpg"
+    ]
+  },
+  {
     "nombre": "Paris Gorro Marron",
     "precio": 13,
     "categoria": "Paris",
@@ -140,159 +320,6 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/chicago blanco k.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Pana",
-    "precio": 28,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife pana k.jpg",
-      "fotos/tenerife pana 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Naranja Bordado",
-    "precio": 28,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife naranja ok.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Flores",
-    "precio": 25,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife verano k.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Rayas",
-    "precio": 25,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife rayas k.jpg"
-    ]
-  },
-  {
-    "nombre": "Tenerife Vintage",
-    "precio": 28,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife vintage k.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Dorado",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto dorado k.jpg",
-      "fotos/kiotos.jpg",
-      "fotos/kioto dorado.jpg",
-      "fotos/kioto dorado 3.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Plateado",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto plateado k.jpg",
-      "fotos/kiotos.jpg",
-      "fotos/kioto plateado 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Rosa Palo",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto rosa palo fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Verde Claro",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto verde claro k.jpg",
-      "fotos/kiotos.jpg",
-      "fotos/kioto verde claro 2.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Burdeos",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto burdeos fb.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Negro",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto negro k.jpg",
-      "fotos/kioto negro k.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Morado",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto morado.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Dorado Metalizado",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto brillante k.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Japo Beige",
-    "precio": 25,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/Kioto japo beige.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Japo Sombrillas",
-    "precio": 25,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/Kioto japo sombrillas.jpg"
-    ]
-  },
-  {
-    "nombre": "Kioto Zebra",
-    "precio": 25,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/Kioto zebra.jpg"
     ]
   },
   {
@@ -552,8 +579,7 @@
     "categoria": "Munich",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/munich dorado metalizado.jpg",
-      "fotos/munich dorado metalizado 2.jpg"
+      "fotos/munich doradoo brillante.jpg"
     ]
   },
   {
