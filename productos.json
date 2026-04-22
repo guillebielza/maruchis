@@ -1,7 +1,7 @@
 [
   {
     "nombre": "Tenerife Pana",
-    "precio": 28,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -11,7 +11,7 @@
   },
   {
     "nombre": "Tenerife Naranja Bordado",
-    "precio": 28,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -20,7 +20,7 @@
   },
   {
     "nombre": "Tenerife Marrón Bordado",
-    "precio": 28,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -29,7 +29,7 @@
   },
   {
     "nombre": "Tenerife Tie Die",
-    "precio": 28,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -38,7 +38,7 @@
   },
   {
     "nombre": "Tenerife Primavera",
-    "precio": 28,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -47,7 +47,7 @@
   },
   {
     "nombre": "Tenerife Flores",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -56,7 +56,7 @@
   },
   {
     "nombre": "Tenerife Rayas",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -65,7 +65,7 @@
   },
   {
     "nombre": "Tenerife Vintage",
-    "precio": 28,
+    "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
@@ -278,7 +278,7 @@
   },
   {
     "nombre": "Chicago Crochet Dorado",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -288,7 +288,7 @@
   },
   {
     "nombre": "Chicago Crochet Azul",
-    "precio": 25,
+    "precio": 20,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -315,7 +315,7 @@
   },
   {
     "nombre": "Chicago Crochet Blanco Perla",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Chicago",
     "tipo": "bolsos",
     "imagenes": [
@@ -324,7 +324,7 @@
   },
   {
     "nombre": "San Francisco",
-    "precio": 25,
+    "precio": 28,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -333,7 +333,7 @@
   },
   {
     "nombre": "San Francisco Cotton Azul",
-    "precio": 25,
+    "precio": 28,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -343,7 +343,7 @@
   },
   {
     "nombre": "San Francisco Cotton Camel",
-    "precio": 25,
+    "precio": 28,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -353,7 +353,7 @@
   },
   {
     "nombre": "San Francisco Cotton Vainilla",
-    "precio": 25,
+    "precio": 28,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -362,7 +362,7 @@
   },
   {
     "nombre": "San Francisco Cotton Burdeos",
-    "precio": 25,
+    "precio": 28,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -371,7 +371,7 @@
   },
   {
     "nombre": "San Francisco Cotton Negro",
-    "precio": 25,
+    "precio": 28,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -380,7 +380,7 @@
   },
   {
     "nombre": "San Francisco Cotton Fucsia",
-    "precio": 25,
+    "precio": 28,
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
@@ -454,7 +454,7 @@
   },
   {
     "nombre": "Mini Madrid Cotton Burdeos",
-    "precio": 20,
+    "precio": 22,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -463,7 +463,7 @@
   },
   {
     "nombre": "Mini Madrid Cotton Verde",
-    "precio": 20,
+    "precio": 22,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -474,7 +474,7 @@
   },
   {
     "nombre": "Mini Madrid Cotton Fucsia",
-    "precio": 20,
+    "precio": 22,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -483,7 +483,7 @@
   },
   {
     "nombre": "Mini Madrid Cotton Crudo",
-    "precio": 20,
+    "precio": 22,
     "categoria": "Mini Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -492,7 +492,7 @@
   },
   {
     "nombre": "Madrid Cotton Crudo",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -502,7 +502,7 @@
   },
   {
     "nombre": "Madrid Cotton Chocolate",
-    "precio": 25,
+    "precio": 30,
     "categoria": "Madrid",
     "tipo": "bolsos",
     "imagenes": [
@@ -629,7 +629,7 @@
   },
   {
     "nombre": "Pendientes Río Blanco",
-    "precio": 9,
+    "precio": 12,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -639,7 +639,7 @@
   },
   {
     "nombre": "Pendientes Río Verdes",
-    "precio": 9,
+    "precio": 12,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -648,7 +648,7 @@
   },
   {
     "nombre": "Pendientes Río Marrones",
-    "precio": 9,
+    "precio": 12,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -657,7 +657,7 @@
   },
   {
     "nombre": "Pendientes Río Mar ",
-    "precio": 9,
+    "precio": 12,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
@@ -666,7 +666,7 @@
   },
   {
     "nombre": "Pendientes Río Rojo",
-    "precio": 9,
+    "precio": 12,
     "categoria": "Río",
     "tipo": "pendientes",
     "imagenes": [
