@@ -55,6 +55,15 @@
     ]
   },
   {
+    "nombre": "Pontevedra Negro",
+    "precio": 38,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/pontevedra negro.jpg"
+    ]
+  },
+  {
     "nombre": "Kioto Dorado",
     "precio": 30,
     "categoria": "Kioto",
