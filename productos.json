@@ -55,12 +55,30 @@
     ]
   },
   {
+    "nombre": "Tenerife Lentejuelas Plateado",
+    "precio": 25,
+    "categoria": "Tenerife",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Tenerife lentejuelas plateado.jpg"
+    ]
+  },
+  {
     "nombre": "Pontevedra Negro",
     "precio": 38,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
     "imagenes": [
       "fotos/pontevedra negro.jpg"
+    ]
+  },
+  {
+    "nombre": "Pontevedra Beige",
+    "precio": 38,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/pontevedra beige.jpg"
     ]
   },
   {
@@ -376,6 +394,15 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Sf fucsia.jpg"
+    ]
+  },
+  {
+    "nombre": "Vancouver Icon",
+    "precio": 45,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/vancouver icon.jpg"
     ]
   },
   {
