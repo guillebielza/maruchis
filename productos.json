@@ -1,12 +1,11 @@
 [
   {
-    "nombre": "Tenerife Pana",
+    "nombre": "Tenerife Primavera",
     "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/tenerife pana k.jpg",
-      "fotos/tenerife pana 2.jpg"
+      "fotos/tenerife primavera.jpg"
     ]
   },
   {
@@ -28,12 +27,13 @@
     ]
   },
   {
-    "nombre": "Tenerife Primavera",
+    "nombre": "Tenerife Pana",
     "precio": 30,
     "categoria": "Tenerife",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/tenerife primavera.jpg"
+      "fotos/tenerife pana k.jpg",
+      "fotos/tenerife pana 2.jpg"
     ]
   },
   {
@@ -79,6 +79,15 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/pontevedra beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Dorado Lux",
+    "precio": 35,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Kioto Dorado lux.jpg"
     ]
   },
   {
@@ -393,7 +402,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/Sf fucsia.jpg"
+      "fotos/San Fran fucsia.jpg"
     ]
   },
   {
@@ -610,24 +619,6 @@
     ]
   },
   {
-    "nombre": "Niza Velvet Teja",
-    "precio": 30,
-    "categoria": "Niza",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/niza velvet teja.jpg"
-    ]
-  },
-  {
-    "nombre": "Niza Velvet Mora",
-    "precio": 30,
-    "categoria": "Niza",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/niza velvet mora.jpg"
-    ]
-  },
-  {
     "nombre": "Niza Velvet Topo",
     "precio": 30,
     "categoria": "Niza",
@@ -697,7 +688,7 @@
     "categoria": "Bogota",
     "tipo": "collar",
     "imagenes": [
-      "fotos/bogota colores.jpg"
+      "fotos/Bogota colores.jpg"
     ]
   },
   {
