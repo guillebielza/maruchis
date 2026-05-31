@@ -80,6 +80,18 @@ def convert_and_save_image(input_path, output_path, target_size=(600, 800)):
         print(f"Error convirtiendo {input_path}: {e}")
 
 
+# Convierte el valor de la celda "stock" en un entero >= 0.
+# Devuelve None si la columna no existe o la celda está vacía / no es un número
+# (en ese caso la web trata el producto como disponible).
+def parse_stock(row):
+    valor = row.get("stock")
+    if valor is None or pd.isna(valor):
+        return None
+    try:
+        return max(0, int(float(valor)))
+    except (ValueError, TypeError):
+        return None
+
 # Procesar Excel y generar productos.json
 def generar_json_desde_excel(ruta_excel, carpeta_fotos, ruta_json):
     df = pd.read_excel(ruta_excel)
@@ -91,13 +103,18 @@ def generar_json_desde_excel(ruta_excel, carpeta_fotos, ruta_json):
             for col in df.columns
             if col.startswith("imagen") and pd.notna(row[col])
         ]
-        productos.append({
+        producto = {
             "nombre": row["nombre"],
             "precio": row["precio"],
             "categoria": row["categoría"],
             "tipo": row["tipo"],
             "imagenes": imagenes
-        })
+        }
+        # Stock opcional: solo se añade si la columna existe y hay un número
+        stock = parse_stock(row)
+        if stock is not None:
+            producto["stock"] = stock
+        productos.append(producto)
 
     with open(ruta_json, "w", encoding="utf-8") as f:
         json.dump(productos, f, indent=2, ensure_ascii=False)
