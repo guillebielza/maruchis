@@ -6,8 +6,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/tenerife primavera.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Tenerife Marrón Bordado",
@@ -16,8 +15,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/tenerife bordado marron.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Tenerife Tie Dye",
@@ -26,8 +24,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/tenerife tie die.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Tenerife Pana",
@@ -37,8 +34,7 @@
     "imagenes": [
       "fotos/tenerife pana k.jpg",
       "fotos/tenerife pana 2.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Tenerife Flores",
@@ -47,8 +43,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/tenerife verano k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Tenerife Vintage",
@@ -57,8 +52,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/tenerife vintage k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Tenerife Lentejuelas Plateado",
@@ -67,8 +61,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Tenerife lentejuelas plateado.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Pontevedra Negro",
@@ -77,8 +70,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/pontevedra negro.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Pontevedra Beige",
@@ -87,8 +79,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/pontevedra beige.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Dorado Lux",
@@ -97,8 +88,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Kioto Dorado lux.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Dorado",
@@ -110,8 +100,7 @@
       "fotos/kiotos.jpg",
       "fotos/kioto dorado.jpg",
       "fotos/kioto dorado 3.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Plateado",
@@ -122,8 +111,7 @@
       "fotos/kioto plateado k.jpg",
       "fotos/kiotos.jpg",
       "fotos/kioto plateado 2.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Rosa Palo",
@@ -132,8 +120,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/kioto rosa palo fb.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Verde Claro",
@@ -144,8 +131,7 @@
       "fotos/kioto verde claro k.jpg",
       "fotos/kiotos.jpg",
       "fotos/kioto verde claro 2.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Burdeos",
@@ -154,8 +140,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/kioto burdeos fb.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Negro",
@@ -165,8 +150,7 @@
     "imagenes": [
       "fotos/kioto negro k.jpg",
       "fotos/kioto negro k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Morado",
@@ -175,8 +159,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/kioto morado.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Dorado Metalizado",
@@ -185,8 +168,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/kioto brillante k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Japo Beige",
@@ -195,8 +177,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Kioto japo beige.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Japo Sombrillas",
@@ -205,8 +186,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Kioto japo sombrillas.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Kioto Zebra",
@@ -215,8 +195,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Kioto zebra.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Paris Gorro Marron",
@@ -227,8 +206,7 @@
       "fotos/paris marron k.jpg",
       "fotos/gorro paris marrón.jpg",
       "fotos/paris marron 3.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Paris Gorro Crudo",
@@ -237,8 +215,7 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/paris blanco k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Paris Gorro Naranja",
@@ -247,8 +224,7 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/paris naranja k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Paris Gorro Azul",
@@ -257,8 +233,7 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/paris azul k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Paris Gorro Lila",
@@ -267,8 +242,7 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/paris lila k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Paris",
@@ -277,8 +251,7 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/paris colores.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Terciopelo Negro",
@@ -289,8 +262,7 @@
       "fotos/chicago terciopelo k.jpg",
       "fotos/chicago terciopelo negro.jpg",
       "fotos/chicago terciopelo negro 2.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Blanco Cocodrilo",
@@ -300,8 +272,7 @@
     "imagenes": [
       "fotos/chicago blanco cocodrilo k .jpg",
       "fotos/chicago blanco cocodrilo.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Naranja",
@@ -311,8 +282,7 @@
     "imagenes": [
       "fotos/chicago naranja k.jpg",
       "fotos/chicago naranja.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Bordado Negro",
@@ -322,8 +292,7 @@
     "imagenes": [
       "fotos/chicago bordado k.jpg",
       "fotos/chicago bordado negro fb.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Crochet Dorado",
@@ -333,8 +302,7 @@
     "imagenes": [
       "fotos/chicago crochet fb.jpg",
       "fotos/chicago crochet dorado 1.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Crochet Azul",
@@ -343,8 +311,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/chicago crochet azul 1.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Dorado Metalizado",
@@ -353,8 +320,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/chicago dorado meta.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Dorado Metalizado",
@@ -363,8 +329,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/chicago brillante k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Chicago Crochet Blanco Perla",
@@ -373,8 +338,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/chicago blanco k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "San Francisco",
@@ -383,8 +347,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/sf playa k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "San Francisco Cotton Azul",
@@ -394,8 +357,7 @@
     "imagenes": [
       "fotos/sf cotton azul.jpg",
       "fotos/sf azul puesto.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "San Francisco Cotton Camel",
@@ -405,8 +367,7 @@
     "imagenes": [
       "fotos/bolso sf camel k.jpg",
       "fotos/sf camel k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "San Francisco Cotton Vainilla",
@@ -415,8 +376,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/sf cotton vainilla.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "San Francisco Cotton Burdeos",
@@ -425,8 +385,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/sf rojo k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "San Francisco Cotton Negro",
@@ -435,8 +394,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/sf cotton negro.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "San Francisco Cotton Fucsia",
@@ -445,8 +403,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/San Fran fucsia.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Lux",
@@ -455,8 +412,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver icon.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Rafia Verde",
@@ -465,8 +421,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver rafia.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Lazo Marron",
@@ -475,8 +430,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver lazo marron.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Lazo Dorado",
@@ -487,8 +441,7 @@
       "fotos/vancouver lazo dorado kk.jpg",
       "fotos/vancouver lazo dorado 2.jpg",
       "fotos/vancouver dorado puesto 3.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Lazo Negro",
@@ -497,8 +450,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver lazo negro k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Vintage Rosa",
@@ -507,8 +459,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver vintage rosa k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Vintage Figuras",
@@ -517,8 +468,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver vintage f k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Vancouver Velvet",
@@ -527,8 +477,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver velvet k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Mini Madrid Cotton Burdeos",
@@ -537,8 +486,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/mini madrid cotton burdeos.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Mini Madrid Cotton Verde",
@@ -549,8 +497,7 @@
       "fotos/mini madrid k.jpg",
       "fotos/mini madrid verde.jpg",
       "fotos/mini madrid verde fb.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Mini Madrid Cotton Fucsia",
@@ -559,8 +506,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/mini madrid fucsia fb.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Mini Madrid Cotton Crudo",
@@ -569,8 +515,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/mini madrid crudo fb.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Madrid Cotton Crudo",
@@ -580,8 +525,7 @@
     "imagenes": [
       "fotos/madrid crudo fb.jpg",
       "fotos/huesca cotton beige.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Madrid Cotton Chocolate",
@@ -591,8 +535,7 @@
     "imagenes": [
       "fotos/madrid chocolate 2.jpg",
       "fotos/madrid choco k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Huesca Cotton Beige",
@@ -601,8 +544,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca beige k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Huesca Cotton Verde",
@@ -611,8 +553,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca verde k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Huesca Cotton Chocolate",
@@ -621,8 +562,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca choco k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Huesca Cotton Burdeos",
@@ -631,8 +571,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca rojo k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Huesca Velvet Gris",
@@ -641,8 +580,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca velvet gris.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Huesca Cotton Camel",
@@ -651,8 +589,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/huesca cotton camel.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Munich Cotton Amarillo",
@@ -661,8 +598,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/munich amarillo fb.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Munich Dorado Metalizado",
@@ -671,8 +607,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/munich doradoo brillante.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Niza Velvet Gris",
@@ -681,8 +616,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/niza velvet gris.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Niza Velvet Topo",
@@ -691,8 +625,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/niza velvet topo.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Niza Velvet Mostaza",
@@ -701,8 +634,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/niza velvet mostaza.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Pendientes Río Blanco",
@@ -712,8 +644,7 @@
     "imagenes": [
       "fotos/rio blanco kk.jpg",
       "fotos/rio blanco k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Pendientes Río Verdes",
@@ -722,8 +653,7 @@
     "tipo": "pendientes",
     "imagenes": [
       "fotos/rio verde k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Pendientes Río Marrones",
@@ -732,8 +662,7 @@
     "tipo": "pendientes",
     "imagenes": [
       "fotos/rio marron k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Pendientes Río Mar ",
@@ -742,8 +671,7 @@
     "tipo": "pendientes",
     "imagenes": [
       "fotos/rio mar k .jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Pendientes Río Rojo",
@@ -752,8 +680,7 @@
     "tipo": "pendientes",
     "imagenes": [
       "fotos/rio rojo k .jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Bogota colores",
@@ -762,8 +689,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/Bogota colores.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Collar Bogota Camel",
@@ -772,8 +698,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/Collar Bogota Camel.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Collar Bogota Rojo",
@@ -782,8 +707,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/collar bogota rojo k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Collar Bogota Lima",
@@ -792,8 +716,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/collar bogota lima k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Collar Bogota Azul",
@@ -802,8 +725,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/collar bogota azul k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Collar Bogota",
@@ -812,8 +734,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/collar bogota blanco k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Cuelgamovil Roma",
@@ -822,8 +743,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/roma corto k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Cuelgamovil Roma Largo",
@@ -832,8 +752,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/roma largo k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Cuelgamovil Roma",
@@ -842,8 +761,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/roma verano corto k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Cuelgamovil Roma Largo",
@@ -852,8 +770,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/cuelga roma verano k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Conjunto Roma Rosa",
@@ -862,8 +779,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/conjunto roma rosa k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Conjunto Roma Verde",
@@ -872,8 +788,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/conjunto roma verde k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Conjunto Roma Turquesa",
@@ -882,8 +797,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/conjunto roma terqueas k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Conjunto Roma Amarillo",
@@ -892,8 +806,7 @@
     "tipo": "cuelgamovil",
     "imagenes": [
       "fotos/conjunto roma amarillo k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Collar Granada",
@@ -902,8 +815,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/granada.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Collar Granada",
@@ -912,8 +824,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/3 granadas.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Choker Milán",
@@ -925,8 +836,7 @@
       "fotos/Choker milan dorado.jpg",
       "fotos/Choker gris.jpg",
       "fotos/Choker beige.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Choker y Pulsera Milan",
@@ -935,8 +845,7 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/choker y pulsera k.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Choker Flor",
@@ -947,8 +856,7 @@
       "fotos/flor k.jpg",
       "fotos/flor 2 k.jpg",
       "fotos/choker flor 3.jpg"
-    ],
-    "stock": 1
+    ]
   },
   {
     "nombre": "Bandana Venecia",
@@ -957,7 +865,6 @@
     "tipo": "gorros",
     "imagenes": [
       "fotos/venecia azul k.jpg"
-    ],
-    "stock": 1
+    ]
   }
 ]
