@@ -233,6 +233,21 @@
       transition:transform .25s ease; cursor:zoom-in;
     }
     .modal-stage img.zoomed{ transform:scale(2); cursor:zoom-out; }
+
+    /* Animaciones de transición entre fotos */
+    /* Misma producto: deslizamiento horizontal limpio */
+    @keyframes slideNext{ from{ opacity:.35; transform:translateX(60px); } to{ opacity:1; transform:none; } }
+    @keyframes slidePrev{ from{ opacity:.35; transform:translateX(-60px); } to{ opacity:1; transform:none; } }
+    /* Cambio de producto: profundidad + fundido (eje visual distinto) */
+    @keyframes prodIn{ 0%{ opacity:0; transform:scale(.82); } 55%{ opacity:1; } 100%{ opacity:1; transform:none; } }
+    .modal-stage img.anim-next{ animation:slideNext .28s ease-out; }
+    .modal-stage img.anim-prev{ animation:slidePrev .28s ease-out; }
+    .modal-stage img.anim-prod{ animation:prodIn .42s cubic-bezier(.16,.84,.44,1); }
+
+    /* Realce del título al cambiar de producto */
+    @keyframes tituloIn{ from{ opacity:.2; transform:translateY(6px); } to{ opacity:1; transform:none; } }
+    .modal-title.cambio{ animation:tituloIn .42s ease-out; }
+
     .modal-counter{ position:absolute; bottom:1rem; left:50%; transform:translateX(-50%);
       color:#fff; background:rgba(0,0,0,.4); padding:.25rem .8rem; border-radius:999px; font-size:.82rem; }
 
@@ -272,7 +287,7 @@
 
     /* Accesibilidad: respeta usuarios que prefieren menos movimiento */
     @media (prefers-reduced-motion: reduce){
-      *{ scroll-behavior:auto !important; transition:none !important; }
+      *{ scroll-behavior:auto !important; transition:none !important; animation:none !important; }
     }
   </style>
 </head>
@@ -556,12 +571,24 @@
     const btnCerrar  = document.getElementById('cerrar');
     const btnPedir   = document.getElementById('pedir');
 
-    let imgs = [];
-    let idx = 0;
+    let imgs = [];        // imágenes del producto actual
+    let idx = 0;          // índice de imagen dentro del producto
+    let prodIdx = 0;      // índice del producto dentro de la lista visible
 
+    // Abre el visor en un producto concreto (entrada desde la rejilla).
     function abrirGaleria(p){
+      prodIdx = visibles.indexOf(p);
+      if(prodIdx < 0) prodIdx = 0;
+      cargarProducto(visibles[prodIdx]);
+      mostrar(0);
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      btnCerrar.focus();
+    }
+
+    // Carga los datos de un producto en el visor (título, pedido, miniaturas).
+    function cargarProducto(p){
       imgs = p.imagenes;
-      idx = 0;
       const agotado = typeof p.stock === 'number' && p.stock <= 0;
       const estadoTxt = agotado ? ' · Agotado' : '';
       modalTitle.innerHTML = `${p.nombre}<span class="precio">${p.precio} €${estadoTxt}</span>`;
@@ -579,26 +606,72 @@
       imgs.forEach((src, i) => {
         const t = document.createElement('img');
         t.src = src; t.alt = `${p.nombre} ${i+1}`; t.loading = 'lazy';
-        t.addEventListener('click', () => mostrar(i));
+        t.addEventListener('click', () => mostrar(i, 'misma', i >= idx ? 1 : -1));
         miniaturas.appendChild(t);
       });
 
-      const solaUna = imgs.length <= 1;
-      btnPrev.hidden = solaUna;
-      btnNext.hidden = solaUna;
-
-      mostrar(0);
-      modal.classList.add('active');
-      document.body.style.overflow = 'hidden';
-      btnCerrar.focus();
+      // Las flechas/swipe siempre navegan si hay más de una foto en todo el catálogo.
+      const sinNavegacion = visibles.length <= 1 && imgs.length <= 1;
+      btnPrev.hidden = sinNavegacion;
+      btnNext.hidden = sinNavegacion;
     }
 
-    function mostrar(i){
+    // Muestra la imagen i del producto actual.
+    //  tipo: 'misma' (deslizamiento horizontal) | 'producto' (profundidad) | null (sin animación)
+    //  dir:  1 hacia delante, -1 hacia atrás
+    function mostrar(i, tipo, dir){
       idx = (i + imgs.length) % imgs.length;
       modalImg.classList.remove('zoomed');
       modalImg.src = imgs[idx];
       contadorImg.textContent = imgs.length > 1 ? `${idx+1} / ${imgs.length}` : '';
       [...miniaturas.children].forEach((t, n) => t.classList.toggle('active', n === idx));
+      animar(tipo, dir);
+      precargarVecinos();
+    }
+
+    // Aplica la animación correspondiente reiniciándola en cada cambio.
+    function animar(tipo, dir){
+      modalImg.classList.remove('anim-next', 'anim-prev', 'anim-prod');
+      if(!tipo) return;
+      void modalImg.offsetWidth; // fuerza reflow para reiniciar la animación
+      if(tipo === 'producto'){
+        modalImg.classList.add('anim-prod');
+        modalTitle.classList.remove('cambio');
+        void modalTitle.offsetWidth;
+        modalTitle.classList.add('cambio');
+      } else {
+        modalImg.classList.add(dir >= 0 ? 'anim-next' : 'anim-prev');
+      }
+    }
+
+    // Avanza: siguiente foto del producto o primera del producto siguiente.
+    function siguiente(){
+      if(idx < imgs.length - 1){
+        mostrar(idx + 1, 'misma', 1);
+      } else {
+        prodIdx = (prodIdx + 1) % visibles.length;
+        cargarProducto(visibles[prodIdx]);
+        mostrar(0, 'producto', 1);
+      }
+    }
+
+    // Retrocede: foto anterior del producto o última del producto anterior.
+    function anterior(){
+      if(idx > 0){
+        mostrar(idx - 1, 'misma', -1);
+      } else {
+        prodIdx = (prodIdx - 1 + visibles.length) % visibles.length;
+        cargarProducto(visibles[prodIdx]);
+        mostrar(visibles[prodIdx].imagenes.length - 1, 'producto', -1);
+      }
+    }
+
+    // Precarga la primera foto del producto contiguo para que el salto sea fluido.
+    function precargarVecinos(){
+      if(visibles.length <= 1) return;
+      const sig = visibles[(prodIdx + 1) % visibles.length];
+      const ant = visibles[(prodIdx - 1 + visibles.length) % visibles.length];
+      [sig, ant].forEach(p => { if(p && p.imagenes[0]) new Image().src = p.imagenes[0]; });
     }
 
     function cerrar(){
@@ -607,8 +680,8 @@
       document.body.style.overflow = '';
     }
 
-    btnPrev.addEventListener('click', e => { e.stopPropagation(); mostrar(idx - 1); });
-    btnNext.addEventListener('click', e => { e.stopPropagation(); mostrar(idx + 1); });
+    btnPrev.addEventListener('click', e => { e.stopPropagation(); anterior(); });
+    btnNext.addEventListener('click', e => { e.stopPropagation(); siguiente(); });
     btnCerrar.addEventListener('click', cerrar);
 
     // Zoom al tocar/click la imagen
@@ -624,8 +697,8 @@
     document.addEventListener('keydown', e => {
       if(!modal.classList.contains('active')) return;
       if(e.key === 'Escape') cerrar();
-      else if(e.key === 'ArrowLeft') mostrar(idx - 1);
-      else if(e.key === 'ArrowRight') mostrar(idx + 1);
+      else if(e.key === 'ArrowLeft') anterior();
+      else if(e.key === 'ArrowRight') siguiente();
     });
 
     // Swipe táctil
@@ -641,7 +714,7 @@
       const dy = e.changedTouches[0].clientY - touchY;
       // sólo cuenta como swipe horizontal si es claro y no estamos con zoom
       if(!modalImg.classList.contains('zoomed') && Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)){
-        mostrar(idx + (dx < 0 ? 1 : -1));
+        if(dx < 0) siguiente(); else anterior();
       }
       touchX = touchY = null;
     }, { passive:true });
