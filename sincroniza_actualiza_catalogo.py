@@ -6,7 +6,7 @@ from pathlib import Path
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
-from PIL import Image
+from PIL import Image, ImageOps
 from pillow_heif import register_heif_opener
 
 # Inicializar soporte HEIC
@@ -52,10 +52,13 @@ def list_files_in_folder(service, folder_id):
     results = service.files().list(q=query, spaces='drive', fields='files(id, name, mimeType)').execute()
     return results.get('files', [])
 
-def convert_and_save_image(input_path, output_path, target_size=(600, 800)):
+def convert_and_save_image(input_path, output_path, max_size=1600):
     try:
         with Image.open(input_path) as img:
-            # Convertir si tiene transparencia
+            # Respetar la orientación EXIF (fotos de móvil)
+            img = ImageOps.exif_transpose(img)
+
+            # Convertir si tiene transparencia (sobre blanco, evita fondos negros)
             if img.mode in ("RGBA", "LA") or (img.mode == "P" and "transparency" in img.info):
                 img = img.convert("RGBA")
                 background = Image.new("RGB", img.size, (255, 255, 255))
@@ -64,17 +67,11 @@ def convert_and_save_image(input_path, output_path, target_size=(600, 800)):
             else:
                 img = img.convert("RGB")
 
-            # Redimensionar manteniendo proporción
-            img.thumbnail(target_size, Image.LANCZOS)
+            # Redimensionar manteniendo SU proporción natural (sin lienzo ni relleno).
+            # Solo se encoge si excede el lado máximo; nunca se amplía ni se recorta.
+            img.thumbnail((max_size, max_size), Image.LANCZOS)
 
-            # Crear lienzo blanco vertical
-            final_img = Image.new("RGB", target_size, (255, 255, 255))
-            offset = (
-                (target_size[0] - img.size[0]) // 2,
-                (target_size[1] - img.size[1]) // 2
-            )
-            final_img.paste(img, offset)
-            final_img.save(output_path, 'JPEG', quality=85)
+            img.save(output_path, 'JPEG', quality=85)
 
     except Exception as e:
         print(f"Error convirtiendo {input_path}: {e}")
