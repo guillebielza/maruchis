@@ -180,16 +180,19 @@
 
     .result-count{ text-align:center; color:var(--muted); font-size:.85rem; margin:0 0 1.4rem; }
 
-    .productos{ display:grid; grid-template-columns:repeat(4,1fr); gap:2rem; }
-    @media (max-width:1000px){ .productos{ grid-template-columns:repeat(3,1fr); gap:1.5rem; } }
-    @media (max-width:680px){ .productos{ grid-template-columns:repeat(2,1fr); gap:1.1rem; } }
+    /* Masonry: cada foto conserva su forma natural, sin recorte ni marco */
+    .productos{ column-count:4; column-gap:2rem; }
+    @media (max-width:1000px){ .productos{ column-count:3; column-gap:1.5rem; } }
+    @media (max-width:680px){ .productos{ column-count:2; column-gap:1.1rem; } }
 
-    .producto{ cursor:pointer; }
+    .producto{ cursor:pointer; break-inside:avoid; margin-bottom:2rem; }
+    @media (max-width:1000px){ .producto{ margin-bottom:1.5rem; } }
+    @media (max-width:680px){ .producto{ margin-bottom:1.1rem; } }
     .producto .thumb{
       position:relative; overflow:hidden; border-radius:var(--radius);
-      background:var(--bg-soft); box-shadow:var(--shadow); aspect-ratio:3/4;
+      background:var(--bg-soft); box-shadow:var(--shadow); line-height:0;
     }
-    .producto .thumb img{ width:100%; height:100%; object-fit:cover; transition:transform .4s; }
+    .producto .thumb img{ width:100%; height:auto; display:block; transition:transform .4s; }
     .producto:hover .thumb img{ transform:scale(1.06); }
     .producto .badge-multi{
       position:absolute; top:.6rem; right:.6rem; background:rgba(255,255,255,.92);
@@ -209,9 +212,10 @@
     .producto .cat{ color:var(--muted); font-size:.78rem; margin:0; }
     .producto .precio{ font-weight:700; font-size:.95rem; margin:.3rem 0 0; }
 
-    .empty{ text-align:center; color:var(--muted); padding:3rem 0; grid-column:1 / -1; }
+    .empty{ text-align:center; color:var(--muted); padding:3rem 0; column-span:all; }
 
     /* Imagen que no carga: ocultamos el icono roto y mostramos un aviso discreto */
+    .thumb.sin-foto{ aspect-ratio:3/4; }
     .thumb.sin-foto img{ display:none; }
     .thumb.sin-foto::after{
       content:'Próximamente'; position:absolute; inset:0; display:flex;
@@ -303,7 +307,7 @@
       <nav class="nav-links" id="nav-links" aria-label="Navegación principal">
         <a href="#inicio">Inicio</a>
         <a href="#tienda">Tienda</a>
-        <a href="#sobre">Sobre Nosotros</a>
+        <a href="#sobre">Sobre Nosotras</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
@@ -318,7 +322,7 @@
           <p>Complementos hechos a mano con cariño. Bolsos, gorros, collares y cuelgamóviles únicos.</p>
           <div class="hero-cta">
             <a href="#tienda" class="btn">Ver tienda</a>
-            <a href="#sobre" class="btn ghost">Sobre nosotros</a>
+            <a href="#sobre" class="btn ghost">Sobre nosotras</a>
           </div>
         </div>
         <div class="hero-gallery">
@@ -332,7 +336,7 @@
     <!-- ===================== SOBRE NOSOTROS ===================== -->
     <section id="sobre" class="section-pad">
       <div class="container">
-        <h2 class="section-title">Sobre Nosotros</h2>
+        <h2 class="section-title">Sobre Nosotras</h2>
         <p class="section-sub">Pequeña marca artesanal donde cada pieza se crea a mano, una a una.</p>
         <div class="about-grid">
           <div class="about-text">
@@ -412,7 +416,7 @@
   </section>
 
   <footer class="site">
-    <p>© 2025 MARUCHI'S · Hecho con ❤️</p>
+    <p>© 2025 MARUCHI'S · Hecho con 🤎</p>
   </footer>
 
   <!-- ===================== MODAL GALERÍA ===================== -->
