@@ -49,8 +49,24 @@ def download_file(service, file_id, filename):
 # Obtener archivos dentro de una carpeta
 def list_files_in_folder(service, folder_id):
     query = f"'{folder_id}' in parents and trashed = false"
-    results = service.files().list(q=query, spaces='drive', fields='files(id, name, mimeType)').execute()
-    return results.get('files', [])
+    files = []
+    page_token = None
+    # La API de Drive pagina los resultados (máx. 1000 por página). Hay que
+    # recorrer todas las páginas siguiendo nextPageToken; si no, solo se
+    # obtendrían los primeros 100 archivos (límite por defecto).
+    while True:
+        results = service.files().list(
+            q=query,
+            spaces='drive',
+            fields='nextPageToken, files(id, name, mimeType)',
+            pageSize=1000,
+            pageToken=page_token,
+        ).execute()
+        files.extend(results.get('files', []))
+        page_token = results.get('nextPageToken')
+        if not page_token:
+            break
+    return files
 
 def convert_and_save_image(input_path, output_path, max_size=1600):
     try:
