@@ -119,12 +119,13 @@
     .btn.ghost{ background:transparent; color:var(--accent); }
     .btn.ghost:hover{ background:var(--accent); color:#fff; opacity:1; }
 
-    .hero-gallery{ display:grid; gap:1rem; grid-template-columns:repeat(4,1fr); margin-top:2rem; }
+    .hero-gallery{ display:grid; gap:1rem; grid-template-columns:repeat(3,1fr); margin-top:2rem; }
     .hero-gallery .frame{ overflow:hidden; border-radius:var(--radius); box-shadow:var(--shadow); aspect-ratio:3/4; }
     .hero-gallery img{ width:100%; height:100%; object-fit:cover; transition:transform .4s; }
     .hero-gallery .frame:hover img{ transform:scale(1.05); }
     @media (max-width:760px){
       .hero-gallery{ grid-template-columns:1fr 1fr; }
+      .hero-gallery .frame:first-child{ grid-column:1 / -1; aspect-ratio:4/3; }
     }
 
     /* ---------- SECTIONS ---------- */
@@ -180,18 +181,17 @@
     .result-count{ text-align:center; color:var(--muted); font-size:.85rem; margin:0 0 1.4rem; }
 
     /* Masonry: cada foto conserva su forma natural, sin recorte ni marco */
-    .productos{ column-count:4; column-gap:2rem; }
-    @media (max-width:1000px){ .productos{ column-count:3; column-gap:1.5rem; } }
-    @media (max-width:680px){ .productos{ column-count:2; column-gap:1.1rem; } }
+    .productos{ display:grid; grid-template-columns:repeat(4,1fr); gap:2rem; }
+    @media (max-width:1000px){ .productos{ grid-template-columns:repeat(3,1fr); gap:1.5rem; } }
+    @media (max-width:680px){ .productos{ grid-template-columns:repeat(2,1fr); gap:1.1rem; } }
 
-    .producto{ cursor:pointer; break-inside:avoid; margin-bottom:2rem; }
-    @media (max-width:1000px){ .producto{ margin-bottom:1.5rem; } }
-    @media (max-width:680px){ .producto{ margin-bottom:1.1rem; } }
+    .producto{ cursor:pointer; }
     .producto .thumb{
       position:relative; overflow:hidden; border-radius:var(--radius);
       background:var(--bg-soft); box-shadow:var(--shadow); line-height:0;
+      aspect-ratio:3/4;
     }
-    .producto .thumb img{ width:100%; height:auto; display:block; transition:transform .4s; }
+    .producto .thumb img{ width:100%; height:100%; object-fit:cover; display:block; transition:transform .4s; }
     .producto:hover .thumb img{ transform:scale(1.06); }
     .producto .badge-multi{
       position:absolute; top:.6rem; right:.6rem; background:rgba(255,255,255,.92);
@@ -211,7 +211,7 @@
     .producto .cat{ color:var(--muted); font-size:.78rem; margin:0; }
     .producto .precio{ font-weight:700; font-size:.95rem; margin:.3rem 0 0; }
 
-    .empty{ text-align:center; color:var(--muted); padding:3rem 0; column-span:all; }
+    .empty{ text-align:center; color:var(--muted); padding:3rem 0; grid-column:1 / -1; }
 
     /* Imagen que no carga: ocultamos el icono roto y mostramos un aviso discreto */
     .thumb.sin-foto{ aspect-ratio:3/4; }
@@ -328,7 +328,6 @@
           <div class="frame"><img src="fotos/foto principal.jpg" alt="Complementos artesanales MARUCHI'S" loading="lazy"></div>
           <div class="frame"><img src="fotos/foto principal2.jpg" alt="Complementos artesanales MARUCHI'S" loading="lazy"></div>
           <div class="frame"><img src="fotos/foto principal3.jpg" alt="Complementos artesanales MARUCHI'S" loading="lazy"></div>
-          <div class="frame"><img src="fotos/foto principal4.jpg" alt="Complementos artesanales MARUCHI'S" loading="lazy"></div>
         </div>
       </div>
     </section>
@@ -345,7 +344,7 @@
             <p>Si buscas un regalo diferente o un detalle para ti, escríbenos: estaremos encantadas de ayudarte con tallas, colores y materiales.</p>
           </div>
           <div class="about-img">
-            <img src="fotos/sf azul puesto.jpg" alt="Bolso artesanal MARUCHI'S hecho a mano" loading="lazy">
+            <img src="fotos/foto principal4.jpg" alt="Complementos artesanales MARUCHI'S hechos a mano" loading="lazy">
           </div>
         </div>
         <div class="features">
