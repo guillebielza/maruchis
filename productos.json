@@ -15,7 +15,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/tenerife bordado marron.jpg"
-    ]
+    ],
+    "stock": 1
   },
   {
     "nombre": "Tenerife Tie Dye",
@@ -34,7 +35,8 @@
     "imagenes": [
       "fotos/tenerife pana k.jpg",
       "fotos/tenerife pana 2.jpg"
-    ]
+    ],
+    "stock": 1
   },
   {
     "nombre": "Tenerife Flores",
@@ -80,6 +82,20 @@
     "imagenes": [
       "fotos/pontevedra beige.jpg"
     ]
+  },
+  {
+    "nombre": "Pontevedra Blanco",
+    "precio": 38,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
+    "imagenes": []
+  },
+  {
+    "nombre": "Pontevedra Verde",
+    "precio": 38,
+    "categoria": "Pontevedra",
+    "tipo": "bolsos",
+    "imagenes": []
   },
   {
     "nombre": "Kioto Dorado Lux",
@@ -176,8 +192,9 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/Kioto japo beige.jpg"
-    ]
+      "fotos/Kioto bordado beige.jpg"
+    ],
+    "stock": 1
   },
   {
     "nombre": "Kioto Japo Sombrillas",
@@ -186,7 +203,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Kioto japo sombrillas.jpg"
-    ]
+    ],
+    "stock": 1
   },
   {
     "nombre": "Kioto Zebra",
@@ -195,7 +213,8 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/Kioto zebra.jpg"
-    ]
+    ],
+    "stock": 1
   },
   {
     "nombre": "Paris Gorro Marron",
@@ -262,7 +281,8 @@
       "fotos/chicago terciopelo k.jpg",
       "fotos/chicago terciopelo negro.jpg",
       "fotos/chicago terciopelo negro 2.jpg"
-    ]
+    ],
+    "stock": 1
   },
   {
     "nombre": "Chicago Blanco Cocodrilo",
@@ -272,7 +292,8 @@
     "imagenes": [
       "fotos/chicago blanco cocodrilo k .jpg",
       "fotos/chicago blanco cocodrilo.jpg"
-    ]
+    ],
+    "stock": 1
   },
   {
     "nombre": "Chicago Naranja",
@@ -282,7 +303,8 @@
     "imagenes": [
       "fotos/chicago naranja k.jpg",
       "fotos/chicago naranja.jpg"
-    ]
+    ],
+    "stock": 2
   },
   {
     "nombre": "Chicago Bordado Negro",
@@ -292,7 +314,8 @@
     "imagenes": [
       "fotos/chicago bordado k.jpg",
       "fotos/chicago bordado negro fb.jpg"
-    ]
+    ],
+    "stock": 1
   },
   {
     "nombre": "Chicago Crochet Dorado",
@@ -468,6 +491,15 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/vancouver vintage f k.jpg"
+    ]
+  },
+  {
+    "nombre": "Vancouver Vintage ",
+    "precio": 25,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/tenerife vintage k.jpg"
     ]
   },
   {
@@ -859,12 +891,39 @@
     ]
   },
   {
-    "nombre": "Bandana Venecia",
+    "nombre": "Bandana Venecia Azul",
     "precio": 15,
     "categoria": "Venecia",
     "tipo": "gorros",
     "imagenes": [
       "fotos/venecia azul k.jpg"
+    ]
+  },
+  {
+    "nombre": "Bandana Venecia Beige",
+    "precio": 15,
+    "categoria": "Venecia",
+    "tipo": "gorros",
+    "imagenes": [
+      "fotos/Bandana beige.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar California",
+    "precio": 12,
+    "categoria": "California",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Collares California.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar California",
+    "precio": 12,
+    "categoria": "California",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/California verde.jpg"
     ]
   }
 ]
