@@ -88,14 +88,18 @@
     "precio": 38,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/Pontevedra blanco.jpg"
+    ]
   },
   {
     "nombre": "Pontevedra Verde",
     "precio": 38,
     "categoria": "Pontevedra",
     "tipo": "bolsos",
-    "imagenes": []
+    "imagenes": [
+      "fotos/Pontevedra verde.jpg"
+    ]
   },
   {
     "nombre": "Kioto Dorado Lux",
@@ -202,7 +206,7 @@
     "categoria": "Kioto",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/Kioto japo sombrillas.jpg"
+      "fotos/Kioto japo .jpg"
     ],
     "stock": 1
   },
@@ -425,7 +429,7 @@
     "categoria": "San Francisco",
     "tipo": "bolsos",
     "imagenes": [
-      "fotos/San Fran fucsia.jpg"
+      "fotos/San Francisco fucsia.jpg"
     ]
   },
   {
@@ -918,12 +922,22 @@
     ]
   },
   {
-    "nombre": "Collar California",
+    "nombre": "Collar California Verde",
     "precio": 12,
     "categoria": "California",
     "tipo": "collar",
     "imagenes": [
-      "fotos/California verde.jpg"
+      "fotos/California verde.jpg",
+      "fotos/California verde 2.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar California Turquesa",
+    "precio": 12,
+    "categoria": "California",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/California turquesa.jpg"
     ]
   }
 ]
