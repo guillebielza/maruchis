@@ -134,15 +134,6 @@
     ]
   },
   {
-    "nombre": "Kioto Rosa Palo",
-    "precio": 30,
-    "categoria": "Kioto",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/kioto rosa palo fb.jpg"
-    ]
-  },
-  {
     "nombre": "Kioto Verde Claro",
     "precio": 30,
     "categoria": "Kioto",
@@ -170,6 +161,15 @@
     "imagenes": [
       "fotos/kioto negro k.jpg",
       "fotos/kioto negro k.jpg"
+    ]
+  },
+  {
+    "nombre": "Kioto Rosa Palo",
+    "precio": 30,
+    "categoria": "Kioto",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/kioto rosa palo fb.jpg"
     ]
   },
   {
@@ -480,6 +480,16 @@
     ]
   },
   {
+    "nombre": "Vancouver Lazo Rojo",
+    "precio": 35,
+    "categoria": "Vancouver",
+    "tipo": "bolsos",
+    "imagenes": [
+      "fotos/Vancouver lazo rojo.jpg"
+    ],
+    "stock": 1
+  },
+  {
     "nombre": "Vancouver Vintage Rosa",
     "precio": 25,
     "categoria": "Vancouver",
@@ -570,7 +580,7 @@
     "tipo": "bolsos",
     "imagenes": [
       "fotos/madrid chocolate 2.jpg",
-      "fotos/madrid choco k.jpg"
+      "fotos/Madrid Marron 2.jpg"
     ]
   },
   {
@@ -863,6 +873,15 @@
     ]
   },
   {
+    "nombre": "Collar Granada ",
+    "precio": 12,
+    "categoria": "Granada",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/Granadas verano.jpg"
+    ]
+  },
+  {
     "nombre": "Choker Milán",
     "precio": 13,
     "categoria": "Milan",
@@ -938,6 +957,15 @@
     "tipo": "collar",
     "imagenes": [
       "fotos/California turquesa.jpg"
+    ]
+  },
+  {
+    "nombre": "Collar California Rosa",
+    "precio": 12,
+    "categoria": "California",
+    "tipo": "collar",
+    "imagenes": [
+      "fotos/California Rosa.jpg"
     ]
   }
 ]
