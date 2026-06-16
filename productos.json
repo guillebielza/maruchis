@@ -9,16 +9,6 @@
     ]
   },
   {
-    "nombre": "Tenerife Marrón Bordado",
-    "precio": 30,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife bordado marron.jpg"
-    ],
-    "stock": 1
-  },
-  {
     "nombre": "Tenerife Tie Dye",
     "precio": 30,
     "categoria": "Tenerife",
@@ -26,17 +16,6 @@
     "imagenes": [
       "fotos/tenerife tie die.jpg"
     ]
-  },
-  {
-    "nombre": "Tenerife Pana",
-    "precio": 30,
-    "categoria": "Tenerife",
-    "tipo": "bolsos",
-    "imagenes": [
-      "fotos/tenerife pana k.jpg",
-      "fotos/tenerife pana 2.jpg"
-    ],
-    "stock": 1
   },
   {
     "nombre": "Tenerife Flores",
